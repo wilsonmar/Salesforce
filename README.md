@@ -9,16 +9,17 @@ Before we get started, note that Salesforce as a company has several offerings (
 
   * Heroku.com provides free hosting for low-volume apps written in open-source programming.
 
-1) Read the whitepaper in http://developer.Force.com
-
-2) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
+1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
    in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg 
+
+2) Read the whitepaper in http://developer.Force.com
 
 Technologically:
 
-  * The Apex object-oriented programming language managing classes and triggers defined in a database.
-  * The Visualforce tag-based web development language managing pages and components.
-  * See them both in the Schema Browser
+  * The <strong>Apex</strong> object-oriented programming language managing classes and triggers defined in a database.
+    This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
+  * The <strong>Visualforce</strong> tag-based web development language managing HTML+CSS+JS pages and components.
+  * See them in the Schema Browser
 
   * SOA (Service Oriented Architecture)
   * Chattr instant-message
@@ -40,12 +41,17 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
   
 ## <a name="SkillCerts"> Skill Certification</a>
 There are two technical jobs:
-  * Administrators
-  * Developers (which includes database)
+  * Administrator
+  * Developer (which includes database administrators)
 
 https://developer.salesforce.com/trailhead provides
+ * Admin Intro. Trail (9 hours)
+ * Admin Intermediate Trail
+ * Developer Beginner Trail 
 
 ## <a name="ChangeMgmt"> Change Management</a>
+Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
+
 Three releases are planned per year, with beta releases of Minimally Marketable Features (MMF).
 So certification holders must take tests.
  
@@ -83,7 +89,7 @@ Intermediate
 ## <a name="PluralsightTutorials"> MetaData</a>
 An <strong>Org</strong> is a container for metadata that drives the dynamic engine (kernel).
 
-## <a name="UI"> Force.com Architectural Stack</a>
+## <a name="ArchStack"> Force.com Architectural Stack</a>
 Layers:
 
   * View layer for UI
@@ -92,7 +98,43 @@ Layers:
   * Database
   * Infrastructure
 
+All these are involved in each cross-cutting services.
+
+## <a name="ArchServices"> Force.com cross-cutting Services</a>
+3:19
+
+ * Metadata Driven Functionality
+ * Declarative Customization
+ * Programmatic Customization (APEX and VisualForce)
+ * User Authentication and Authorization
+ * Multi-Featured (Sales and Service Cloud CRM)
+ * Social Networking (Chatter)
+ * Messaging and Notifications (Email Services, Outbound Messages)
+ * Monitoring and Logging
+ * Polymorphic Behavior
+ * Memory Management
+ * Metadata Synchronization
+ * Transactional Data Persistence
+
+## <a name="PlatformArch"> Platform Architecture</a>
+SOAP API is mainly for metadata (not business data).
+
+The REST API returning JSON or XML uses "hypermedia" design.
+
+The "BULK" REST API for large datasets (of 50 million rows)
+of XML and CSV (rather than JSON) format.
+
+The Streaming API is a publish/subscribe push model to notify changes to object data.
+It uses Bayeux Protocol and CometD libraries
+used mainly in social networking apps.
+
+Developer's Workbench
+
 ## <a name="UI"> Salesforce UI</a>
 The Salesforce console can seem overwhelming at first.
+
+
+
+AppExchange
 
 
