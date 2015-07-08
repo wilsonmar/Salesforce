@@ -1,13 +1,20 @@
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
-  * Salesforce.com CRM (Customer Relationship Management) is categorized as a SaaS (Software as a Service)
+  * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
+    CRM (Customer Relationship Management) is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides.
-  * FinancialForce.com is also a SaaS providing software for managing financial information.
 
-  * Force.com runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
+  * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
+    is also a SaaS providing software for managing financial information.
+
+  * <a target="_blank" href="http://www.Force.com/"> Force.com</a> 
+    runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
     which generalizes the coding in CRM for use in other user domains
 
-  * Heroku.com provides free hosting for low-volume apps written in open-source programming.
+  * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
+    provides free hosting for low-volume apps written in open-source programming.
+
+  * <a target="_blank" href="http://www.database.com/">Database.com</a>
 
 1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
    in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg 
@@ -16,17 +23,30 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 Technologically:
 
-  * The <strong>Apex</strong> object-oriented programming language managing classes and triggers defined in a database.
+  * The <strong>declarative</strong> aspects of the platform with CRUD style security permissions model.
+    Learn this first.
+  
+  * The <strong>Apex</strong> (Java-like) object-oriented programming language
+    managing classes and triggers defined in a database.
     This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
-  * The <strong>Visualforce</strong> tag-based web development language managing HTML+CSS+JS pages and components.
+
+  * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
+    which uses HTML tags like PHP, ASP.NET, and ColdFusion.
+
   * See them in the Schema Browser
 
   * SOA (Service Oriented Architecture)
+
   * Chattr instant-message
+
+  * Eclipse IDE
 
 ## <a name="LaborDemand"> Labor Demand</a>
 Strong and growing.
   * Growth rate 35% year-over-year
+
+Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
+So you're not as much forced to work for large consulting firms living out of hotels. 
 
 I think Salesforce is hands-down the easiest and fastest way to create apps.
 
@@ -38,16 +58,41 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
   * highly scalable
   * API-first to integrate anything with everything
   * Use popular UI frameworks like Bootstrap, JQuery and more 
-  
+
+## <a name="Social"> Social</a>
+ 
+ * Dreamforce convention speeches are published in YouTube.
+
+ * LinkedIn
+
+ * Meetups
+
+ * Stackoverflow
+
+ * Twitter
+
+ * Consultanting Partners
+
+ * Github repos
+
 ## <a name="SkillCerts"> Skill Certification</a>
 There are two technical jobs:
   * Administrator
   * Developer (which includes database administrators)
 
-https://developer.salesforce.com/trailhead provides
- * Admin Intro. Trail (9 hours)
- * Admin Intermediate Trail
- * Developer Beginner Trail 
+https://developer.salesforce.com/trailhead provides FREE:
+
+ * Admin Intro. Trail (9 hours, 10,200 points)
+ * Admin Intermediate Trail (5.9 hours, 8,200 points)
+ * Developer Beginner Trail (15 hours, 19,400 points)
+ * Developer Intermediate Trail (10 hours, 8,100 points)
+ * Developer Trail - Mobile SDK (6.8 hours, 3,000 points)
+
+Projects:
+
+ * Build a Conference App (3 hours, 550 points)
+ * Quick Start: Lightning Components (0.5 hours, 150 points)
+ * Quick Connect: Lightning Connect (0.3 hours, 100 points)
 
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
@@ -137,4 +182,9 @@ The Salesforce console can seem overwhelming at first.
 
 AppExchange
 
+The database has almost invisible indexing, with no JOIN functionality in the
+Salesforce Object Query Language (SOQL) which returns variable data types in multi-dimensional arrays.
 
+It doesn't have ORM (but seems to be there).
+
+o
