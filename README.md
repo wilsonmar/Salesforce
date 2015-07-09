@@ -121,7 +121,7 @@ applied gradually to the 50 production instances of 8,000 customers each (at hal
 2 on-line and 2 off-line.
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
-<img width="439" alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
 Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must take tests.
@@ -216,7 +216,7 @@ Salesforce Object Query Language (SOQL) which returns variable data types in mul
 
 ## <a name="DBArch"> Data Architecture</a>
 <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
-<img width="396" alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
+<img alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
 
 It doesn't have ORM (but seems to be there).
 
