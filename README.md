@@ -139,7 +139,13 @@ for a Developer Edition (DE) environment.
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
 
 Three releases are planned per year, named by season such as "Winter 2015",
-applied gradually to the 50 production instances of 8,000 customers each (at half-full).
+applied gradually to 8,000 customers each (at half-full)
+on each of 50 production instances. 
+Availability history of each instance is listed at
+http://www.trust.salesforce.com/trust/instances.
+
+http://www.trust.salesforce.com/
+provides real-time information on system availability, performance history, and security alerts.
 
 The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
 See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
@@ -234,6 +240,8 @@ Developer's Workbench
 ## <a name="UI"> Salesforce UI</a>
 The Salesforce console can seem overwhelming at first.
 
+An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
+
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
 
 
@@ -254,6 +262,10 @@ It doesn't have ORM (but seems to be there).
 OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
+
+When you delete a custom object, Salesforce does not add it to the Recycle Bin. Instead, deleted objects appear in the Deleted Objects list for 15 days. During this time, the object and its data are soft deleted, meaning you can restore or permanently erase (hard delete) the object and its data. After 15 days, the object and its data are automatically hard deleted.
+
+Soft-deleted custom objects and their data count against your organization’s limits; hard-deleted items do not.
 
 See them in the Schema Browser.
 
