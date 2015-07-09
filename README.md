@@ -88,8 +88,8 @@ There are two technical jobs:
 https://developer.salesforce.com/trailhead provides FREE:
 
 | Trail | Hours | Points |
-| ----- | ----- | ------ |
-| Admin Intro. | 9 hours | 10,200 |
+| ----- | :---: | -----: |
+| Admin Intro. | 9 | 10,200 |
 | Admin Intermediate | 5.9 | 8,200 |
 | Developer Beginner | 15 | 19,400 |
 | Developer Intermediate | 10 | 8,100 |
