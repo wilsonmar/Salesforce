@@ -57,7 +57,7 @@ Technologically:
 ## <a name="LaborDemand"> Labor Demand</a>
 Strong and growing.
   * Growth rate 35% year-over-year
-  * Even Salesforce has not be profitable, its market value is $48 billion dollars.
+  * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
   * Microsoft's $50 billion offer was rejected.
   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
 
