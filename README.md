@@ -37,7 +37,7 @@ Technologically:
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
     which uses HTML tags like PHP, ASP.NET, and ColdFusion.
 
-  * See them in the Schema Browser
+  * The <strong>Lightning</strong> components to create user-developed apps.
 
   * SOA (Service Oriented Architecture)
 
@@ -48,6 +48,9 @@ Technologically:
 ## <a name="LaborDemand"> Labor Demand</a>
 Strong and growing.
   * Growth rate 35% year-over-year
+  * Even Salesforce has not be profitable, its market value is $48 billion dollars.
+  * Microsoft's $50 billion offer was rejected.
+  * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
 
 Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
 So you're not as much forced to work for large consulting firms living out of hotels. 
@@ -65,7 +68,9 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
 
 ## <a name="Social"> Social</a>
  
- * Dreamforce convention speeches are published in YouTube.
+ * <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
+   Dreamforce</a> user convention September 15—18, 2015
+   Vidoes sessions into YouTube.
 
  * LinkedIn
 
@@ -103,12 +108,20 @@ Projects:
 
 <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
+## <a name="DevDocs"> Developer Docs</a>
+<a target="_blank" href="https://developer.salesforce.com/docs> Developer Docs</a>
 
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
 
 Three releases are planned per year, named by season such as "Winter 2015",
 applied gradually to the 50 production instances of 8,000 customers each (at half-full).
+
+4 copies of each Oracle RAC Array is maintained via real-time async replication across 2 instances: 
+2 on-line and 2 off-line.
+
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
+<img width="439" alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
 Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must take tests.
@@ -192,10 +205,12 @@ Developer's Workbench
 ## <a name="UI"> Salesforce UI</a>
 The Salesforce console can seem overwhelming at first.
 
+Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
+
+## <a name="AppExchange"> AppExchange Store</a>
 
 
-AppExchange
-
+## <a name="Database"> Database</a>
 The database has almost invisible indexing, with no JOIN functionality in the
 Salesforce Object Query Language (SOQL) which returns variable data types in multi-dimensional arrays.
 
@@ -203,9 +218,13 @@ Salesforce Object Query Language (SOQL) which returns variable data types in mul
 <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
 <img width="396" alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
 
-
 It doesn't have ORM (but seems to be there).
 
 OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
+
+See them in the Schema Browser.
+
+## <a name="Search"> Search</a>
+Using Apache SOLR.
