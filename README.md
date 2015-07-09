@@ -2,9 +2,11 @@ Before we get started, note that Salesforce as a company has several offerings (
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
     CRM (Customer Relationship Management) is categorized as a SaaS (Software as a Service)
-    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides.
+    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides
+    in a "multi-tenant" environment which serves many customers (tenants) on the same hardware.
+    Salesforce also includes project management. 
 
-  * <strong>ExactTarget</strong> Marketing Cloud emails to target specific prospects.
+  * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
   
   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
     is also a SaaS providing software for managing financial information.
@@ -84,22 +86,30 @@ There are two technical jobs:
 
 https://developer.salesforce.com/trailhead provides FREE:
 
- * Admin Intro. Trail (9 hours, 10,200 points)
- * Admin Intermediate Trail (5.9 hours, 8,200 points)
- * Developer Beginner Trail (15 hours, 19,400 points)
- * Developer Intermediate Trail (10 hours, 8,100 points)
- * Developer Trail - Mobile SDK (6.8 hours, 3,000 points)
+| Trail | Hours | Points |
+| ----- | ----- | ------ |
+| Admin Intro. | 9 hours | 10,200 |
+| Admin Intermediate | 5.9 | 8,200 |
+| Developer Beginner | 15 | 19,400 |
+| Developer Intermediate | 10 | 8,100 |
+| Developer Trail - Mobile SDK | 6.8 | 3,000 |
 
 Projects:
 
  * Build a Conference App (3 hours, 550 points)
- * Quick Start: Lightning Components (0.5 hours, 150 points)
+ * Quick Start: Lightning Components (0.5 hours, 150 points) to build internal apps
  * Quick Connect: Lightning Connect (0.3 hours, 100 points)
+
+<a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
+
 
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
 
-Three releases are planned per year, with beta releases of Minimally Marketable Features (MMF).
+Three releases are planned per year, named by season such as "Winter 2015",
+applied gradually to the 50 production instances of 8,000 customers each (at half-full).
+
+Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must take tests.
  
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
@@ -134,7 +144,8 @@ Intermediate
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
-An <strong>Org</strong> is a container for metadata that drives the dynamic engine (kernel).
+An <strong>Org</strong> (short for organization) is a 
+<strong>container</strong> for metadata that drives the dynamic engine (kernel).
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
 Layers:
@@ -189,4 +200,6 @@ Salesforce Object Query Language (SOQL) which returns variable data types in mul
 
 It doesn't have ORM (but seems to be there).
 
-o
+OrgID hashed to one of 32 keys used to distribute.
+Smart Primary Keys and Polymorphic Foreign Keys.
+Creative de-normalization and pivoting.
