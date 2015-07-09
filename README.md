@@ -1,7 +1,8 @@
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
-    CRM (Customer Relationship Management) is categorized as a SaaS (Software as a Service)
+    CRM (Customer Relationship Management) -- the company's stock market symbol --
+    is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides
     in a "multi-tenant" environment which serves many customers (tenants) on the same hardware.
     Salesforce also includes project management. 
@@ -109,7 +110,12 @@ Projects:
 <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
 ## <a name="DevDocs"> Developer Docs</a>
-<a target="_blank" href="https://developer.salesforce.com/docs> Developer Docs</a>
+* <a target="_blank" href="https://developer.salesforce.com/docs"> 
+                                   Developer.salesforce.com/Docs</a>
+* <a target="_blank" href="https://developer.force.com/architect"> 
+                                   Developer.force.com/architect</a>
+* <a target="_blank" href="https://developer.force.com/security"> 
+                                   Developer.force.com/security</a>
 
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
@@ -161,8 +167,10 @@ Intermediate
 An <strong>Org</strong> (short for organization) is a 
 <strong>container</strong> for metadata that drives the dynamic engine (kernel).
 
+
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
-Layers:
+<a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
+Various Architecture Diagrams</a>
 
   * View layer for UI
   * Controller / APIs (for external programmatic access)
