@@ -83,6 +83,7 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
 There are two technical jobs:
   * Administrator
   * Developer (which includes database administrators)
+  * Certified Technical Architect
 
 https://developer.salesforce.com/trailhead provides FREE:
 
@@ -197,6 +198,11 @@ AppExchange
 
 The database has almost invisible indexing, with no JOIN functionality in the
 Salesforce Object Query Language (SOQL) which returns variable data types in multi-dimensional arrays.
+
+## <a name="DBArch"> Data Architecture</a>
+<a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
+<img width="396" alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
+
 
 It doesn't have ORM (but seems to be there).
 
