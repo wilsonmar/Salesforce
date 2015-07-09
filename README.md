@@ -5,7 +5,9 @@ Before we get started, note that Salesforce as a company has several offerings (
     is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides
     in a "multi-tenant" environment which serves many customers (tenants) on the same hardware.
-    Salesforce also includes project management. 
+    Salesforce also includes project management.
+
+    http://www.salesforce.com/platform/overview/
 
   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
   
@@ -15,6 +17,8 @@ Before we get started, note that Salesforce as a company has several offerings (
   * <a target="_blank" href="http://www.Force.com/"> Force.com</a> 
     runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
     which generalizes the coding in CRM for use in other user domains
+
+    https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/
 
   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
     provides free hosting for low-volume apps written in open-source programming.
@@ -28,8 +32,9 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 Technologically:
 
-  * The <strong>declarative</strong> aspects of the platform with CRUD style security permissions model.
-    Learn this first.
+  * The <strong>declarative</strong> aspects of the platform is why the company's main number  is 800.NO-SOFTWARE.
+  
+    It has CRUD style security permissions model. Learn this first.
   
   * The <strong>Apex</strong> (Java-like) object-oriented programming language
     managing classes and triggers defined in a database.
@@ -44,7 +49,10 @@ Technologically:
 
   * Chattr instant-message
 
-  * Eclipse IDE
+  * Developer Console
+  * Mobile apps for iOS | Android
+      *  SalesforceA, the mobile app for admins
+      *  Salesforce1 mobile app for end-users
 
 ## <a name="LaborDemand"> Labor Demand</a>
 Strong and growing.
@@ -55,6 +63,8 @@ Strong and growing.
 
 Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
 So you're not as much forced to work for large consulting firms living out of hotels. 
+
+Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
 
 I think Salesforce is hands-down the easiest and fastest way to create apps.
 
@@ -67,23 +77,6 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
   * API-first to integrate anything with everything
   * Use popular UI frameworks like Bootstrap, JQuery and more 
 
-## <a name="Social"> Social</a>
- 
- * <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
-   Dreamforce</a> user convention September 15—18, 2015
-   Vidoes sessions into YouTube.
-
- * LinkedIn
-
- * Meetups
-
- * Stackoverflow
-
- * Twitter
-
- * Consultanting Partners
-
- * Github repos
 
 ## <a name="SkillCerts"> Skill Certification</a>
 There are two technical jobs:
@@ -93,23 +86,24 @@ There are two technical jobs:
 
 https://developer.salesforce.com/trailhead provides FREE:
 
-| Trail | Hours | Points |
+| Trail/Project | Hours | Points |
 | ----- | :---: | -----: |
-| Admin Intro. | 9 | 10,200 |
-| Admin Intermediate | 5.9 | 8,200 |
-| Developer Beginner | 15 | 19,400 |
-| Developer Intermediate | 10 | 8,100 |
+| Admin Intro. Trail | 9 | 10,200 |
+| Admin Intermediate Trail | 5.9 | 8,200 |
+| Developer Beginner Trail | 15 | 19,400 |
+| Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
+! Build a Conference App | 3 |  550 points |
+| Quick Start: Lightning Components | 0.5 | 150 |
+| Quick Connect: Lightning Connect | 0.3 | 100 |
+| Total: | 50 | 45,000 |
 
-Projects:
-
- * Build a Conference App (3 hours, 550 points)
- * Quick Start: Lightning Components (0.5 hours, 150 points) to build internal apps
- * Quick Connect: Lightning Connect (0.3 hours, 100 points)
-
-<a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
+https://developer.salesforce.com/signup
+for a Developer Edition (DE) environment.
 
 ## <a name="DevDocs"> Developer Docs</a>
+* <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
+ Glossary</a> of terms.
 * <a target="_blank" href="https://developer.salesforce.com/docs"> 
                                    Developer.salesforce.com/Docs</a>
 * <a target="_blank" href="https://developer.force.com/architect"> 
@@ -117,11 +111,38 @@ Projects:
 * <a target="_blank" href="https://developer.force.com/security"> 
                                    Developer.force.com/security</a>
 
+## <a name="Social"> Social</a>
+ 
+1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
+
+2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
+   MVPs.
+
+3) Plan to be in San Francisco September 15—18, 2015 for the
+   <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
+   Dreamforce</a> user convention which includes a hackathon.
+   Vidoes sessions into YouTube.
+
+4) Salesforce Success Community https://success.salesforce.com/
+
+ * LinkedIn
+
+ * Meetups
+
+ * Stackoverflow
+
+ * Consultanting Partners
+
+ * Github repos
+
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
 
 Three releases are planned per year, named by season such as "Winter 2015",
 applied gradually to the 50 production instances of 8,000 customers each (at half-full).
+
+The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
+See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
 
 4 copies of each Oracle RAC Array is maintained via real-time async replication across 2 instances: 
 2 on-line and 2 off-line.
@@ -215,8 +236,10 @@ The Salesforce console can seem overwhelming at first.
 
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
 
-## <a name="AppExchange"> AppExchange Store</a>
 
+## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
+
+https://www.salesforce.com/form/conf/platform-appguide.jsp
 
 ## <a name="Database"> Database</a>
 The database has almost invisible indexing, with no JOIN functionality in the
@@ -236,3 +259,17 @@ See them in the Schema Browser.
 
 ## <a name="Search"> Search</a>
 Using Apache SOLR.
+
+## <a name="UserSetup"> User Setup</a>
+
+1) [__] Setup verification to mobile phone.
+
+2) [__] Setttings: Personal: Language & Time Zone.
+
+3) [__] Add a photo of yourself https://na31.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed
+
+4) [__] Setttings: Personal: Advanced User Details: Use a token generated from an authenticator app on your mobile device.
+   https://play.google.com/store/apps/details?id=com.salesforce.authenticator
+   
+## <a name="Github"> Github</a>
+	https://github.com/forcedotcom/SalesforceMobileSDK-Android
