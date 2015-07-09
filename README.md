@@ -4,6 +4,8 @@ Before we get started, note that Salesforce as a company has several offerings (
     CRM (Customer Relationship Management) is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides.
 
+  * <strong>ExactTarget</strong> Marketing Cloud emails to target specific prospects.
+  
   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
     is also a SaaS providing software for managing financial information.
 
