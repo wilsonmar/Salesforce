@@ -30,6 +30,26 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 2) Read the whitepaper in http://developer.Force.com
 
+
+## <a name="LaborDemand"> Labor Demand</a>
+Strong and growing.
+  * Growth rate 35% year-over-year
+  * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
+  * Microsoft's $50 billion offer was rejected.
+  * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
+
+Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
+So you're not as much forced to work for large consulting firms living out of hotels. 
+
+Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
+
+Use case:
+
+* Reliance on spreadsheets
+* Collaboration via email
+* Documents shared on local file directories
+* Time-intensive, manual steps 
+
 Technologically:
 
   * The <strong>declarative</strong> aspects of the platform is why the company's main number  is 800.NO-SOFTWARE.
@@ -39,6 +59,8 @@ Technologically:
   * The <strong>Apex</strong> (Java-like) object-oriented programming language
     managing classes and triggers defined in a database.
     This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
+
+	https://developer.salesforce.com/page/Salesforce_APIs
 
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
     which uses HTML tags like PHP, ASP.NET, and ColdFusion.
@@ -54,19 +76,7 @@ Technologically:
       *  SalesforceA, the mobile app for admins
       *  Salesforce1 mobile app for end-users
 
-## <a name="LaborDemand"> Labor Demand</a>
-Strong and growing.
-  * Growth rate 35% year-over-year
-  * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
-  * Microsoft's $50 billion offer was rejected.
-  * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
-
-Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
-So you're not as much forced to work for large consulting firms living out of hotels. 
-
-Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
-
-I think Salesforce is hands-down the easiest and fastest way to create apps.
+I think Salesforce provides an easy and fast way to create apps.
 
   * Free development environment (no 7 day trials)
   * Integrations
@@ -79,6 +89,9 @@ I think Salesforce is hands-down the easiest and fastest way to create apps.
 
 
 ## <a name="SkillCerts"> Skill Certification</a>
+First, https://developer.salesforce.com/signup
+for a Developer Edition (DE) environment.
+
 There are two technical jobs:
   * Administrator
   * Developer (which includes database administrators)
@@ -93,13 +106,12 @@ https://developer.salesforce.com/trailhead provides FREE:
 | Developer Beginner Trail | 15 | 19,400 |
 | Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
-! Build a Conference App | 3 |  550 points |
+| Build a Conference App | 3 |  550 |
 | Quick Start: Lightning Components | 0.5 | 150 |
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
 
-https://developer.salesforce.com/signup
-for a Developer Edition (DE) environment.
+Points earned show up on your profile.
 
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
@@ -110,13 +122,17 @@ for a Developer Edition (DE) environment.
                                    Developer.force.com/architect</a>
 * <a target="_blank" href="https://developer.force.com/security"> 
                                    Developer.force.com/security</a>
+* <a target="_blank" href="https://developerforce.com/docs"> 
+                                   Developer.salesforce.com = Developerforce.com</a>
+  with email dev@developerforce.com
+
 
 ## <a name="Social"> Social</a>
  
 1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
 2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
-   MVPs.
+   Force.com MVPs</a>.
 
 3) Plan to be in San Francisco September 15—18, 2015 for the
    <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
@@ -135,14 +151,25 @@ for a Developer Edition (DE) environment.
 
  * Github repos
 
+Salesforce for Outlook does not work on Mac Office 2011 Outlook.
+
+
 ## <a name="ChangeMgmt"> Change Management</a>
-Salesforce was launched in 2000, with SOAP API (web service) was added 2004.
+Salesforce was launched in 2000, with SOAP API (web service) added 2004.
+The Salesforce1 brand name appeared in 2014.
 
 Three releases are planned per year, named by season such as "Winter 2015",
-applied gradually to 8,000 customers each (at half-full)
+applied gradually to 8,000 customers each
 on each of 50 production instances. 
 Availability history of each instance is listed at
 http://www.trust.salesforce.com/trust/instances.
+
+Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 30 million lines of third-party code,
+ 
+(Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
+
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
+2 on-line and 2 off-line.
 
 http://www.trust.salesforce.com/
 provides real-time information on system availability, performance history, and security alerts.
@@ -150,8 +177,6 @@ provides real-time information on system availability, performance history, and 
 The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
 See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
 
-4 copies of each Oracle RAC Array is maintained via real-time async replication across 2 instances: 
-2 on-line and 2 off-line.
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
@@ -191,7 +216,9 @@ Intermediate
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
-An <strong>Org</strong> (short for organization) is a 
+Metadata literally means data about data. Read https://developer.salesforce.com/page/An_Introduction_to_Force.com_Metadata
+
+A Salesforce <strong>Org</strong> (short for organization) is a 
 <strong>container</strong> for metadata that drives the dynamic engine (kernel).
 
 
@@ -240,14 +267,33 @@ Developer's Workbench
 ## <a name="UI"> Salesforce UI</a>
 The Salesforce console can seem overwhelming at first.
 
+The sausage at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
+2,700+ apps have been created by Salesforce partners.
 
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
 
+## <a name="APIs"> APIs</a>
+From https://developer.salesforce.com/page/Salesforce_APIs
+
+<ul><li> <a href="/page/REST_API" title="REST API">REST API</a> - Access objects in your organization using REST.
+</li><li> <a href="/page/SOAP_API" title="SOAP API">SOAP API</a> - Integrate your organization’s data with other applications using SOAP.
+</li><li> <a href="/page/Tooling_API" title="Tooling API">Tooling API</a> - Build custom development tools for Force.com applications. Coming soon!
+</li><li> <a href="/page/Chatter_API" title="Chatter API">Chatter REST API</a> - Access Chatter feeds and social data such as users, groups, followers, and files using REST.
+</li><li> <a href="/page/Bulk_API" title="Bulk API">Bulk API</a> - Load or delete large numbers of records.
+</li><li> <a href="/page/An_Introduction_to_Force.com_Metadata" title="An Introduction to Force.com Metadata">Metadata API</a> - Manage customizations in your org and build tools that manage the metadata model (not the data, itself).
+</li><li> <a href="/page/Streaming_API" title="Streaming API">Streaming API</a> - Provide a stream of data reflecting data changes in your organization.
+</li><li> <a href="/page/Creating_REST_APIs_using_Apex_REST" title="Creating REST APIs using Apex REST">Apex REST API</a>	- Build your own REST API in Apex. This API exposes Apex classes as RESTful Web services.
+</li><li> <a rel="nofollow" class="external text" href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_web_services.htm">Apex SOAP API</a> - Create custom SOAP Web services in Apex. This API exposes Apex classes as SOAP Web services.
+</li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides 100% complete, high quality data, updated in real-time in the cloud, and with comprehensive coverage worldwide.
+</li></ul>
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
 
 https://www.salesforce.com/form/conf/platform-appguide.jsp
+
+Salesforce Wear https://developer.salesforce.com/wear
+includes a set of apps for Apple Watch, Google Glass, and more wearables that all access Salesforce data via APIs.
 
 ## <a name="Database"> Database</a>
 The database has almost invisible indexing, with no JOIN functionality in the
@@ -271,6 +317,9 @@ See them in the Schema Browser.
 
 ## <a name="Search"> Search</a>
 Using Apache SOLR.
+
+Salesforce is basically implementing Track (the ability to search and monitor conversations by keyword and topic) 
+
 
 ## <a name="UserSetup"> User Setup</a>
 
