@@ -92,7 +92,7 @@ I think Salesforce provides an easy and fast way to create apps.
 First, https://developer.salesforce.com/signup
 for a Developer Edition (DE) environment.
 
-There are two technical jobs:
+There are technical jobs:
   * Administrator
   * Developer (which includes database administrators)
   * Certified Technical Architect
@@ -113,6 +113,10 @@ https://developer.salesforce.com/trailhead provides FREE:
 
 Points earned show up on your profile.
 
+There is also Salesforce University (@SalesforceU) which offers paid classes.
+
+Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
+
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
  Glossary</a> of terms.
@@ -128,7 +132,12 @@ Points earned show up on your profile.
 
 
 ## <a name="Social"> Social</a>
- 
+Salesforce for Outlook does not work on Mac Office 2011 Outlook.
+
+But Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
+
+Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
+
 1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
 2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
@@ -151,14 +160,12 @@ Points earned show up on your profile.
 
  * Github repos
 
-Salesforce for Outlook does not work on Mac Office 2011 Outlook.
-
-
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
 
-Three releases are planned per year, named by season such as "Winter 2015",
+Three releases are planned per year, named by season such as <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
+"Summer 2015"</a>,
 applied gradually to 8,000 customers each
 on each of 50 production instances. 
 Availability history of each instance is listed at
@@ -184,6 +191,7 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
 Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must take tests.
  
+
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
 
@@ -220,6 +228,8 @@ Metadata literally means data about data. Read https://developer.salesforce.com/
 
 A Salesforce <strong>Org</strong> (short for organization) is a 
 <strong>container</strong> for metadata that drives the dynamic engine (kernel).
+
+Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant Optimizer.”
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
@@ -264,15 +274,29 @@ used mainly in social networking apps.
 
 Developer's Workbench
 
-## <a name="UI"> Salesforce UI</a>
-The Salesforce console can seem overwhelming at first.
+## <a name="UI"> Salesforce Apps</a>
+login.salesforce.com
 
-The sausage at the upper right lists <strong>apps</strong>.
+The blue sausage at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
-Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
+Each app has a different set of menu items going across the screen.
+Click the [+] at the right end of the menu.
 
+## <a name="UserSetup"> One-time User Setup</a>
+[Setup video](https://www.youtube.com/watch?t=19&v=uM9Nli7xpEM)
+
+1) [__] Setup verification to mobile phone.
+
+2) [__] Setttings: Personal: Language & Time Zone.
+
+3) [__] Add a photo of yourself https://na31.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed
+
+4) [__] Setttings: Personal: Advanced User Details: Use a token generated from an authenticator app on your mobile device.
+   https://play.google.com/store/apps/details?id=com.salesforce.authenticator
+   
+   
 ## <a name="APIs"> APIs</a>
 From https://developer.salesforce.com/page/Salesforce_APIs
 
@@ -289,6 +313,7 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 </li></ul>
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
+In 2015 Salesforce has 30M lines of code written by others via APPExchange.
 
 https://www.salesforce.com/form/conf/platform-appguide.jsp
 
@@ -321,16 +346,10 @@ Using Apache SOLR.
 Salesforce is basically implementing Track (the ability to search and monitor conversations by keyword and topic) 
 
 
-## <a name="UserSetup"> User Setup</a>
 
-1) [__] Setup verification to mobile phone.
-
-2) [__] Setttings: Personal: Language & Time Zone.
-
-3) [__] Add a photo of yourself https://na31.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed
-
-4) [__] Setttings: Personal: Advanced User Details: Use a token generated from an authenticator app on your mobile device.
-   https://play.google.com/store/apps/details?id=com.salesforce.authenticator
-   
 ## <a name="Github"> Github</a>
 	https://github.com/forcedotcom/SalesforceMobileSDK-Android
+
+
+Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
+
