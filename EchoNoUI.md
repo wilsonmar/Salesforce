@@ -7,21 +7,13 @@ to interacting with applications running in the Salesforce cloud.
 * Re-prompt
 
 ## <a name="Dialogs"> Dialogs</a>
-* Tweet to send
-
- * Alexa, ask Twitter to say "whatever".
-
-* Facebook blog to create
-
- * Alexa, ask Facebook to say "whatever".
-
-* Wordpress blog entry to create
 
 
 ## <a name="Domains"> Domains of Data / Objects / Classes</a>
 Prefix each request with:
 
 * Apps to use
+
   * Alexa, ask Force: Which features are nearest their limits?
 
 * Opportunities - a potential sales deal (akin to a project)
