@@ -292,13 +292,17 @@ The blue sausage at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
-Clicking on a menu item displays on the main page in the middle of the screen.
+Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
 
 Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
 Click the [+] at the right end of the menu.
 
 
 ## <a name="UserSetup"> One-time User Setup</a>
+1) Click Setup at the upper-right corner.
+
+	Selections in the left-menu is organized into Administer, Build, Deploy, and Monitor.
+
 [Setup video](https://www.youtube.com/watch?t=19&v=uM9Nli7xpEM)
 
 1) [__] Setup verification to mobile phone.
