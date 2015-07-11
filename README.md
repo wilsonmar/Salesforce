@@ -380,12 +380,17 @@ Using Apache SOLR.
 Salesforce is basically implementing Track (the ability to search and monitor conversations by keyword and topic) 
 
 
-
 ## <a name="Github"> Github</a>
 	https://github.com/forcedotcom/SalesforceMobileSDK-Android
 
-
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
+
+
+## <a name="C#"> C# .NET Programming</a>
+.NET C# Programming
+
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=NET_Development&criteria=ALLQUESTIONS">
+	.NET Development</a>
 
 
 ## <a name="Java"> Java Programming</a>
@@ -394,9 +399,6 @@ Java Programming
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Java_Development&criteria=ALLQUESTIONS">
 	Java Development</a>
 
+http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html
+Getting Started (Authoring AWS Lambda Code in Java)
 
-## <a name="C#"> C# .NET Programming</a>
-.NET C# Programming
-
-	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=NET_Development&criteria=ALLQUESTIONS">
-	.NET Development</a>
