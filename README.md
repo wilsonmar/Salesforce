@@ -41,8 +41,7 @@ Strong and growing.
 Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
 So you're not as much forced to work for large consulting firms living out of hotels. 
 
-	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">
-	Jobs Board</a>
+DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
 
 Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
 
