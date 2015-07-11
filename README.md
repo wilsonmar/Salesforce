@@ -284,15 +284,19 @@ used mainly in social networking apps.
 
 Developer's Workbench
 
-## <a name="UI"> Salesforce Apps</a>
-login.salesforce.com
+
+## <a name="UI"> Salesforce Apps UI</a>
+1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
 The blue sausage at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
-Each app has a different set of menu items going across the screen.
+Clicking on a menu item displays on the main page in the middle of the screen.
+
+Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
 Click the [+] at the right end of the menu.
+
 
 ## <a name="UserSetup"> One-time User Setup</a>
 [Setup video](https://www.youtube.com/watch?t=19&v=uM9Nli7xpEM)
@@ -324,6 +328,13 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=APIs_and_Integration&criteria=ALLQUESTIONS">
 	API Board</a>
+
+## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
+There are 3rd-party Salesforce API integrations:
+
+	* https://zapier.com/zapbook/salesforce/
+
+
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
 In 2015 Salesforce has 30M lines of code written by others via APPExchange.
