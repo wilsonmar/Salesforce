@@ -7,17 +7,26 @@ to interacting with applications running in the Salesforce cloud.
 * Re-prompt
 
 ## <a name="Domains"> Domains of Data / Objects / Classes</a>
+Prefix each request with:
+
+ "Alexa, ask Force: "
 
 * Apps to use
 * Contacts (to contact via phone, Chatter, email, SMS, send letter, Tweet) noted in the Profile of each contact
 * Groups of contacts
 
 * Tweet to send
+
+  * Alexa, ask Force: Which features are nearest their limits?
+
 * Facebook blog to create
 * Wordpress blog entry to create
 
 * Accounts (Companies)
 * Opportunities
+
+  ? What new opportunities have been posted since last time?
+
 * Cases for action associated with accounts
 * Projects organizing cases
 * Boards in Trello which organize tasks
@@ -42,4 +51,4 @@ to interacting with applications running in the Salesforce cloud.
 
 * Limits to processing within Salesforce (# emails sent, etc.)
 
-  * Which features are nearest their limits
+  * Alexa, ask Force: Which features are nearest their limits?
