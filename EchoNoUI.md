@@ -1,31 +1,41 @@
 This is my protoype design for a hands-free ("No UI") totally audio interface 
 to interacting with applications running in the Salesforce cloud.
 
-* Domains of data / objects / classes
 * Dialogs / user stories / use cases
+* Domains of data / objects / classes
 * Intents
 * Re-prompt
+
+## <a name="Dialogs"> Dialogs</a>
+* Tweet to send
+
+ * Alexa, ask Twitter to say "whatever".
+
+* Facebook blog to create
+
+ * Alexa, ask Facebook to say "whatever".
+
+* Wordpress blog entry to create
+
 
 ## <a name="Domains"> Domains of Data / Objects / Classes</a>
 Prefix each request with:
 
- "Alexa, ask Force: "
-
 * Apps to use
+  * Alexa, ask Force: Which features are nearest their limits?
+
+* Opportunities - a potential sales deal (akin to a project)
+
+  ? What new opportunities have been posted since I last checked?
+
+* Leads - a prospect or potential opportunity - a person who has expressed interest (such as on a webpage form)
+
+  ? What new leads have been posted since I last checked?
+
 * Contacts (to contact via phone, Chatter, email, SMS, send letter, Tweet) noted in the Profile of each contact
 * Groups of contacts
 
-* Tweet to send
-
-  * Alexa, ask Force: Which features are nearest their limits?
-
-* Facebook blog to create
-* Wordpress blog entry to create
-
-* Accounts (Companies)
-* Opportunities
-
-  ? What new opportunities have been posted since last time?
+* Accounts (Companies/organizations)
 
 * Cases for action associated with accounts
 * Projects organizing cases
