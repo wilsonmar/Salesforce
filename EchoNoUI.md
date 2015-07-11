@@ -9,24 +9,32 @@ to interacting with applications running in the Salesforce cloud.
 ## <a name="Domains"> Domains of Data / Objects / Classes</a>
 
 * Apps to use
-* Contacts (to contact via phone, Chatter, email, SMS, send letter) noted in the Profile of each contact
-* Tweet
-* Facebook blog
-* Wordpress blog
+* Contacts (to contact via phone, Chatter, email, SMS, send letter, Tweet) noted in the Profile of each contact
+* Groups of contacts
+
+* Tweet to send
+* Facebook blog to create
+* Wordpress blog entry to create
+
 * Accounts (Companies)
+* Opportunities
 * Cases for action associated with accounts
 * Projects organizing cases
 * Boards in Trello which organize tasks
 * Events in Calendar
-* Tasks (To-Do list) to follow-up on leads, etc.
+* Subject of Tasks (To-Do list) to follow-up on leads, etc.
+* Dates in Calendar (Today, Tomorrow, etc.)
+* Ideas
 
-* Reports to view
+* Feeds, Reports to view
 * Websites to read
 
+* Solutions
 * Product descriptions
 * Units of measure (pounds, feet, etc.)
 * Inventory of product items
 * Location of products with available inventory
 
+* Campaigns
 * Sales Orders to a customer
 * Deliveries en route (via UPS / FedEx, etc.)
