@@ -20,6 +20,7 @@ Prefix each request with:
 
   ? What new opportunities have been posted since I last checked?
 
+* Territories
 * Leads - a prospect or potential opportunity - a person who has expressed interest (such as on a webpage form)
 
   ? What new leads have been posted since I last checked?
