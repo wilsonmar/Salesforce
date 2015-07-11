@@ -41,6 +41,9 @@ Strong and growing.
 Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
 So you're not as much forced to work for large consulting firms living out of hotels. 
 
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">
+	Jobs Board</a>
+
 Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
 
 Use case:
@@ -60,12 +63,19 @@ Technologically:
     managing classes and triggers defined in a database.
     This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
 
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Apex_Code_Development&criteria=ALLQUESTIONS">
+	Apex Code Development</a>
+	
 	https://developer.salesforce.com/page/Salesforce_APIs
 
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
     which uses HTML tags like PHP, ASP.NET, and ColdFusion.
 
   * The <strong>Lightning</strong> components to create user-developed apps.
+  
+ 
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Lightning&criteria=ALLQUESTIONS">
+	API Board</a>
 
   * SOA (Service Oriented Architecture)
 
@@ -141,7 +151,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
 2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
-   Force.com MVPs</a>.
+   Force.com MVPs in the Discussion Forum</a>
 
 3) Plan to be in San Francisco September 15—18, 2015 for the
    <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
@@ -312,6 +322,9 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 </li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides 100% complete, high quality data, updated in real-time in the cloud, and with comprehensive coverage worldwide.
 </li></ul>
 
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=APIs_and_Integration&criteria=ALLQUESTIONS">
+	API Board</a>
+
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
 In 2015 Salesforce has 30M lines of code written by others via APPExchange.
 
@@ -353,3 +366,16 @@ Salesforce is basically implementing Track (the ability to search and monitor co
 
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
 
+
+## <a name="Java"> Java Programming</a>
+Java Programming
+
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Java_Development&criteria=ALLQUESTIONS">
+	Java Development</a>
+
+
+## <a name="C#"> C# .NET Programming</a>
+.NET C# Programming
+
+	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=NET_Development&criteria=ALLQUESTIONS">
+	.NET Development</a>
