@@ -210,12 +210,12 @@ for Beginners
 by Don Robins 1h 24m 29 Jan 2013
 is 
 
-Force.com Design Patterns - Part 1 
-http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
+Force.com Design Patterns - Part 1</a>
 by Adam Purkiss Intermediate 3h 2m 26 Nov 2012
 
-Force.com Design Patterns - Part 2 
-http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt2">
+Force.com Design Patterns - Part 2</a>
 by Adam Purkiss Intermediate 1h 45m 01 May 2013
 
 Force.com for .NET Developers 
