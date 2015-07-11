@@ -31,6 +31,7 @@ to interacting with applications running in the Salesforce cloud.
 
 * Solutions
 * Product descriptions
+* Features of each product 
 * Units of measure (pounds, feet, etc.)
 * Inventory of product items
 * Location of products with available inventory
@@ -38,3 +39,7 @@ to interacting with applications running in the Salesforce cloud.
 * Campaigns
 * Sales Orders to a customer
 * Deliveries en route (via UPS / FedEx, etc.)
+
+* Limits to processing within Salesforce (# emails sent, etc.)
+
+  * Which features are nearest their limits
