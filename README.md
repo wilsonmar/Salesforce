@@ -176,9 +176,6 @@ The Salesforce1 brand name appeared in 2014.
 Three releases are planned per year, named by season such as <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
 "Summer 2015"</a>,
 applied gradually to 8,000 customers each
-on each of 50 production instances. 
-Availability history of each instance is listed at
-http://www.trust.salesforce.com/trust/instances.
 
 Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 30 million lines of third-party code,
  
@@ -291,11 +288,21 @@ The blue sausage at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
-Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
+2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
 
-Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
-Click the [+] at the right end of the menu.
+	Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
 
+3) Click the [+] at the right end of the menu.
+
+4) After login, note the URL, such as `https://na31.salesforce.com/...`
+
+	The "na31" in this case is the <strong>instance</strong> identifier.
+
+	Salesforece maintains 50 production instances.
+
+	Availability history of each instance is listed at
+	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
+	http://www.trust.salesforce.com/trust/instances</a>
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
