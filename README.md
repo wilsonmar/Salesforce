@@ -1,8 +1,13 @@
 This is a hands-on deep technical introduction to Salesforce so experience developers
 can get to know the offering intimately and quickly.
 
+## <a name="Developer"> Developer</a>
+
 1) Get a developer account from http://developer.salesforce.com/signup
 
+   PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
+   But email is not sent to the username, so use something unique to a user role.
+ 
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
@@ -136,6 +141,12 @@ There is also Salesforce University (@SalesforceU) which offers paid classes.
 
 Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
+Christophe Coenraets, of http://coenraets.org/blog/
+(Salesforce Developer Evangelist by day and Ionic Framework expert at night) created the
+<a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
+Step-by-step Salesforce1 Developer Workshop</a> generated from 
+<a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
+these supporting files</a>.
 
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
@@ -185,9 +196,15 @@ Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
 
 Three releases are planned per year, named by season such as 
-Winter for the beginning of a year,
-<a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
-"Summer 2015"</a>, etc.
+* <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer14/">
+	Summer 2014</a>
+* <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter14/">
+	Winter 2014</a>
+* Winter 2015 for the beginning of a year
+* <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
+	Summer 2015</a>, etc.
+
+App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
 
 Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must keep taking tests to keep up.
@@ -221,7 +238,8 @@ is
 
 Force.com for .NET Developers 
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-dotnet-developers">
-by Dan Appleman Intermediate 1h 37m 25 Feb 2013</a>
+1h 37m 25 Feb 2013 video</a>
+by Dan Appleman, author of http://advancedapex.com/
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
 Visualforce generates HTML.
@@ -301,7 +319,7 @@ Developer's Workbench
 ## <a name="UI"> Salesforce Apps UI</a>
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
-The blue sausage at the upper right lists <strong>apps</strong>.
+The blue sausage (app selector) at the upper right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
@@ -347,14 +365,23 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 From https://developer.salesforce.com/page/Salesforce_APIs
 
 <ul><li> <a href="/page/REST_API" title="REST API">REST API</a> - Access objects in your organization using REST.
+
 </li><li> <a href="/page/SOAP_API" title="SOAP API">SOAP API</a> - Integrate your organization’s data with other applications using SOAP.
+
 </li><li> <a href="/page/Tooling_API" title="Tooling API">Tooling API</a> - Build custom development tools for Force.com applications. Coming soon!
+
 </li><li> <a href="/page/Chatter_API" title="Chatter API">Chatter REST API</a> - Access Chatter feeds and social data such as users, groups, followers, and files using REST.
+
 </li><li> <a href="/page/Bulk_API" title="Bulk API">Bulk API</a> - Load or delete large numbers of records.
+
 </li><li> <a href="/page/An_Introduction_to_Force.com_Metadata" title="An Introduction to Force.com Metadata">Metadata API</a> - Manage customizations in your org and build tools that manage the metadata model (not the data, itself).
+
 </li><li> <a href="/page/Streaming_API" title="Streaming API">Streaming API</a> - Provide a stream of data reflecting data changes in your organization.
+
 </li><li> <a href="/page/Creating_REST_APIs_using_Apex_REST" title="Creating REST APIs using Apex REST">Apex REST API</a>	- Build your own REST API in Apex. This API exposes Apex classes as RESTful Web services.
+
 </li><li> <a rel="nofollow" class="external text" href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_web_services.htm">Apex SOAP API</a> - Create custom SOAP Web services in Apex. This API exposes Apex classes as SOAP Web services.
+
 </li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides 100% complete, high quality data, updated in real-time in the cloud, and with comprehensive coverage worldwide.
 </li></ul>
 
@@ -364,6 +391,7 @@ The REST API returning JSON or XML uses "hypermedia" design.
 
 The "BULK" REST API for large datasets (of 50 million rows)
 of XML and CSV (rather than JSON) format.
+Dan Appleman (Advanced Apex Programming) believes that all code should be designed and developed in bulk (multi-object) rather than bulkify later.
 
 The Streaming API is a publish/subscribe push model to notify changes to object data.
 It uses Bayeux Protocol and CometD libraries
@@ -372,6 +400,8 @@ used mainly in social networking apps.
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=APIs_and_Integration&criteria=ALLQUESTIONS">
 	API Board</a>
 
+https://github.com/jorgevaldivia/salesforce_bulk
+sample bulk API interface Ruby gem.
 
 ## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
 There are 3rd-party Salesforce API integrations:
@@ -462,4 +492,13 @@ Java Programming
 
 http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html
 Getting Started (Authoring AWS Lambda Code in Java)
+
+## <a name="Clojure"> Clojure Programming</a>
+<a target="_blank" href="https://github.com/search?utf8=%E2%9C%93&q=salesforce">
+Most starred (and forked) public Github library for salesforce</a> is
+<a target="_blank" href="https://github.com/forcedotcom/SalesforceMobileSDK-iOS">
+Force.com mobile SDK for iOS applications</a>
+
+https://github.com/owainlewis/salesforce
+
 
