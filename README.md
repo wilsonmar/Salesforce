@@ -347,12 +347,26 @@ There are 3rd-party Salesforce API integrations:
 
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
-In 2015 Salesforce has 30M lines of code written by others via APPExchange.
+AppExchange is an online marketplace where you can browse, test drive, download, and 
+install pre-built apps and components right into your Salesforce environment. 
 
-https://www.salesforce.com/form/conf/platform-appguide.jsp
+1) Menu Build | Develop | AppExchange Marketplace.
+
+2) Search for apps by keyword.
+
+3) Click Get It Now.
+
+Read https://www.salesforce.com/form/conf/platform-appguide.jsp
+
+In 2015 Salesforce has 30M lines of code written by others via APPExchange.
 
 Salesforce Wear https://developer.salesforce.com/wear
 includes a set of apps for Apple Watch, Google Glass, and more wearables that all access Salesforce data via APIs.
+
+
+## <a name="Sandbox"> Sandbox</a>
+Sandboxes are copies of your organization in a separate environment. They are used for development and testing. 
+See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
 
 ## <a name="Database"> Database</a>
 The database has almost invisible indexing, with no JOIN functionality in the
