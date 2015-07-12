@@ -3,7 +3,7 @@ can get to know the offering intimately and quickly.
 
 1) Get a developer account from http://developer.salesforce.com/signup
 
-## <a name="Businesses"> Businesses from the Salesforce Corporation</a>
+## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
