@@ -242,15 +242,43 @@ Force.com for .NET Developers
 by Dan Appleman, author of http://advancedapex.com/
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
-Visualforce generates HTML.
+Visualforce coding is much like Ruby on Rails and Django.
+Visualforce generates HTML based on markup such as:
 
-Visualforce coding is much like Ruby on Rails and Django
+```
+<apex:page standardController="Speaker__c">
+<apex:form >
+    <apex:pageBlock title="Edit Speaker">
+        <apex:pageBlockSection columns="1">
+            <apex:inputField value="{!Speaker__c.First_Name__c}"/>
+            <apex:inputField value="{!Speaker__c.Last_Name__c}"/>
+            <apex:inputField value="{!Speaker__c.Email__c}"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!save}" value="Save"/>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>
+```
+
+Visualforce coding can declare logic such as a repeat loop:
 
 ```
 <apex:repeatvalue="{!users}"var="user">
 {!user}<br />
 </apex:repeat>
 ```
+
+Setting the default page is not the most intuitive. An example:
+
+1) In Setup, select Build > Create > Objects and click the Speaker object link.
+
+2) Scroll down to the Buttons, Links, and Actions section, and click Edit next to New.
+
+3) Check Override With Visualforce Page, and select SpeakerForm.
+
+
 
 DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums?id=906F00000008lLvIAI#!/feedtype=RECENT&dc=Visualforce_Development&criteria=ALLQUESTIONS">Visualforce Board</a>
 
@@ -259,6 +287,8 @@ There was (31 Jul 2013) a 2h 32m Pluralsigh [paid] tutorial
 Introduction To Visualforce</a>
 by Matt Lacey.
 
+
+## <a name="Bulk"> Bulk Actions</a>
 With its focus on UI, Salesforce does not provide a <strong>Bulk Delete</strong> natively.
 A Java wrapper is described in the 3h 2m [paid] Pluralsight tutorial from 26 Nov 2012
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
@@ -435,18 +465,32 @@ Sandboxes are copies of your organization in a separate environment. They are us
 See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
 
 
-## <a name="Database"> Database</a>
-Because parent-child and other data relationships are defined up front in the Data Model UI.
-
-The Salesforce Object Query Language (SOQL) to obtain filtered data
+## <a name="Database"> Database Access</a>
+Because parent-child and other data relationships are defined up front in the 
+<strong>Data Model UI</strong>,
+the Salesforce Object Query Language (SOQL) coded to retrieve filtered data
 does not allow dynamic implicit joins like those used in ANSI SQL.
+This approach enables Salesforce engineers to optimize indexing their own way,
+invisible to developers and users, such as
+returning variable data types in multi-dimensional arrays.
 
-This enables Salesforce engineers to optimize indexing their own way,
-invisible to developers and users.
+SOQL can be coded and executed dynamically within the Developer Console Query Editor.
+Individual rows returned can then be dynamically edited, inserted, and deleted.
 
-which returns variable data types in multi-dimensional arrays.
+Salesforce Object Search Language (SOSL) ???
 
-Wrapper classes
+Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
+to insert, update and delete data.
+
+See the <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/">
+Force.com SOQL and SOSL Reference</a>
+
+## <a name="Triggers"> Triggers</a>
+Each trigger is coded in Apex to a particular sObject.
+
+"(before insert, before update)" are coded as part of the definition.
+
+Triggers are active as soon as they are saved.
 
 
 ## <a name="DBArch"> Data Architecture</a>
