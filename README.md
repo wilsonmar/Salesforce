@@ -225,14 +225,23 @@ Force.com for .NET Developers
 http://www.pluralsight.com/courses/forcedotcom-dotnet-developers
 by Dan Appleman Intermediate 1h 37m 25 Feb 2013
 
-Introduction To Visualforce 
-http://www.pluralsight.com/courses/visualforce-introduction
+## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
+Visualforce generates HTML.
+
+Visualforce coding is much like Ruby on Rails and Django
+
+```
+<apex:repeatvalue="{!users}"var="user">
+{!user}<br />
+</apex:repeat>
+```
+
+For more detail see the 
+<a target="_blank" href="http://www.pluralsight.com/courses/visualforce-introduction">
+Introduction To Visualforce</a>
 by Matt Lacey
-Intermediate
 2h 32m
 31 Jul 2013
-
-## <a name="SalesforceTutorials"> Salesforce Tutorials</a>
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
@@ -377,8 +386,17 @@ Sandboxes are copies of your organization in a separate environment. They are us
 See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
 
 ## <a name="Database"> Database</a>
-The database has almost invisible indexing, with no JOIN functionality in the
-Salesforce Object Query Language (SOQL) which returns variable data types in multi-dimensional arrays.
+The Salesforce Object Query Language (SOQL) to obtain filtered data
+does not allow dynamic implicit joins like ANSI SQL
+because parent-child and other relationships are defined up front in the UI.
+
+This enables Salesforce engineers to optimize indexing their own way,
+invisible to developers and users.
+
+which returns variable data types in multi-dimensional arrays.
+
+Wrapper classes
+
 
 ## <a name="DBArch"> Data Architecture</a>
 <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
