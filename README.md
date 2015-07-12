@@ -1,3 +1,7 @@
+
+1) Get a developer account from http://developer.salesforce.com/signup
+
+
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
@@ -115,7 +119,8 @@ https://developer.salesforce.com/trailhead provides FREE:
 | Developer Beginner Trail | 15 | 19,400 |
 | Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
-| Build a Conference App | 3 |  550 |
+| <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
+Build a Conference App</a> | 3 |  550 |
 | Quick Start: Lightning Components | 0.5 | 150 |
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
@@ -173,9 +178,10 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
 
-Three releases are planned per year, named by season such as <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
-"Summer 2015"</a>,
-applied gradually to 8,000 customers each
+Three releases are planned per year, named by season such as 
+Winter for the beginning of a year,
+<a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
+"Summer 2015"</a>, etc.
 
 Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 30 million lines of third-party code,
  
@@ -298,7 +304,7 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 	The "na31" in this case is the <strong>instance</strong> identifier.
 
-	Salesforece maintains 50 production instances.
+	Salesforece maintains 50 production instances used by about 8,000 customers each.
 
 	Availability history of each instance is listed at
 	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
