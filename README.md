@@ -340,10 +340,32 @@ All these are involved in each cross-cutting services.
  * Metadata Synchronization
  * Transactional Data Persistence
 
-## <a name="PlatformArch"> Platform Architecture</a>
+## <a name="ControllerExtension"> Controller Extension</a>
 
+In the Create trail, an increment() method and a counter property can be added:
+ 
+```
+public with sharing class SpeakerControllerExtension {
+    public Integer counter {get; set;}
+    private final Speaker__c speaker;
+    private ApexPages.StandardController stdController;
+    public SpeakerControllerExtension(ApexPages.StandardController stdController) {
+        this.speaker = (Speaker__c)stdController.getRecord();
+        this.stdController = stdController;
+        counter = 0;
+    }
+    public void increment() {
+        counter++;
+    }
+}
+```
 
-Developer's Workbench
+To access a graphic image, you need to create two data types:
+One is a 255-length text field namee Picture_path which is referenced by
+a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
+
+In the Developer Console, see run output to `System.Debug('Hello');` by
+filtering execution logs for just USER_DEBUG events.
 
 
 ## <a name="UI"> Salesforce Apps UI</a>
@@ -373,6 +395,7 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 	Availability history of each instance is listed at
 	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
 	http://www.trust.salesforce.com/trust/instances</a>
+
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
@@ -491,6 +514,7 @@ Each trigger is coded in Apex to a particular sObject.
 "(before insert, before update)" are coded as part of the definition.
 
 Triggers are active as soon as they are saved.
+
 
 
 ## <a name="DBArch"> Data Architecture</a>
