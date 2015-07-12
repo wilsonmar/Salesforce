@@ -290,7 +290,7 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
 
-	Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
+   Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
 
 3) Click the [+] at the right end of the menu.
 
