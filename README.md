@@ -125,8 +125,7 @@ https://developer.salesforce.com/trailhead provides FREE:
 | Developer Beginner Trail | 15 | 19,400 |
 | Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
-| <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
-Build a Conference App</a> | 3 |  550 |
+| <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">Build a Conference Management App</a> | 3 |  550 |
 | Quick Start: Lightning Components | 0.5 | 150 |
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
@@ -220,17 +219,9 @@ for Beginners
 by Don Robins 1h 24m 29 Jan 2013
 is 
 
-<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
-Force.com Design Patterns - Part 1</a>
-by Adam Purkiss Intermediate 3h 2m 26 Nov 2012
-
-<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt2">
-Force.com Design Patterns - Part 2</a>
-by Adam Purkiss Intermediate 1h 45m 01 May 2013
-
 Force.com for .NET Developers 
-http://www.pluralsight.com/courses/forcedotcom-dotnet-developers
-by Dan Appleman Intermediate 1h 37m 25 Feb 2013
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-dotnet-developers">
+by Dan Appleman Intermediate 1h 37m 25 Feb 2013</a>
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
 Visualforce generates HTML.
@@ -248,7 +239,17 @@ DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums?id
 There was (31 Jul 2013) a 2h 32m Pluralsigh [paid] tutorial 
 <a target="_blank" href="http://www.pluralsight.com/courses/visualforce-introduction">
 Introduction To Visualforce</a>
-by Matt Lacey
+by Matt Lacey.
+
+With its focus on UI, Salesforce does not provide a <strong>Bulk Delete</strong> natively.
+A Java wrapper is described in the 3h 2m [paid] Pluralsight tutorial from 26 Nov 2012
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
+Force.com Design Patterns - Part 1</a>
+by Adam Purkiss.
+There is also a 1h 45m 01 May 2013
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt2">
+Force.com Design Patterns - Part 2</a>
+by Adam Purkiss.
 
 
 
