@@ -347,7 +347,9 @@ There are 3rd-party Salesforce API integrations:
 
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
-AppExchange is an online marketplace where you can browse, test drive, download, and 
+https://appexchange.salesforce.com/
+(described at http://www.salesforce.com/appexchange/overview/)
+is an online marketplace where you can browse, test drive, download, and 
 install pre-built apps and components right into your Salesforce environment. 
 
 1) Menu Build | Develop | AppExchange Marketplace.
