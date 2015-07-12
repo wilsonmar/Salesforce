@@ -1,7 +1,9 @@
+This is a hands-on deep technical introduction to Salesforce so experience developers
+can get to know the offering intimately and quickly.
 
 1) Get a developer account from http://developer.salesforce.com/signup
 
-
+## <a name="Businesses"> Businesses from the Salesforce Corporation</a>
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
@@ -36,8 +38,11 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 
 ## <a name="LaborDemand"> Labor Demand</a>
+Here is why you want to spend time on this.
+
 Strong and growing.
-  * Growth rate 35% year-over-year
+  * Salesforce Growth rate 35% year-over-year
+  * Salesforce is not cheap: thousands of dollars per month
   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
   * Microsoft's $50 billion offer was rejected.
   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
@@ -129,6 +134,7 @@ There is also Salesforce University (@SalesforceU) which offers paid classes.
 
 Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
+
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
  Glossary</a> of terms.
@@ -181,6 +187,9 @@ Winter for the beginning of a year,
 <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
 "Summer 2015"</a>, etc.
 
+Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
+So certification holders must keep taking tests to keep up.
+ 
 Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 30 million lines of third-party code,
  
 (Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
@@ -198,9 +207,6 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
-Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
-So certification holders must take tests.
- 
 
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
@@ -234,12 +240,13 @@ Visualforce coding is much like Ruby on Rails and Django
 </apex:repeat>
 ```
 
-For more detail see the 
+DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums?id=906F00000008lLvIAI#!/feedtype=RECENT&dc=Visualforce_Development&criteria=ALLQUESTIONS">Visualforce Board</a>
+
+There was (31 Jul 2013) a 2h 32m Pluralsigh [paid] tutorial 
 <a target="_blank" href="http://www.pluralsight.com/courses/visualforce-introduction">
 Introduction To Visualforce</a>
 by Matt Lacey
-2h 32m
-31 Jul 2013
+
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
@@ -249,6 +256,8 @@ A Salesforce <strong>Org</strong> (short for organization) is a
 <strong>container</strong> for metadata that drives the dynamic engine (kernel).
 
 Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant Optimizer.”
+
+<strong>System objects</strong> are: User, Event, Activity, Task
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
