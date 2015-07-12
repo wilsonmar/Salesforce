@@ -36,6 +36,9 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 2) Read the whitepaper in http://developer.Force.com
 
+The company exposes data in each of these businesses in an <a href="#APIs">API</a>
+for computers to access without a human UI.
+
 
 ## <a name="LaborDemand"> Labor Demand</a>
 Here is why you want to spend time on this.
@@ -289,18 +292,7 @@ All these are involved in each cross-cutting services.
  * Transactional Data Persistence
 
 ## <a name="PlatformArch"> Platform Architecture</a>
-https://developer.salesforce.com/page/Salesforce_APIs
 
-SOAP format APIs are mainly for metadata (not business data).
-
-The REST API returning JSON or XML uses "hypermedia" design.
-
-The "BULK" REST API for large datasets (of 50 million rows)
-of XML and CSV (rather than JSON) format.
-
-The Streaming API is a publish/subscribe push model to notify changes to object data.
-It uses Bayeux Protocol and CometD libraries
-used mainly in social networking apps.
 
 Developer's Workbench
 
@@ -365,8 +357,20 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 </li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides 100% complete, high quality data, updated in real-time in the cloud, and with comprehensive coverage worldwide.
 </li></ul>
 
+SOAP format APIs are mainly for metadata (not business data).
+
+The REST API returning JSON or XML uses "hypermedia" design.
+
+The "BULK" REST API for large datasets (of 50 million rows)
+of XML and CSV (rather than JSON) format.
+
+The Streaming API is a publish/subscribe push model to notify changes to object data.
+It uses Bayeux Protocol and CometD libraries
+used mainly in social networking apps.
+
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=APIs_and_Integration&criteria=ALLQUESTIONS">
 	API Board</a>
+
 
 ## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
 There are 3rd-party Salesforce API integrations:
