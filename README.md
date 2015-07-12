@@ -69,8 +69,6 @@ Technologically:
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Apex_Code_Development&criteria=ALLQUESTIONS">
 	Apex Code Development</a>
 	
-	https://developer.salesforce.com/page/Salesforce_APIs
-
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
     which uses HTML tags like PHP, ASP.NET, and ColdFusion.
 
@@ -282,7 +280,9 @@ All these are involved in each cross-cutting services.
  * Transactional Data Persistence
 
 ## <a name="PlatformArch"> Platform Architecture</a>
-SOAP API is mainly for metadata (not business data).
+https://developer.salesforce.com/page/Salesforce_APIs
+
+SOAP format APIs are mainly for metadata (not business data).
 
 The REST API returning JSON or XML uses "hypermedia" design.
 
@@ -306,6 +306,11 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
 
    Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
+
+   A key differentiator with Salesforce is that, unlike menus on Mirosoft Office software, 
+   which has menu items focused on user actions such as Edit and Print,
+   Salesforce menu items are focused on <strong>information</strong> such as 
+   Opportunities and Contacts.
 
 3) Click the [+] at the right end of the menu.
 
@@ -385,10 +390,12 @@ includes a set of apps for Apple Watch, Google Glass, and more wearables that al
 Sandboxes are copies of your organization in a separate environment. They are used for development and testing. 
 See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
 
+
 ## <a name="Database"> Database</a>
+Because parent-child and other data relationships are defined up front in the Data Model UI.
+
 The Salesforce Object Query Language (SOQL) to obtain filtered data
-does not allow dynamic implicit joins like ANSI SQL
-because parent-child and other relationships are defined up front in the UI.
+does not allow dynamic implicit joins like those used in ANSI SQL.
 
 This enables Salesforce engineers to optimize indexing their own way,
 invisible to developers and users.
