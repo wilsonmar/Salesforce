@@ -163,7 +163,9 @@ Questions and questions about the content can be entered in the Disqus component
 <a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
 Step-by-step Salesforce1 Developer Workshop</a> makes use of Connected app whose source is in 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
-a github repo</a>.
+a github repo</a> that contains http://goratchet.com/ CSS library
+and ForceTK (https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit)
+to integrate with Salesforce.
 
 ### <a name="SuggestionApp"> Build Suggestion Box App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/suggestion_box">
