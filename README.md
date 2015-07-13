@@ -161,7 +161,7 @@ Christophe Coenraets, of http://coenraets.org/blog/
 
 Questions and questions about the content can be entered in the Disqus component in the github.io website
 <a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
-Step-by-step Salesforce1 Developer Workshop</a> generated from 
+Step-by-step Salesforce1 Developer Workshop</a> makes use of Connected app whose source is in 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
 a github repo</a>.
 
