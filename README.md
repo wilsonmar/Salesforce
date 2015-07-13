@@ -1,12 +1,16 @@
 This is a hands-on deep technical introduction to Salesforce so experience developers
 can get to know the offering intimately and quickly.
 
-## <a name="Developer"> Developer</a>
+## <a name="Developer"> Developer Setup</a>
 
 1) Get a developer account from http://developer.salesforce.com/signup
 
    PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
    But email is not sent to the username, so use something unique to a user role.
+ 
+ 2) Turn on Developer from Setup | Personal Information. Click Edit. Scroll to click
+ <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
+ Save.
  
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
@@ -148,18 +152,25 @@ Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding
 ### <a name="ConfApp"> Build Conference App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
-
+was created by 
 Christophe Coenraets, of http://coenraets.org/blog/
-(Salesforce Developer Evangelist by day and Ionic Framework expert at night) created his 
-website on github.io
+(Salesforce Developer Evangelist by day and Ionic Framework expert at night).
+
+Questions and questions about the content can be entered in the Disqus component in the github.io website
 <a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
 Step-by-step Salesforce1 Developer Workshop</a> generated from 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
 a github repo</a>.
 
 ### <a name="SuggestionApp"> Build Suggestion Box App</a>
-https://developer.salesforce.com/trailhead/project/suggestion_box
-shows how to create reports and dashboards.
+<a target="_blank" href="https://developer.salesforce.com/trailhead/project/suggestion_box">
+Build a Suggestion Box</a> shows how to create reports and dashboards.
+
+Questions and questions about the content can be entered in the Disqus component in the github.io website
+<a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-advanced/">
+Advanced Developer Workshop</a> generated from 
+<a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-advanced">
+a github repo</a>.
 
 
 ## <a name="DevDocs"> Developer Docs</a>
@@ -508,6 +519,15 @@ includes a set of apps for Apple Watch, Google Glass, and more wearables that al
 ## <a name="Sandbox"> Sandbox</a>
 Sandboxes are copies of your organization in a separate environment. They are used for development and testing. 
 See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
+
+Changesets are used release to production.
+
+PROTIP: Most professional developers prefer to use the Force.com IDE with a local copy
+rather than the on-line Developer Console to avoid losing work if a refresh occurs.
+
+Revision to earlier changes may not be possible.
+
+PROTIP: Build your own instrumentation.
 
 
 ## <a name="Database"> Database Access</a>
