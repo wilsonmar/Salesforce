@@ -133,6 +133,7 @@ https://developer.salesforce.com/trailhead provides FREE:
 | Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
 | <a href="#ConfApp">Build a Conference Management App</a> | 3 |  550 |
+| <a href="#SuggestionApp"> Build Suggestion Box App</a> | 1.9 | ? |
 | Quick Start: Lightning Components | 0.5 | 150 |
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
@@ -144,7 +145,7 @@ There is also Salesforce University (@SalesforceU) which offers paid classes.
 Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
 
-### <a name="ConfApp"> Conference App</a>
+### <a name="ConfApp"> Build Conference App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
 
@@ -156,7 +157,10 @@ Step-by-step Salesforce1 Developer Workshop</a> generated from
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
 a github repo</a>.
 
-Uncheck the Include Tab checkbox, check the Conference checkbox, and click Save.
+### <a name="SuggestionApp"> Build Suggestion Box App</a>
+https://developer.salesforce.com/trailhead/project/suggestion_box
+shows how to create reports and dashboards.
+
 
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
