@@ -36,6 +36,8 @@ Before we get started, note that Salesforce as a company has several offerings (
 
   * <a target="_blank" href="http://www.database.com/">Database.com</a>
 
+  * Site.com ???
+
 1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
    in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg 
 
@@ -130,7 +132,7 @@ https://developer.salesforce.com/trailhead provides FREE:
 | Developer Beginner Trail | 15 | 19,400 |
 | Developer Intermediate Trail | 10 | 8,100 |
 | Developer Trail - Mobile SDK | 6.8 | 3,000 |
-| <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">Build a Conference Management App</a> | 3 |  550 |
+| <a href="#ConfApp">Build a Conference Management App</a> | 3 |  550 |
 | Quick Start: Lightning Components | 0.5 | 150 |
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
@@ -141,12 +143,20 @@ There is also Salesforce University (@SalesforceU) which offers paid classes.
 
 Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
+
+### <a name="ConfApp"> Conference App</a>
+<a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
+Build a Conference Management App</a>
+
 Christophe Coenraets, of http://coenraets.org/blog/
-(Salesforce Developer Evangelist by day and Ionic Framework expert at night) created the
+(Salesforce Developer Evangelist by day and Ionic Framework expert at night) created his 
+website on github.io
 <a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
 Step-by-step Salesforce1 Developer Workshop</a> generated from 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
-these supporting files</a>.
+a github repo</a>.
+
+Uncheck the Include Tab checkbox, check the Conference checkbox, and click Save.
 
 ## <a name="DevDocs"> Developer Docs</a>
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
@@ -309,7 +319,15 @@ A Salesforce <strong>Org</strong> (short for organization) is a
 
 Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant Optimizer.”
 
-<strong>System objects</strong> are: User, Event, Activity, Task
+<strong>System objects</strong> are: User, Event, Activity, Task.
+
+Object names generated are suffixed by two underlines followed by a letter:
+
+   * __c for custom object.
+
+   * __r for relationship to follow.
+
+   * __s for a latitude and longitude (a single compound geolocation field with two components).
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
