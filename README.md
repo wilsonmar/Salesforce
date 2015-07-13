@@ -144,6 +144,12 @@ https://developer.salesforce.com/trailhead provides FREE:
 
 Points earned show up on your profile.
 
+Chris Duarte
+
+@TheChrisDuarte
+
+Managing Editor of #Trailhead @salesforce, f
+
 There is also Salesforce University (@SalesforceU) which offers paid classes.
 
 Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
@@ -535,6 +541,8 @@ Because parent-child and other data relationships are defined up front in the
 <strong>Data Model UI</strong>,
 the Salesforce Object Query Language (SOQL) coded to retrieve filtered data
 does not allow dynamic implicit joins like those used in ANSI SQL.
+Furthermore, SOQL is like Microsoft's LINQ because it contains domain-specific names like "Opportunities".
+
 This approach enables Salesforce engineers to optimize indexing their own way,
 invisible to developers and users, such as
 returning variable data types in multi-dimensional arrays.
