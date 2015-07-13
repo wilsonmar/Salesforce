@@ -144,11 +144,8 @@ https://developer.salesforce.com/trailhead provides FREE:
 
 Points earned show up on your profile.
 
-Chris Duarte
-
-@TheChrisDuarte
-
-Managing Editor of #Trailhead @salesforce, f
+* Chris Duarte (@TheChrisDuarte) is the Managing Editor of #Trailhead 
+* Sandeep Bhanot (@cloudysan) is the #Trailhead Product Owner/ Evangelist.
 
 There is also Salesforce University (@SalesforceU) which offers paid classes.
 
