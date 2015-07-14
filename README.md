@@ -577,6 +577,10 @@ Revision to earlier changes may not be possible.
 PROTIP: Build your own instrumentation.
 
 
+developer console
+
+https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage
+
 ## <a name="Database"> Database Access</a>
 Because parent-child and other data relationships are defined up front in the 
 <strong>Data Model UI</strong>,
@@ -608,11 +612,51 @@ Individual rows returned from SOQL can be dynamically edited, inserted, and dele
 
 Salesforce Object Search Language (SOSL) ???
 
+## <a name="DML"> DML</a>
 Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
-to insert, update and delete data.
+to insert, update and delete data, in the Developer Console <strong>Anonymous Window</strong>.
 
 See the <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/">
 Force.com SOQL and SOSL Reference</a>
+
+Some insert:
+
+```
+Session__c session = new Session__c();
+session.name = 'Apex 101';
+session.level__c = 'Beginner';
+insert session;
+```
+
+```
+Session__c session = new Session__c(
+    name = 'Apex 201',
+    level__c = 'Intermediate'
+);
+insert session;
+```
+
+Update sample:
+
+```
+String oldName = 'Apex 101';
+String newName = 'Apex for Beginners';
+Session__c session =   [SELECT Id, Name FROM Session__c
+                   WHERE Name=:oldName];
+session.name = newName;
+update session;
+```
+
+Sample Delete:
+
+```
+String name = 'Testing 501';
+Session__c session = 
+   [SELECT Name FROM Session__c
+               WHERE Name=:name];
+delete session;
+```
+
 
 
 ## <a name="Triggers"> Triggers</a>
