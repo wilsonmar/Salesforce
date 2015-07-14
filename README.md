@@ -24,6 +24,9 @@ Before we get started, note that Salesforce as a company has several offerings (
     Salesforce also includes project management.
 
     http://www.salesforce.com/platform/overview/
+    
+    "Salesforce1" is the brand name to emphasize that mobile capabilities are automatically provided
+    when apps are created.
 
   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
   
@@ -50,6 +53,9 @@ Before we get started, note that Salesforce as a company has several offerings (
 
 The company exposes data in each of these businesses in an <a href="#APIs">API</a>
 for computers to access without a human UI.
+
+BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
+Colors in Salesforce screens</a>
 
 
 ## <a name="LaborDemand"> Labor Demand</a>
