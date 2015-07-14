@@ -159,7 +159,8 @@ Points earned show up on your profile.
 
 There is also Salesforce University (@SalesforceU) which offers paid classes.
 
-Register for tests at https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
+Register for certification tests at 
+https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
 
 ### <a name="ConfApp"> Build Conference App</a>
