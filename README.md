@@ -214,6 +214,12 @@ https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkdd
 The list of hotkeys is at
 https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true
 
+## <a name="DevTools"> Dev Tools</a>
+* Developer Console online
+* Force CLI
+* Force.com IDE (Plugin on top of Eclipse)
+* Mavens Mate (Plugin on top of Sublime)
+
 
 ## <a name="Social"> Social</a>
 Salesforce for Outlook does not work on Mac Office 2011 Outlook.
