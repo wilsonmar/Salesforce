@@ -243,6 +243,8 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
  * LinkedIn
 
  * List of Meetups are at http://salesforce.meetup.com/all/
+    * https://success.salesforce.com/userGroups  
+    * https://seattlenpsf.wordpress.com/ is the Seattle Non-profit
 
  * Stackoverflow
 
@@ -250,6 +252,8 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
  * Github repos
 
+  * http://careers.force.com/jobs for jobs inside Salesforce.
+ 
 ## <a name="ChangeMgmt"> Change Management</a>
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
