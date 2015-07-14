@@ -602,11 +602,27 @@ for (Speaker__c s : [SELECT Email__c FROM Speaker__c])
 }
 ```
 
+An example from the class:
 
+```
+SELECT Id, Name, Phone, Account.Name  
+       FROM Contact
+       WHERE Phone <> null 
+       AND Name LIKE '%rose%'
+       ORDER BY Name
+       LIMIT 50
+```
+
+For a master-detail example:
+
+```
+SELECT Name, 
+       (SELECT FirstName, LastName, Phone
+               FROM Contacts)
+       FROM Account
+```
 
 Individual rows returned from SOQL can be dynamically edited, inserted, and deleted.
-
-
 
 
 
@@ -657,12 +673,44 @@ Session__c session =
 delete session;
 ```
 
+Sample Undelete: ???
 
 
 ## <a name="Triggers"> Triggers</a>
 Each trigger is coded in Apex to a particular sObject.
 
 "(before insert, before update)" are coded as part of the definition.
+
+Triggers work on lists of records, not single records.
+This is to support bulk operations (Data Import, Bulk API, etc.)
+
+Example before trigger:
+
+```
+trigger on Account (before update) {
+    for (Account acc: Trigger.New) {
+        // Compare new value with old value
+        if (acc.Rating != Trigger.oldMap.get(acc.Id).Rating) {
+            // Your Logic
+        }
+    }
+} 
+```
+
+Example of after trigger:
+
+```
+trigger WelcomeKit on Account (after insert) {
+    List<Case> cases = new List<Case>();
+    for (Account account : Trigger.new) {
+        Case case = new Case();
+        case.Subject = 'Mail Welcome Kit';
+        case.Account.Id = account.Id;
+        cases.add(case);
+    }
+    insert cases;
+}
+```
 
 Triggers are active as soon as they are saved.
 
