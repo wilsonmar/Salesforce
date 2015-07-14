@@ -586,6 +586,7 @@ to insert, update and delete data.
 See the <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/">
 Force.com SOQL and SOSL Reference</a>
 
+
 ## <a name="Triggers"> Triggers</a>
 Each trigger is coded in Apex to a particular sObject.
 
