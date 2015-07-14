@@ -602,7 +602,7 @@ for (Speaker__c s : [SELECT Email__c FROM Speaker__c])
 }
 ```
 
-An example from the class:
+An example from the class to retrieve Rose Gonzalez:
 
 ```
 SELECT Id, Name, Phone, Account.Name  
@@ -612,6 +612,7 @@ SELECT Id, Name, Phone, Account.Name
        ORDER BY Name
        LIMIT 50
 ```
+
 
 For a master-detail example:
 
