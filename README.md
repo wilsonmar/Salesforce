@@ -297,7 +297,8 @@ Code managed by the Developer Console must be within one of these Entity Types:
 * Static Resources
 * Packages
  
-
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
+<img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
