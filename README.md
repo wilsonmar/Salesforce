@@ -167,14 +167,14 @@ https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
 used during
-Step-by-step Salesforce1 Developer Workshop</a> 
-
-was created by 
+<a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
+Step-by-step Salesforce1 Developer Workshop</a>.
+Click "Start Now" on that page and you'll get to the
+github.io website</a> 
+created by 
 Christophe Coenraets, of http://coenraets.org/blog/
 (Salesforce Developer Evangelist by day and Ionic Framework expert at night).
 Questions and questions about the trailhead content can be entered in the Disqus component in 
-<a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
-his github.io website</a>
 
 makes use of Connected app whose source is in 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
