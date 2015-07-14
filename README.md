@@ -7,7 +7,8 @@ can get to know the offering intimately and quickly.
    for a Developer Edition (DE) environment.
 
    PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
-   But email is not sent to the username, so use something unique to a user role.
+   But email is not sent to the username, so you can use something unique 
+   such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
  
  2) Turn on Developer from Setup | Personal Information. Click Edit. Scroll to click
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
