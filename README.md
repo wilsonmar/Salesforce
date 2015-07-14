@@ -18,6 +18,7 @@ can get to know the offering intimately and quickly.
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
  
+ 
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
 
@@ -60,7 +61,7 @@ The company exposes data in each of these businesses in an <a href="#APIs">API</
 for computers to access without a human UI.
 
 BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
-Colors in Salesforce screens</a>
+	Colors in Salesforce screens</a>
 
 
 ## <a name="LaborDemand"> Labor Demand</a>
@@ -205,6 +206,13 @@ a github repo</a>.
 * <a target="_blank" href="https://developerforce.com/docs"> 
                                    Developer.salesforce.com = Developerforce.com</a>
   with email dev@developerforce.com
+
+Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
+However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
+https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
+
+The list of hotkeys is at
+https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true
 
 
 ## <a name="Social"> Social</a>
