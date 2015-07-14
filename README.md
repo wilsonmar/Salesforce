@@ -166,13 +166,17 @@ https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 ### <a name="ConfApp"> Build Conference App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
+used during
+Step-by-step Salesforce1 Developer Workshop</a> 
+
 was created by 
 Christophe Coenraets, of http://coenraets.org/blog/
 (Salesforce Developer Evangelist by day and Ionic Framework expert at night).
-
-Questions and questions about the content can be entered in the Disqus component in the github.io website
+Questions and questions about the trailhead content can be entered in the Disqus component in 
 <a target="_blank" href="http://ccoenraets.github.io/salesforce-developer-workshop/">
-Step-by-step Salesforce1 Developer Workshop</a> makes use of Connected app whose source is in 
+his github.io website</a>
+
+makes use of Connected app whose source is in 
 <a target="_blank" href="https://github.com/ccoenraets/salesforce-developer-workshop">
 a github repo</a> that contains http://goratchet.com/ CSS library
 and ForceTK (https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit)
