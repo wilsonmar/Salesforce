@@ -242,7 +242,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
  * LinkedIn
 
- * Meetups
+ * List of Meetups are at http://salesforce.meetup.com/all/
 
  * Stackoverflow
 
