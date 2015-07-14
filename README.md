@@ -114,10 +114,9 @@ Technologically:
 
   * Chattr instant-message
 
-  * Developer Console
   * Mobile apps for iOS | Android
-      *  SalesforceA, the mobile app for admins
-      *  Salesforce1 mobile app for end-users
+      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
+      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
 
 I think Salesforce provides an easy and fast way to create apps.
 
@@ -214,8 +213,9 @@ https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkdd
 The list of hotkeys is at
 https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true
 
+
 ## <a name="DevTools"> Dev Tools</a>
-* Developer Console online
+* <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
 * Force CLI
 * Force.com IDE (Plugin on top of Eclipse)
 * Mavens Mate (Plugin on top of Sublime)
@@ -284,6 +284,19 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+
+
+## <a name="EntityTypes"> Entity Types</a>
+Code managed by the Developer Console must be within one of these Entity Types:
+
+* Classes
+* Triggers
+* Pages
+* Page Components
+* Objects
+* Static Resources
+* Packages
+ 
 
 
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
@@ -576,7 +589,22 @@ invisible to developers and users, such as
 returning variable data types in multi-dimensional arrays.
 
 SOQL can be coded and executed dynamically within the Developer Console Query Editor.
-Individual rows returned can then be dynamically edited, inserted, and deleted.
+Examples:
+
+```
+for (Speaker__c s : [SELECT Email__c FROM Speaker__c]) 
+{
+    System.debug(s.email__c);
+}
+```
+
+
+
+Individual rows returned from SOQL can be dynamically edited, inserted, and deleted.
+
+
+
+
 
 Salesforce Object Search Language (SOSL) ???
 
