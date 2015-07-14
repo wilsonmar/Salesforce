@@ -4,6 +4,7 @@ can get to know the offering intimately and quickly.
 ## <a name="Developer"> Developer Setup</a>
 
 1) Get a developer account from http://developer.salesforce.com/signup
+   for a Developer Edition (DE) environment.
 
    PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
    But email is not sent to the username, so use something unique to a user role.
@@ -119,8 +120,6 @@ I think Salesforce provides an easy and fast way to create apps.
 
 
 ## <a name="SkillCerts"> Skill Certification</a>
-First, https://developer.salesforce.com/signup
-for a Developer Edition (DE) environment.
 
 There are technical jobs:
   * Administrator
