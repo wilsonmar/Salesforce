@@ -9,8 +9,12 @@ can get to know the offering intimately and quickly.
    PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
    But email is not sent to the username, so you can use something unique 
    such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
+   
+ 2) When your email arrives, click on the link. 
  
- 2) Turn on Developer from Setup | Personal Information. Click Edit. Scroll to click
+    PROTIP: Use the unique portion in your password to make it easier to remember.
+ 
+ 3) Turn on Developer from Setup | Personal Information. Click Edit. Scroll to click
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
  
