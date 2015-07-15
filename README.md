@@ -10,6 +10,8 @@ can get to know the offering intimately and quickly.
    But email is not sent to the username, so you can use something unique 
    such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
    
+   PROTIP: Have a "main" developer environment that you use for Chatter and Help.
+   
  2) When the email "Your Developer Edition Login Information" arrives, click on the link to change password.
  
     PROTIP: Use the unique portion in your password to make it easier to remember.
