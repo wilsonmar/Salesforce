@@ -455,7 +455,7 @@ In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
 
 
-## <a name="UI"> Salesforce Apps UI</a>
+## <a name="LoginUI"> Salesforce Apps Login UI</a>
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
 The blue sausage (app selector) at the upper right lists <strong>apps</strong>.
@@ -473,16 +473,32 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 3) Click the [+] at the right end of the menu.
 
+### <a name="Instances"> Instances</a>
+
 4) After login, note the URL, such as `https://na31.salesforce.com/...`
 
 	The "na31" in this case is the <strong>instance</strong> identifier.
-
+	
 	Salesforece maintains 50 production instances used by about 8,000 customers each.
 
-	Availability history of each instance is listed at
+5) Availability history of each instance is listed at
 	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
 	http://www.trust.salesforce.com/trust/instances</a>
 
+6) The mobile version of instance na31 is at URL:
+
+	https://na31.salesforce.com/one/one.app
+
+7) Click the "pancake" / "hamburger" icon at the upper left.
+
+8) Click "Show more".
+
+   The One UI is more similar to Apple in confirmation icons at the upper right
+   and go back/cancel icons on the upper left.
+
+   MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
+   https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
+   
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
