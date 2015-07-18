@@ -572,6 +572,11 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
    MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
    https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
    
+## <a name="Redundancy"> Redundancy</a>
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
+2 on-line and 2 off-line.
+
+
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
