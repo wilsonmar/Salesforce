@@ -1,5 +1,5 @@
-This is a hands-on deep technical introduction to Salesforce so experience developers
-can get to know the offering intimately and quickly.
+This is a hands-on guided introduction to Salesforce so experience developers
+can get to know the offering deeply yet quickly.
 
 ## <a name="Developer"> Developer Setup</a>
 
@@ -22,7 +22,10 @@ can get to know the offering intimately and quickly.
  
  
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
-Before we get started, note that Salesforce as a company has several offerings (all SaaS in the cloud):
+At http://www.salesforce.com/crm/editions-pricing.jsp
+   note DE has Enterprise capabilities, more powerful than the Professional Edition.
+
+Salesforce as a company has several offerings (all SaaS in the cloud):
 
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
     CRM (Customer Relationship Management) -- the company's stock market symbol --
@@ -33,8 +36,20 @@ Before we get started, note that Salesforce as a company has several offerings (
 
     http://www.salesforce.com/platform/overview/
     
+   * Service Cloud - Sales force automation and CRM
+   * Sales Cloud - Complete CRM customer service solutions
+   * Marketing Cloud - Build and manage 1:1 customer journeys.
+   * Commmunity Cloud - Connect customers, partners, and employees
+   * Analytic Cloud - Business intelligence and analytics software solutions
+
+   * Salesforce1 Platform - Turn your idea into apps today with the Salesforce1 Platform.
+
     "Salesforce1" is the brand name to emphasize that mobile capabilities are automatically provided
     when apps are created.
+
+   * Data.com - B2B prospecting and data cleansing
+   * Pardot - B2B marketing automation
+   * Desk.com - Customer support for small business
 
   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
   
@@ -298,8 +313,27 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
+## <a name="BuildingBlocks"> App Building Blocks</a>
+User Interface:
 
-## <a name="EntityTypes"> Entity Types</a>
+	* Applications
+	* Tabs
+	* Page Layouts
+	* Record Types
+
+Business Logic:
+
+	* Workflow
+	* Validation Rules
+	* Formula
+
+Data Model:
+
+	* Objects
+	* Fields
+	* Relationships
+
+## <a name="EntityTypes"> App Entity Types</a>
 Code managed by the Developer Console must be within one of these Entity Types:
 
 * Classes
