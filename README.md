@@ -1,5 +1,6 @@
-This is a hands-on guided introduction to Salesforce so experience developers
+This is intended to be a hands-on guided introduction to Salesforce so experience developers
 can get to know the offering deeply yet quickly.
+A work in progress.
 
 ## <a name="Developer"> Developer Setup</a>
 
@@ -230,13 +231,16 @@ a github repo</a>.
                                    Developer.salesforce.com = Developerforce.com</a>
   with email dev@developerforce.com
 
+### <a name="Keyboard"> Keyboard Shortcuts</a>
 Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
 However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
 https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
 
-The list of hotkeys is at
-https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true
+The list of hotkeys is <a target="_blank" href="
+https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true">
+here</a>.
 
+Force.com Fundamentals book
 
 ## <a name="DevTools"> Dev Tools</a>
 * <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
