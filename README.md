@@ -83,10 +83,16 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
     provides free hosting for low-volume apps written in open-source programming.
 
+    [Getting Started with Ruby on Heroku](https://developer.salesforce.com/docs/atlas.en-us.articles.meta/articles/)
+
   * <a target="_blank" href="http://www.database.com/">
     Database.com</a>
 
   * Site.com ???
+
+  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors.
+
+    [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
 
 1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
    in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg 
@@ -264,7 +270,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
 ## <a name="Training"> Training</a>
 1) Obtain a Trailhead account at https://developer.salesforce.com/trailhead 
-   for FREE tutorials:
+   for FREE tutorials which reward points appearing in your profile.
 
 | Trail/Project | Hours | Points |
 | ----- | :---: | -----: |
@@ -279,10 +285,11 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 | Quick Connect: Lightning Connect | 0.3 | 100 |
 | Total: | 50 | 45,000 |
 
-Points earned show up on your profile.
-
 * Chris Duarte (@TheChrisDuarte) is the Managing Editor of #Trailhead 
 * Sandeep Bhanot (@cloudysan) is the #Trailhead Product Owner/ Evangelist.
+
+[Workbook](https://developer.salesforce.com/docs/atlas.en-us.workbook.meta/workbook/)
+shows you how to create a cloud app in a series of tutorials.
 
 There is also Salesforce University (@SalesforceU) which offers paid classes. See
 http://www.salesforce.com/services-training/training_certification/training.jsp
@@ -364,6 +371,7 @@ Data Model:
 	* Fields
 	* Relationships
 
+
 ## <a name="MobileApps"> Mobile Apps</a>
 The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
 See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
@@ -372,6 +380,8 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
       *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
       *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
 
+WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK)
+by Akhilesh Gupta
 
 
 ## <a name="EntityTypes"> App Entity Types</a>
@@ -388,7 +398,8 @@ Code managed by the Developer Console must be within one of these Entity Types:
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
 <img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
-
+## <a name="ApexCoding"> Apex Coding</a>
+[Force.com Apex Code Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
 Visualforce coding is much like Ruby on Rails and Django.
@@ -748,9 +759,17 @@ SELECT Name,
 
 Individual rows returned from SOQL can be dynamically edited, inserted, and deleted.
 
+<strong>Junction Object</strong> is a custom object 
+(of auto-number data type)
+joining two Master Detail Relationships.
 
+* https://help.salesforce.com/HTViewHelpDoc?id=overview_of_custom_object_relationships.htm 
+* https://help.salesforce.com/HTViewHelpDoc?id=relationships_manytomany.htm&language=en_US
 
-Salesforce Object Search Language (SOSL) ???
+Other Languages:
+
+* Salesforce Object Search Language (SOSL) 
+* Salesforce Analytics Search Language (SASL)
 
 ## <a name="DML"> DML</a>
 Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
