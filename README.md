@@ -4,7 +4,7 @@ A work in progress.
 
 ## <a name="Developer"> Developer Setup</a>
 
-1) Get a developer account from http://developer.salesforce.com/signup
+1) Get a developer account from http://developer.salesforce.com/signup or http://sforce.co/WBtUN7
    for a Developer Edition (DE) environment.
 
    PROTIP: During registration, the <strong>Username</strong> needs to be in thte form of an email address.
@@ -61,12 +61,11 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
     runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
     which generalizes the coding in CRM for use in other user domains
 
-    https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/
-
   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
     provides free hosting for low-volume apps written in open-source programming.
 
-  * <a target="_blank" href="http://www.database.com/">Database.com</a>
+  * <a target="_blank" href="http://www.database.com/">
+    Database.com</a>
 
   * Site.com ???
 
@@ -106,9 +105,21 @@ Use case:
 * Documents shared on local file directories
 * Time-intensive, manual steps 
 
+I think Salesforce provides an easy and fast way to create apps.
+
+  * Free development environment (no 7 day trials)
+  * Integrations
+  * Free, full-featured copy of the Salesforce1 Platform
+  * Develop apps with clicks or code
+  * Fine-grained access control 
+  * highly scalable
+  * API-first to integrate anything with everything
+  * Use popular UI frameworks like Bootstrap, JQuery and more 
+
+
 Technologically:
 
-  * The <strong>declarative</strong> aspects of the platform is why the company's main number  is 800.NO-SOFTWARE.
+  * The <strong>declarative</strong> aspects of the platform is why the company's main number is 800.NO-SOFTWARE.
   
     It has CRUD style security permissions model. Learn this first.
   
@@ -132,21 +143,6 @@ Technologically:
 
   * Chattr instant-message
 
-  * Mobile apps for iOS | Android
-      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
-      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
-
-I think Salesforce provides an easy and fast way to create apps.
-
-  * Free development environment (no 7 day trials)
-  * Integrations
-  *  Free, full-featured copy of the Salesforce1 Platform
-  * Develop apps with clicks or code
-  * Fine-grained access control 
-  * highly scalable
-  * API-first to integrate anything with everything
-  * Use popular UI frameworks like Bootstrap, JQuery and more 
-
 
 ## <a name="SkillCerts"> Skill Certification</a>
 
@@ -155,7 +151,30 @@ There are technical jobs:
   * Developer (which includes database administrators)
   * Certified Technical Architect
 
-https://developer.salesforce.com/trailhead provides FREE:
+Register for certification tests at 
+https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
+
+ADM201 
+
+DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
+http://certification.salesforce.com/developers
+focuses on declarative configuration rather than programming.
+
+DEV501 involves Apex coding
+
+Solution architect
+
+
+
+## <a name="Training"> Training</a>
+1) <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/">
+   Force.com Platform Fundamentals</a> is the "Bible" for Salesforce certification questions.
+   It has "Try it" hands-on exercises.
+   The January 2015 version 9 contains 402 pages.
+
+
+2) Obtain a Trailhead account at https://developer.salesforce.com/trailhead 
+   for FREE tutorials:
 
 | Trail/Project | Hours | Points |
 | ----- | :---: | -----: |
@@ -178,12 +197,6 @@ Points earned show up on your profile.
 There is also Salesforce University (@SalesforceU) which offers paid classes. See
 http://www.salesforce.com/services-training/training_certification/training.jsp
 ( $3,750 for the 5-day course)
-
-Building Applications with Force.com and Visualforce (DEV401)
-http://certification.salesforce.com/developers
-
-Register for certification tests at 
-https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
 http://www.shellblack.com/administration/how-to/
 lists many admin videos
@@ -240,7 +253,7 @@ The list of hotkeys is <a target="_blank" href="
 https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true">
 here</a>.
 
-Force.com Fundamentals book
+
 
 ## <a name="DevTools"> Dev Tools</a>
 * <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
@@ -286,36 +299,29 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
 
-Three releases are planned per year, named by season such as 
-* <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer14/">
-	Summer 2014</a>
-* <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter14/">
-	Winter 2014</a>
-* Winter 2015 for the beginning of a year
-* <a target="_blank" href="https://developer.salesforce.com/events/webinars/Summer_15_Release_Preview?d=70130000000NJR1">
-	Summer 2015</a>, etc.
+Three releases are planned per year, named by season (avoiding Fall):
 
-App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
+| Force Version | API Version |
+| ----:         | -----: |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer15/">Summer '15</a> | 34.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring15/">Spring '15</a> | 33.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter15/">Winter '15</a> | 32.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer14/">Summer '14</a> | 31.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring14/">Spring '14</a> | 30.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter14/">Winter '14</a> | 29.0 |
 
 Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must keep taking tests to keep up.
  
-Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 30 million lines of third-party code,
+App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
+
+Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 
+30 million lines of third-party code.
  
 (Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
 
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
 2 on-line and 2 off-line.
-
-http://www.trust.salesforce.com/
-provides real-time information on system availability, performance history, and security alerts.
-
-The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
-See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
-
-
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
-<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
 ## <a name="BuildingBlocks"> App Building Blocks</a>
 User Interface:
@@ -336,6 +342,19 @@ Data Model:
 	* Objects
 	* Fields
 	* Relationships
+
+## <a name="MobileApps"> Mobile Apps</a>
+The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
+See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
+
+  * Mobile apps for iOS | Android
+      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
+      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
+
+
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
+<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+
 
 ## <a name="EntityTypes"> App Entity Types</a>
 Code managed by the Developer Console must be within one of these Entity Types:
@@ -441,6 +460,8 @@ Object names generated are suffixed by two underlines followed by a letter:
    * __r for relationship to follow.
 
    * __s for a latitude and longitude (a single compound geolocation field with two components).
+
+https://help.salesforce.com/HTViewHelpDoc?id=custom_field_types.htm&language=en_US
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
@@ -582,7 +603,8 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 
 </li><li> <a rel="nofollow" class="external text" href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_web_services.htm">Apex SOAP API</a> - Create custom SOAP Web services in Apex. This API exposes Apex classes as SOAP Web services.
 
-</li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides 100% complete, high quality data, updated in real-time in the cloud, and with comprehensive coverage worldwide.
+</li><li> <a rel="nofollow" class="external text" href="https://developer.salesforce.com/page/Data.com_API">Data.com API</a> - Data.com provides data updated in real-time in the cloud, with comprehensive coverage worldwide. Data.com APIs work with Salesforce Data.com Prospector and Data.com Clean to provide accurate account and contact data from Data.com. 
+
 </li></ul>
 
 SOAP format APIs are mainly for metadata (not business data).
