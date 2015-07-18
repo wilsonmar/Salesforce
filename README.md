@@ -365,8 +365,6 @@ Code managed by the Developer Console must be within one of these Entity Types:
 * Static Resources
 * Packages
  
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
-<img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
 ## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
@@ -571,10 +569,14 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
    MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
    https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
-   
+  
+
 ## <a name="Redundancy"> Redundancy</a>
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
 2 on-line and 2 off-line.
+
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
+<img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
 
 
