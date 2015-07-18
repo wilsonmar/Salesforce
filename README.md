@@ -467,10 +467,15 @@ https://help.salesforce.com/HTViewHelpDoc?id=custom_field_types.htm&language=en_
 
 	LIMIT: Picklists are limited to 300 values
 
+Use data type <strong>Text(encrypted)</strong> for credit card numbers and national ID such as US social security numbers.
+To keep users from editing:
+* Validation Rules
+* Field-level Security
+* Page Layout Settings
+
 An object can have up to 3 external ID fields.
 External IDs (not case-sensitive) are used with upsert command to prevent duplication during import.
-But external IDs can only be data type number, text, email (not phone).
-
+But external IDs can only be data type number, unencrypted text, email (not phone).
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
 <a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
