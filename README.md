@@ -6,7 +6,7 @@ can get to know the offering intimately and quickly.
 1) Get a developer account from http://developer.salesforce.com/signup
    for a Developer Edition (DE) environment.
 
-   PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
+   PROTIP: During registration, the <strong>Username</strong> needs to be in thte form of an email address.
    But email is not sent to the username, so you can use something unique 
    such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
    
@@ -103,8 +103,8 @@ Technologically:
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Apex_Code_Development&criteria=ALLQUESTIONS">
 	Apex Code Development</a>
 	
-  * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components,
-    which uses HTML tags like PHP, ASP.NET, and ColdFusion.
+  * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components
+    using HTML tags like PHP, ASP.NET, and ColdFusion.
 
   * The <strong>Lightning</strong> components to create user-developed apps.
   
@@ -159,11 +159,18 @@ Points earned show up on your profile.
 * Chris Duarte (@TheChrisDuarte) is the Managing Editor of #Trailhead 
 * Sandeep Bhanot (@cloudysan) is the #Trailhead Product Owner/ Evangelist.
 
-There is also Salesforce University (@SalesforceU) which offers paid classes.
+There is also Salesforce University (@SalesforceU) which offers paid classes. See
+http://www.salesforce.com/services-training/training_certification/training.jsp
+( $3,750 for the 5-day course)
+
+Building Applications with Force.com and Visualforce (DEV401)
+http://certification.salesforce.com/developers
 
 Register for certification tests at 
 https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
+http://www.shellblack.com/administration/how-to/
+lists many admin videos
 
 ### <a name="ConfApp"> Build Conference App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
@@ -356,7 +363,6 @@ Setting the default page is not the most intuitive. An example:
 2) Scroll down to the Buttons, Links, and Actions section, and click Edit next to New.
 
 3) Check Override With Visualforce Page, and select SpeakerForm.
-
 
 
 DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums?id=906F00000008lLvIAI#!/feedtype=RECENT&dc=Visualforce_Development&criteria=ALLQUESTIONS">Visualforce Board</a>
