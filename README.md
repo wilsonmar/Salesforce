@@ -30,6 +30,17 @@ some Internet Explorer support is limited. Firefox needs to be configured.
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
  
+
+### <a name="Keyboard"> Keyboard Shortcuts</a>
+Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
+However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
+https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
+
+The list of hotkeys is <a target="_blank" href="
+https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true">
+here</a>.
+
+
  
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 At http://www.salesforce.com/crm/editions-pricing.jsp
@@ -310,16 +321,19 @@ Advanced Developer Workshop</a> generated from
 a github repo</a>.
 
 
+## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
+As of this writing, video tutorials at Pluralsight are rather dated:
 
-### <a name="Keyboard"> Keyboard Shortcuts</a>
-Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
-However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
-https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
+Force.com Platform - The Big Picture
+http://www.pluralsight.com/courses/forcedotcom-bigpicture
+for Beginners 
+by Don Robins 1h 24m 29 Jan 2013
+is 
 
-The list of hotkeys is <a target="_blank" href="
-https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true">
-here</a>.
-
+Force.com for .NET Developers 
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-dotnet-developers">
+1h 37m 25 Feb 2013 video</a>
+by Dan Appleman, author of http://advancedapex.com/
 
 
 ## <a name="DevTools"> Dev Tools</a>
@@ -359,9 +373,6 @@ See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforc
       *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
 
 
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
-<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
-
 
 ## <a name="EntityTypes"> App Entity Types</a>
 Code managed by the Developer Console must be within one of these Entity Types:
@@ -374,20 +385,10 @@ Code managed by the Developer Console must be within one of these Entity Types:
 * Static Resources
 * Packages
  
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
+<img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
-## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
-As of this writing, video tutorials at Pluralsight are rather dated:
 
-Force.com Platform - The Big Picture
-http://www.pluralsight.com/courses/forcedotcom-bigpicture
-for Beginners 
-by Don Robins 1h 24m 29 Jan 2013
-is 
-
-Force.com for .NET Developers 
-<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-dotnet-developers">
-1h 37m 25 Feb 2013 video</a>
-by Dan Appleman, author of http://advancedapex.com/
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
 Visualforce coding is much like Ruby on Rails and Django.
@@ -584,8 +585,8 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
 2 on-line and 2 off-line.
 
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
-<img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
+<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
 
 
