@@ -165,15 +165,58 @@ DEV501 involves Apex coding
 Solution architect
 
 
+## <a name="VersionChangeMgmt"> Version Change Management</a>
+Salesforce was launched in 2000, with SOAP API (web service) added 2004.
+The Salesforce1 brand name appeared in 2014.
 
-## <a name="Training"> Training</a>
+Three releases are planned per year, named by season (avoiding Fall):
+
+| Force Version | API Version |
+| ----:         | -----: |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer15/">Summer '15</a> | 34.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring15/">Spring '15</a> | 33.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter15/">Winter '15</a> | 32.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer14/">Summer '14</a> | 31.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring14/">Spring '14</a> | 30.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter14/">Winter '14</a> | 29.0 |
+
+Additionally, beta releases of Minimally Marketable Features (MMF) go out.
+So certification holders must keep taking tests to keep up.
+ 
+App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
+
+Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 
+
+ 
+(Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
+
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
+2 on-line and 2 off-line.
+
+
+## <a name="DevDocs"> Developer Docs</a>
 1) <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/">
    Force.com Platform Fundamentals</a> is the "Bible" for Salesforce certification questions.
    It has "Try it" hands-on exercises.
    The January 2015 version 9 contains 402 pages.
 
 
-2) Obtain a Trailhead account at https://developer.salesforce.com/trailhead 
+* <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
+ Glossary</a> of terms.
+* <a target="_blank" href="https://developer.salesforce.com/docs"> 
+                                   Developer.salesforce.com/Docs</a>
+* <a target="_blank" href="https://developer.force.com/architect"> 
+                                   Developer.force.com/architect</a>
+* <a target="_blank" href="https://developer.force.com/security"> 
+                                   Developer.force.com/security</a>
+* <a target="_blank" href="https://developerforce.com/docs"> 
+                                   Developer.salesforce.com = Developerforce.com</a>
+  with email dev@developerforce.com
+
+
+
+## <a name="Training"> Training</a>
+1) Obtain a Trailhead account at https://developer.salesforce.com/trailhead 
    for FREE tutorials:
 
 | Trail/Project | Hours | Points |
@@ -231,18 +274,6 @@ Advanced Developer Workshop</a> generated from
 a github repo</a>.
 
 
-## <a name="DevDocs"> Developer Docs</a>
-* <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
- Glossary</a> of terms.
-* <a target="_blank" href="https://developer.salesforce.com/docs"> 
-                                   Developer.salesforce.com/Docs</a>
-* <a target="_blank" href="https://developer.force.com/architect"> 
-                                   Developer.force.com/architect</a>
-* <a target="_blank" href="https://developer.force.com/security"> 
-                                   Developer.force.com/security</a>
-* <a target="_blank" href="https://developerforce.com/docs"> 
-                                   Developer.salesforce.com = Developerforce.com</a>
-  with email dev@developerforce.com
 
 ### <a name="Keyboard"> Keyboard Shortcuts</a>
 Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
@@ -295,33 +326,6 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
   * http://careers.force.com/jobs for jobs inside Salesforce.
  
-## <a name="ChangeMgmt"> Change Management</a>
-Salesforce was launched in 2000, with SOAP API (web service) added 2004.
-The Salesforce1 brand name appeared in 2014.
-
-Three releases are planned per year, named by season (avoiding Fall):
-
-| Force Version | API Version |
-| ----:         | -----: |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer15/">Summer '15</a> | 34.0 |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring15/">Spring '15</a> | 33.0 |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter15/">Winter '15</a> | 32.0 |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer14/">Summer '14</a> | 31.0 |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring14/">Spring '14</a> | 30.0 |
-| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter14/">Winter '14</a> | 29.0 |
-
-Aditionally, beta releases of Minimally Marketable Features (MMF) go out.
-So certification holders must keep taking tests to keep up.
- 
-App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
-
-Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 
-30 million lines of third-party code.
- 
-(Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
-
-4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
-2 on-line and 2 off-line.
 
 ## <a name="BuildingBlocks"> App Building Blocks</a>
 User Interface:
@@ -456,12 +460,16 @@ Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant O
 Object names generated are suffixed by two underlines followed by a letter:
 
    * __c for custom object.
-
    * __r for relationship to follow.
-
-   * __s for a latitude and longitude (a single compound geolocation field with two components).
+   * __s for latitude and longitude (a single compound geolocation field with two components).
 
 https://help.salesforce.com/HTViewHelpDoc?id=custom_field_types.htm&language=en_US
+
+	LIMIT: Picklists are limited to 300 values
+
+An object can have up to 3 external ID fields.
+External IDs (not case-sensitive) are used with upsert command to prevent duplication during import.
+But external IDs can only be data type number, text, email (not phone).
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
@@ -518,7 +526,6 @@ a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
 
 In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
-
 
 ## <a name="LoginUI"> Salesforce Apps Login UI</a>
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
@@ -651,6 +658,13 @@ In 2015 Salesforce has 30M lines of code written by others via APPExchange.
 Salesforce Wear https://developer.salesforce.com/wear
 includes a set of apps for Apple Watch, Google Glass, and more wearables that all access Salesforce data via APIs.
 
+The highest rated 3rd-party apps:
+
+*    Adobe EchoSign: This application adds enterprise document management functionality to Salesforce. EchoSign allows users and clients to view, edit, sign, track, and file cross-platform documents.
+
+*    Informatica Cloud: This SaaS application is designed to simplify the integration of cloud-based Salesforce data with on-premise systems. Using pre-built connectors, Informatica makes it easy to synchronize Salesforce information with ERP, databases, and other on-premise systems.
+
+*    Marketo Marketing Automation: Marketo is an application designed to integrate marketing efforts with Salesforce. It automates and simplifies the creation, support, and monitoring of marketing campaigns, while providing up-to-date information to the sales department.
 
 ## <a name="Sandbox"> Sandbox</a>
 Sandboxes are copies of your organization in a separate environment. They are used for development and testing. 
