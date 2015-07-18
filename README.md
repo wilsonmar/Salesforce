@@ -216,6 +216,39 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
                                    Developer.salesforce.com = Developerforce.com</a>
   with email dev@developerforce.com
 
+## <a name="Social"> Social Media</a>
+Salesforce for Outlook does not work on Mac Office 2011 Outlook.
+
+But Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
+
+Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
+
+1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
+
+2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
+   Force.com MVPs in the Discussion Forum</a>
+
+3) Plan to be in San Francisco September 15—18, 2015 for the
+   <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
+   Dreamforce</a> user convention which includes a hackathon.
+   Vidoes sessions into YouTube.
+
+4) Salesforce Success Community https://success.salesforce.com/
+
+ * LinkedIn
+
+ * List of Meetups are at http://salesforce.meetup.com/all/
+    * https://success.salesforce.com/userGroups  
+    * https://seattlenpsf.wordpress.com/ is the Seattle Non-profit
+
+ * Stackoverflow
+
+ * Consultanting Partners
+
+ * Github repos
+
+  * http://careers.force.com/jobs for jobs inside Salesforce.
+ 
 
 
 ## <a name="Training"> Training</a>
@@ -296,39 +329,6 @@ here</a>.
 * Mavens Mate (Plugin on top of Sublime)
 
 
-## <a name="Social"> Social</a>
-Salesforce for Outlook does not work on Mac Office 2011 Outlook.
-
-But Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
-
-Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
-
-1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
-
-2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
-   Force.com MVPs in the Discussion Forum</a>
-
-3) Plan to be in San Francisco September 15—18, 2015 for the
-   <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
-   Dreamforce</a> user convention which includes a hackathon.
-   Vidoes sessions into YouTube.
-
-4) Salesforce Success Community https://success.salesforce.com/
-
- * LinkedIn
-
- * List of Meetups are at http://salesforce.meetup.com/all/
-    * https://success.salesforce.com/userGroups  
-    * https://seattlenpsf.wordpress.com/ is the Seattle Non-profit
-
- * Stackoverflow
-
- * Consultanting Partners
-
- * Github repos
-
-  * http://careers.force.com/jobs for jobs inside Salesforce.
- 
 
 ## <a name="BuildingBlocks"> App Building Blocks</a>
 User Interface:
