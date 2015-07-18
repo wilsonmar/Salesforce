@@ -181,6 +181,8 @@ https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
 ADM201 
 
+ADM211 Advanced Administrator Certification Prep 
+
 DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
 http://certification.salesforce.com/developers
 focuses on declarative configuration rather than programming.
@@ -233,7 +235,15 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
                                    Developer.salesforce.com = Developerforce.com</a>
   with email dev@developerforce.com
 
+
 ## <a name="Social"> Social Media</a>
+Among [Quizzes](https://quizlet.com/subject/salesforce/?sortBy=mostRecent):
+
+* https://quizlet.com/87010545/dev-401-all-flash-cards/ has over 1,000 items.
+* [Salesforce ADM 201 - Up through Spring '14 Release](
+https://quizlet.com/35268499/salesforce-adm-201-up-through-spring-14-release-flash-cards/)
+has over 300 items.
+
 Salesforce for Outlook does not work on Mac Office 2011 Outlook.
 
 But Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
