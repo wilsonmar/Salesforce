@@ -2,6 +2,15 @@ This is intended to be a hands-on guided introduction to Salesforce so experienc
 can get to know the offering deeply yet quickly.
 A work in progress.
 
+## <a name="Browsers"> Browsers</a>
+One of the distinctives about Salesforce is that it is SaaS,
+works completely over the public internet. This means users need to use internet browsers.
+Firefox
+
+DEVDOC: In [Supported Browsers](https://developer.salesforce.com/docs/atlas.en-us.salesforce_supported_browsers_cheatsheet.meta/salesforce_supported_browsers_cheatsheet/)
+some Internet Explorer support is limited. Firefox needs to be configured.
+
+
 ## <a name="Developer"> Developer Setup</a>
 
 1) Get a developer account from http://developer.salesforce.com/signup or http://sforce.co/WBtUN7
@@ -660,6 +669,8 @@ install pre-built apps and components right into your Salesforce environment.
 3) Click Get It Now.
 
 Read https://www.salesforce.com/form/conf/platform-appguide.jsp
+
+DOCUMENT: [Application Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.appExchangeInstallGuide.meta/appExchangeInstallGuide/)
 
 In 2015 Salesforce has 30M lines of code written by others via APPExchange.
 
