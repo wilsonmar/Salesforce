@@ -31,8 +31,7 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
   * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
     CRM (Customer Relationship Management) -- the company's stock market symbol --
     is categorized as a SaaS (Software as a Service)
-    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online provides
-    in a "multi-tenant" environment which serves many customers (tenants) on the same hardware.
+    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online.
     Salesforce also includes project management.
 
     http://www.salesforce.com/platform/overview/
@@ -184,14 +183,9 @@ Additionally, beta releases of Minimally Marketable Features (MMF) go out.
 So certification holders must keep taking tests to keep up.
  
 App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
+Adjust the number of colors in .gif or .jpg so they are under the 20kb size limit.
 
-Salesforce reportedly has 55,000 enterprise customers, 1.5 million individual subscribers, 
-
- 
-(Running on 1,000 machines, half of which are for redundancy. )[http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/]
-
-4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
-2 on-line and 2 off-line.
+[Running on 1,000 machines, half of which are for redundancy. ](http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/)
 
 
 ## <a name="DevDocs"> Developer Docs</a>
@@ -453,7 +447,7 @@ Metadata literally means data about data. Read https://developer.salesforce.com/
 A Salesforce <strong>Org</strong> (short for organization) is a 
 <strong>container</strong> for metadata that drives the dynamic engine (kernel).
 
-Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant Optimizer.”
+Salesforce’s secret sauce: It queries its databases with “The Multi-Tenant Optimizer”
 
 <strong>System objects</strong> are: User, Event, Activity, Task.
 
@@ -550,13 +544,15 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 3) Click the [+] at the right end of the menu.
 
-### <a name="Instances"> Instances</a>
+### <a name="Instances"> Instances among Orgs</a>
 
 4) After login, note the URL, such as `https://na31.salesforce.com/...`
 
-	The "na31" in this case is the <strong>instance</strong> identifier.
-	
-	Salesforece maintains 50 production instances used by about 8,000 customers each.
+	The "na31" in this case is the "multi-tenant" <strong>instance</strong> identifier
+	used by about 8,000 customers (tenants) each on the same hardware instance.
+
+	Salesforece maintains 50 production instances (potentially 400,000 orgs). Currently,
+	Salesforce reportedly has 55,000 enterprise customers and 1.5 million individual subscribers.
 
 5) Availability history of each instance is listed at
 	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
@@ -835,11 +831,18 @@ OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
 
-When you delete a custom object, Salesforce does not add it to the Recycle Bin. Instead, deleted objects appear in the Deleted Objects list for 15 days. During this time, the object and its data are soft deleted, meaning you can restore or permanently erase (hard delete) the object and its data. After 15 days, the object and its data are automatically hard deleted.
+OWD (Organization-Wide Defaults) ???
 
-Soft-deleted custom objects and their data count against your organization’s limits; hard-deleted items do not.
+When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
+Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>
+until it is automatically hard deleted.
+During an object's "soft deleted" time, it can be restored or permanently erased (hard deleted).
+
+Soft-deleted custom objects and their data still count against your organization’s limits; 
+hard-deleted items do not.
 
 See them in the Schema Browser.
+
 
 ## <a name="Search"> Search</a>
 Using Apache SOLR.
