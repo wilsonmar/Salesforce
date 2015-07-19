@@ -30,8 +30,65 @@ some Internet Explorer support is limited. Firefox needs to be configured.
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
  
+## <a name="LoginUI"> Salesforce Apps Login UI</a>
+1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
-### <a name="Keyboard"> Keyboard Shortcuts</a>
+The blue sausage (app selector) at the upper-right lists <strong>apps</strong>.
+An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
+2,700+ apps have been created by Salesforce partners.
+
+   A custom landing page can be configured for custom apps.
+
+2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
+
+   Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
+
+   A key differentiator with Salesforce is that, unlike menus on Mirosoft Office software, 
+   which has menu items focused on user actions such as Edit and Print,
+   Salesforce menu items are focused on <strong>information</strong> such as 
+   Opportunities and Contacts.
+
+3) Click the [+] at the right end of the menu.
+
+
+### <a name="Instances"> Instances among Orgs</a>
+
+4) After login, note the URL, such as `https://na31.salesforce.com/...`
+
+	The "na31" in this case is the "multi-tenant" <strong>instance</strong> identifier
+	used by about 8,000 customers (tenants) each on the same hardware instance.
+
+	Salesforece maintains 50 production instances (potentially 400,000 orgs). Currently,
+	Salesforce reportedly has 55,000 enterprise customers and 1.5 million individual subscribers.
+
+5) Availability history of each instance is listed at
+	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
+	http://www.trust.salesforce.com/trust/instances</a>
+
+6) The mobile version of instance na31 is at URL:
+
+	https://na31.salesforce.com/one/one.app
+
+7) Click the "pancake" / "hamburger" icon at the upper left.
+
+8) Click "Show more".
+
+   The One UI is more similar to Apple in confirmation icons at the upper right
+   and go back/cancel icons on the upper left.
+
+   MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
+   https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
+  
+
+## <a name="Redundancy"> Redundancy</a>
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
+2 on-line and 2 off-line.
+
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
+<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+
+
+### <a name="Keyboard"> Most Common UI Actions and Keyboard Shortcuts</a>
 Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
 However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
 https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
@@ -39,8 +96,40 @@ https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkdd
 The list of hotkeys is <a target="_blank" href="https://docs.google.com/spreadsheets/d/1GPO0dmEkSjodrUaF_rN_ZuErBfbRfid3_zItAQc5sus/pubhtml?gid=1040039296&single=true">
 here</a>.
 
+CTRL + ALT/Option is used to select tabs:
 
- 
+   * G = List view
+   * R = Reports
+
+CTRL + SHIFT + F or META + SHIFT + F keys are used to Find text in the Search box.
+
+CTRL + SHIFT or META + SHIFT keys are used to select <strong>Create New</strong>:
+
+   * A = Account
+   * C = Contact
+   * O = Opportunity
+   * L = Lead
+
+The other standard objects that are the bread-and-butter data Salesforce CRM was built to handle:
+
+   * ? = Case
+   * ? = Solution
+   * ? = Campaign
+
+Additionally:
+
+   * R = Report
+   * T = Task
+   * E = Event
+   * S = Suggestion
+
+CTRL + key within a dialog:
+
+   * E = Edit
+   * S = Save
+   * Q = Quit / Cancel
+
+
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
 At http://www.salesforce.com/crm/editions-pricing.jsp
    note DE has Enterprise capabilities, more powerful than the Professional Edition.
@@ -218,9 +307,8 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
 ## <a name="DevDocs"> Developer Docs</a>
 1) <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/">
    Force.com Platform Fundamentals</a> is the "Bible" for Salesforce certification questions.
-   It has "Try it" hands-on exercises.
-   The January 2015 version 9 contains 402 pages.
-
+   It has "Try it" hands-on exercises to develop a Recruitment app.
+   The January 2015 version 9 online contains 402 pages.
 
 * <a target="_blank" href="https://help.salesforce.com/apex/HTViewHelpDoc?id=glossary.htm">
  Glossary</a> of terms.
@@ -553,60 +641,6 @@ a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
 
 In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
-
-## <a name="LoginUI"> Salesforce Apps Login UI</a>
-1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
-
-The blue sausage (app selector) at the upper right lists <strong>apps</strong>.
-An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
-2,700+ apps have been created by Salesforce partners.
-
-2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
-
-   Each app has a different set of menu tabs going across the screen, beginning with <strong>Home</strong>
-
-   A key differentiator with Salesforce is that, unlike menus on Mirosoft Office software, 
-   which has menu items focused on user actions such as Edit and Print,
-   Salesforce menu items are focused on <strong>information</strong> such as 
-   Opportunities and Contacts.
-
-3) Click the [+] at the right end of the menu.
-
-### <a name="Instances"> Instances among Orgs</a>
-
-4) After login, note the URL, such as `https://na31.salesforce.com/...`
-
-	The "na31" in this case is the "multi-tenant" <strong>instance</strong> identifier
-	used by about 8,000 customers (tenants) each on the same hardware instance.
-
-	Salesforece maintains 50 production instances (potentially 400,000 orgs). Currently,
-	Salesforce reportedly has 55,000 enterprise customers and 1.5 million individual subscribers.
-
-5) Availability history of each instance is listed at
-	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
-	http://www.trust.salesforce.com/trust/instances</a>
-
-6) The mobile version of instance na31 is at URL:
-
-	https://na31.salesforce.com/one/one.app
-
-7) Click the "pancake" / "hamburger" icon at the upper left.
-
-8) Click "Show more".
-
-   The One UI is more similar to Apple in confirmation icons at the upper right
-   and go back/cancel icons on the upper left.
-
-   MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
-   https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
-  
-
-## <a name="Redundancy"> Redundancy</a>
-4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
-2 on-line and 2 off-line.
-
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
-<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
 
 
