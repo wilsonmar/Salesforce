@@ -2,11 +2,19 @@
 <img align="right" src="https://cloud.githubusercontent.com/assets/300046/8766647/6285ae7e-2dfe-11e5-9a39-7cdf5473e14b.png" /></a>
 This is intended to be a hands-on guided introduction such that experience developers new to Salesforce 
 can get to know the offering deeply yet quickly.
-A work in progress. QUESTION: and ??? mark where I need input.
 
-Pull requests are sought for this, and very appreciated.
+This is a living document and will continue to be updated with more helpful information and examples as they become available.
+QUESTION: and ??? mark where I need input.
 
+## <a name="HowToContribute"> How to Contribute</a>
 
+[I welcome you to contribute on GitHub](https://github.com/wilsonmar/Salesforce). When this is changed, changes will be [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wilsonmar/Salesforce/activity).
+
+Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
+
+## <a name="License"> License</a>
+
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
 
 
 ## <a name="Browsers"> Browsers</a>
