@@ -37,6 +37,15 @@ The blue sausage (app selector) at the upper-right lists <strong>apps</strong>.
 An app is a group of tabs that work as a unit to provide functionality. Users can switch between apps using the Force.com app drop-down menu at the top-right corner of every page.
 2,700+ apps have been created by Salesforce partners.
 
+   Standard apps:
+
+   * Call Center
+   * Community
+   * Content
+   * Marketing
+   * Sales
+   * Salesforce Center
+
    A custom landing page can be configured for custom apps.
 
 2) Clicking on a menu item displays on the <strong>main window</strong> in the middle of the screen.
@@ -105,10 +114,10 @@ CTRL + SHIFT + F or META + SHIFT + F keys are used to Find text in the Search bo
 
 CTRL + SHIFT or META + SHIFT keys are used to select <strong>Create New</strong>:
 
-   * A = Account
-   * C = Contact
-   * O = Opportunity
-   * L = Lead
+   * A = Account (with related contacts, opportunities, and cases)
+   * C = Contact (of individual people)
+   * O = Opportunity (associated with a Contact in an Account with potential sales)
+   * L = Lead (associated with campaigns)
 
 The other standard objects that are the bread-and-butter data Salesforce CRM was built to handle:
 
@@ -128,6 +137,19 @@ CTRL + key within a dialog:
    * E = Edit
    * S = Save
    * Q = Quit / Cancel
+
+Up to 10 Recent Items are displayed.
+
+### <a name="RecycleBin"> Recycle Bin</a>
+When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
+Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>
+until it is automatically hard deleted.
+During an object's "soft deleted" time, it can be restored or permanently erased (hard deleted).
+
+Soft-deleted custom objects and their data still count against your organization’s limits; 
+hard-deleted items do not.
+
+See them in the Schema Browser.
 
 
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
@@ -643,6 +665,17 @@ In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
 
 
+## <a name="Defaults"> Global Settings Defaults</a>
+OWD (Organization-Wide Defaults)
+
+A Locale selection determine how dates, time, numbers, names are displayed, 
+based on Language, Locale, Time Zone.
+
+* Company Profile
+* UI Settings
+* Calendar Settings
+* Search Settings
+* Chatter
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
@@ -912,17 +945,8 @@ OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
 
-OWD (Organization-Wide Defaults) ???
 
-When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
-Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>
-until it is automatically hard deleted.
-During an object's "soft deleted" time, it can be restored or permanently erased (hard deleted).
 
-Soft-deleted custom objects and their data still count against your organization’s limits; 
-hard-deleted items do not.
-
-See them in the Schema Browser.
 
 
 ## <a name="Search"> Search</a>
