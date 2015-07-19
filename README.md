@@ -64,11 +64,11 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 4) After login, note the URL, such as `https://na31.salesforce.com/...`
 
-	The "na31" in this case is the "multi-tenant" <strong>instance</strong> identifier
-	used by about 8,000 customers (tenants) each on the same hardware instance.
+   The "na31" in this case is the "multi-tenant" <strong>instance</strong> identifier
+   used by about 8,000 customers (tenants) each on the same hardware instance.
 
-	Salesforece maintains 50 production instances (potentially 400,000 orgs). Currently,
-	Salesforce reportedly has 55,000 enterprise customers and 1.5 million individual subscribers.
+   Salesforece maintains 50 production instances (potentially 400,000 orgs). Currently,
+   Salesforce reportedly has 55,000 enterprise customers and 1.5 million individual subscribers.
 
 5) Availability history of each instance is listed at
 	<a target="_blank" href="http://www.trust.salesforce.com/trust/instances">
