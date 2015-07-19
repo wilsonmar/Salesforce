@@ -30,7 +30,7 @@ some Internet Explorer support is limited. Firefox needs to be configured.
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
  
-## <a name="LoginUI"> Salesforce Apps Login UI</a>
+## <a name="LoginUI"> Salesforce Home UI</a>
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
 The blue sausage (app selector) at the upper-right lists <strong>apps</strong>.
@@ -89,12 +89,19 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
    https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
   
 
-## <a name="Redundancy"> Redundancy</a>
+### <a name="Redundancy"> Redundancy</a>
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
 2 on-line and 2 off-line.
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+
+
+## <a name="UI"> Standard UI Declarative</a>
+Collapsable Sidebar can be enabled to reduce horizonal scrolling.
+
+1) Create a new page layout for the Contacts object.
+
 
 
 ### <a name="Keyboard"> Most Common UI Actions and Keyboard Shortcuts</a>
@@ -140,6 +147,7 @@ CTRL + key within a dialog:
 
 Up to 10 Recent Items are displayed.
 
+
 ### <a name="RecycleBin"> Recycle Bin</a>
 When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
 Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>
@@ -158,14 +166,23 @@ At http://www.salesforce.com/crm/editions-pricing.jsp
 
 Salesforce as a company has several offerings (all SaaS in the cloud):
 
-  * <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
+* <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
     CRM (Customer Relationship Management) -- the company's stock market symbol --
     is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online.
     Salesforce also includes project management.
 
-    http://www.salesforce.com/platform/overview/
-    
+   http://www.salesforce.com/platform/overview/
+   
+   There are separate <strong>feature licenses</strong>
+  
+   * Marketing User
+   * Apex Mobile User
+   * Salesforce CRM Content User
+   * Force.com Flow User
+  
+Other businesses:
+
    * Service Cloud - Sales force automation and CRM
    * Sales Cloud - Complete CRM customer service solutions
    * Marketing Cloud - Build and manage 1:1 customer journeys.
@@ -177,9 +194,9 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
     "Salesforce1" is the brand name to emphasize that mobile capabilities are automatically provided
     when apps are created.
 
-   * Data.com - B2B prospecting and data cleansing
-   * Pardot - B2B marketing automation
-   * Desk.com - Customer support for small business
+  * Data.com - B2B prospecting and data cleansing
+  * Pardot - B2B marketing automation
+  * Desk.com - Customer support for small business
 
   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
   
@@ -280,26 +297,26 @@ Technologically:
 
 
 ## <a name="SkillCerts"> Skill Certification</a>
-
-There are technical jobs:
-  * Administrator
-  * Developer (which includes database administrators)
-  * Certified Technical Architect
-
 Register for certification tests at 
 https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
 
-ADM201 
+For Administrators:
 
-ADM211 Advanced Administrator Certification Prep 
+* ADM201 
 
-DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
+* ADM211 Advanced Administrator Certification
+
+For Developers (which includes database administrators):
+
+* DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
 http://certification.salesforce.com/developers
 focuses on declarative configuration rather than programming.
 
-DEV501 involves Apex coding
+* DEV501 involves Apex coding
 
-Solution architect
+For Solution Architects:
+
+* Certified Technical Architect
 
 
 ## <a name="VersionChangeMgmt"> Version Change Management</a>
@@ -417,6 +434,7 @@ http://www.salesforce.com/services-training/training_certification/training.jsp
 http://www.shellblack.com/administration/how-to/
 lists many admin videos
 
+
 ### <a name="ConfApp"> Build Conference App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
@@ -447,7 +465,7 @@ Advanced Developer Workshop</a> generated from
 a github repo</a>.
 
 
-## <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
+### <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
 
 Force.com Platform - The Big Picture
@@ -460,14 +478,6 @@ Force.com for .NET Developers
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-dotnet-developers">
 1h 37m 25 Feb 2013 video</a>
 by Dan Appleman, author of http://advancedapex.com/
-
-
-## <a name="DevTools"> Dev Tools</a>
-* <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
-* Force CLI
-* Force.com IDE (Plugin on top of Eclipse)
-* Mavens Mate (Plugin on top of Sublime)
-
 
 
 ## <a name="BuildingBlocks"> App Building Blocks</a>
@@ -491,18 +501,6 @@ Data Model:
 	* Relationships
 
 
-## <a name="MobileApps"> Mobile Apps</a>
-The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
-See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
-
-  * Mobile apps for iOS | Android
-      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
-      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
-
-WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK)
-by Akhilesh Gupta
-
-
 ## <a name="EntityTypes"> App Entity Types</a>
 Code managed by the Developer Console must be within one of these Entity Types:
 
@@ -517,8 +515,57 @@ Code managed by the Developer Console must be within one of these Entity Types:
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png">
 <img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
+
+## <a name="ArchStack"> Force.com Architectural Stack</a>
+<a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
+Various Architecture Diagrams</a>
+
+  * View layer for UI
+  * Controller / APIs (for external programmatic access)
+  * Application Logic
+  * Database
+  * Infrastructure
+
+All these are involved in each cross-cutting service.
+## <a name="ArchServices"> Force.com cross-cutting Services</a>
+3:19
+
+ * Metadata Driven Functionality
+ * Declarative Customization
+ * Programmatic Customization (APEX and VisualForce)
+ * User Authentication and Authorization
+ * Multi-Featured (Sales and Service Cloud CRM)
+ * Social Networking (Chatter)
+ * Messaging and Notifications (Email Services, Outbound Messages)
+ * Monitoring and Logging
+ * Polymorphic Behavior
+ * Memory Management
+ * Metadata Synchronization
+ * Transactional Data Persistence
+
+
+## <a name="DevTools"> Dev Tools</a>
+* <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
+* Force CLI
+* Force.com IDE plugin on top of Eclipse
+* Mavens Mate plugin on top of SublimeText
+
 ## <a name="ApexCoding"> Apex Coding</a>
 [Force.com Apex Code Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
+
+
+
+## <a name="MobileApps"> Mobile Apps</a>
+The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
+See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
+
+  * Mobile apps for iOS | Android
+      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
+      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
+
+WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK)
+by Akhilesh Gupta
+
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
 Visualforce coding is much like Ruby on Rails and Django.
@@ -609,33 +656,6 @@ An object can have up to 3 external ID fields.
 External IDs (not case-sensitive) are used with upsert command to prevent duplication during import.
 But external IDs can only be data type number, unencrypted text, email (not phone).
 
-## <a name="ArchStack"> Force.com Architectural Stack</a>
-<a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
-Various Architecture Diagrams</a>
-
-  * View layer for UI
-  * Controller / APIs (for external programmatic access)
-  * Application Lobic
-  * Database
-  * Infrastructure
-
-All these are involved in each cross-cutting services.
-
-## <a name="ArchServices"> Force.com cross-cutting Services</a>
-3:19
-
- * Metadata Driven Functionality
- * Declarative Customization
- * Programmatic Customization (APEX and VisualForce)
- * User Authentication and Authorization
- * Multi-Featured (Sales and Service Cloud CRM)
- * Social Networking (Chatter)
- * Messaging and Notifications (Email Services, Outbound Messages)
- * Monitoring and Logging
- * Polymorphic Behavior
- * Memory Management
- * Metadata Synchronization
- * Transactional Data Persistence
 
 ## <a name="ControllerExtension"> Controller Extension</a>
 
@@ -666,7 +686,7 @@ filtering execution logs for just USER_DEBUG events.
 
 
 ## <a name="Defaults"> Global Settings Defaults</a>
-OWD (Organization-Wide Defaults)
+OWD (Organization-Wide Defaults), such as Fiscal Year start date, Record Currency.
 
 A Locale selection determine how dates, time, numbers, names are displayed, 
 based on Language, Locale, Time Zone.
@@ -676,6 +696,7 @@ based on Language, Locale, Time Zone.
 * Calendar Settings
 * Search Settings
 * Chatter
+
 
 ## <a name="UserSetup"> One-time User Setup</a>
 1) Click Setup at the upper-right corner.
@@ -823,7 +844,6 @@ SELECT Id, Name, Phone, Account.Name
        LIMIT 50
 ```
 
-
 For a master-detail example:
 
 ```
@@ -846,6 +866,7 @@ Other Languages:
 
 * Salesforce Object Search Language (SOSL) 
 * Salesforce Analytics Search Language (SASL)
+
 
 ## <a name="DML"> DML</a>
 Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
@@ -945,11 +966,17 @@ OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
 
+## <a name="Chatter"> Chatter</a>
+Chatter History maintains 72 hours of feeds.
 
-
+A Chatter group has only one owner but can have many managers.
 
 
 ## <a name="Search"> Search</a>
+Lists return 25 by default. But 5 - 50 can be set.
+
+There is a maximum of 10 columns (fields)
+
 Using Apache SOLR.
 
 Salesforce is basically implementing Track (the ability to search and monitor conversations by keyword and topic) 
