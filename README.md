@@ -29,8 +29,9 @@ some Internet Explorer support is limited. Firefox needs to be configured.
  3) Turn on Developer from Setup | Personal Information. Click Edit. Scroll to click
  <strong>Development Mode</strong> and <strong>Show View State in Development Mode</strong>.
  Save.
- 
-## <a name="LoginUI"> Salesforce Home UI</a>
+
+
+## <a name="LoginUI"> Salesforce User Home UI</a>
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
 The blue sausage (app selector) at the upper-right lists <strong>apps</strong>.
