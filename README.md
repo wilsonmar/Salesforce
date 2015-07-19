@@ -12,6 +12,10 @@ Firefox
 DEVDOC: In [Supported Browsers](https://developer.salesforce.com/docs/atlas.en-us.salesforce_supported_browsers_cheatsheet.meta/salesforce_supported_browsers_cheatsheet/)
 some Internet Explorer support is limited. Firefox needs to be configured.
 
+In 2014 Salesforce announced Superpod, offering on HP servers Salesforce will maintain as a dedicated offering
+for "the largest of the world's largest enterprises" such as the US FDA.
+
+Salesforce has 15 compute pods distributed across its global datacenters to run its entire operation.
 
 ## <a name="Developer"> Developer Setup</a>
 
