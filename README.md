@@ -102,7 +102,11 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 
 ## <a name="OrgDefaults"> Corporate Global Settings Defaults</a>
-OWD (Organization-Wide Defaults), such as Fiscal Year start date, Record Currency.
+To set <strong>OWD (Organization-Wide Defaults)</strong>, such as Fiscal Year start date, Record Currency.
+
+1) Click Setup at the upper-right corner.
+
+2) 
 
 A Locale selection determine how dates, time, numbers, names are displayed, 
 based on Language, Locale, Time Zone.
