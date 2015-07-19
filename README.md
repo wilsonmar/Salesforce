@@ -238,6 +238,7 @@ Here is why you want to spend time on this.
 
 Strong and growing.
   * Salesforce Growth rate 35% year-over-year
+  * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
   * Salesforce is not cheap: thousands of dollars per month
   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
   * Microsoft's $50 billion offer was rejected.
@@ -699,6 +700,15 @@ based on Language, Locale, Time Zone.
 
 
 ## <a name="UserSetup"> One-time User Setup</a>
+The 6 standard profiles of permissions:
+
+* Administrator
+* Solution Manager
+* Read Only
+* Standard User
+* Marketing User
+* Contract Manager
+
 1) Click Setup at the upper-right corner.
 
 	Selections in the left-menu is organized into Administer, Build, Deploy, and Monitor.
