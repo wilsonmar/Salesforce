@@ -96,6 +96,48 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
+* https://en.wikipedia.org/wiki/Oracle_Data_Guard
+* https://en.wikipedia.org/wiki/Oracle_RAC
+
+
+## <a name="OrgDefaults"> Corporate Global Settings Defaults</a>
+OWD (Organization-Wide Defaults), such as Fiscal Year start date, Record Currency.
+
+A Locale selection determine how dates, time, numbers, names are displayed, 
+based on Language, Locale, Time Zone.
+
+* Company Profile
+* UI Settings
+* Calendar Settings
+* Search Settings
+* Chatter
+
+
+## <a name="UserSetup"> One-time User Setup</a>
+The 6 standard profiles of permissions:
+
+* Administrator
+* Solution Manager
+* Read Only
+* Standard User
+* Marketing User
+* Contract Manager
+
+1) Click Setup at the upper-right corner.
+
+	Selections in the left-menu is organized into Administer, Build, Deploy, and Monitor.
+
+[Setup video](https://www.youtube.com/watch?t=19&v=uM9Nli7xpEM)
+
+1) [__] Setup verification to mobile phone.
+
+2) [__] Setttings: Personal: Language & Time Zone.
+
+3) [__] Add a photo of yourself https://na31.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed
+
+4) [__] Setttings: Personal: Advanced User Details: Use a token generated from an authenticator app on your mobile device.
+   https://play.google.com/store/apps/details?id=com.salesforce.authenticator
+   
 
 ## <a name="UI"> Standard UI Declarative</a>
 Collapsable Sidebar can be enabled to reduce horizonal scrolling.
@@ -686,44 +728,6 @@ In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
 
 
-## <a name="Defaults"> Global Settings Defaults</a>
-OWD (Organization-Wide Defaults), such as Fiscal Year start date, Record Currency.
-
-A Locale selection determine how dates, time, numbers, names are displayed, 
-based on Language, Locale, Time Zone.
-
-* Company Profile
-* UI Settings
-* Calendar Settings
-* Search Settings
-* Chatter
-
-
-## <a name="UserSetup"> One-time User Setup</a>
-The 6 standard profiles of permissions:
-
-* Administrator
-* Solution Manager
-* Read Only
-* Standard User
-* Marketing User
-* Contract Manager
-
-1) Click Setup at the upper-right corner.
-
-	Selections in the left-menu is organized into Administer, Build, Deploy, and Monitor.
-
-[Setup video](https://www.youtube.com/watch?t=19&v=uM9Nli7xpEM)
-
-1) [__] Setup verification to mobile phone.
-
-2) [__] Setttings: Personal: Language & Time Zone.
-
-3) [__] Add a photo of yourself https://na31.salesforce.com/_ui/core/userprofile/UserProfilePage?tab=sfdc.ProfilePlatformFeed
-
-4) [__] Setttings: Personal: Advanced User Details: Use a token generated from an authenticator app on your mobile device.
-   https://play.google.com/store/apps/details?id=com.salesforce.authenticator
-   
    
 ## <a name="APIs"> APIs</a>
 From https://developer.salesforce.com/page/Salesforce_APIs
