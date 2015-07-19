@@ -1,4 +1,4 @@
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8766647/6285ae7e-2dfe-11e5-9a39-7cdf5473e14b.png" title="salesforce_logo_2015_218x218">
+<a target="_blank" href="http://www.salesforce.com/" title="salesforce_logo_2015_218x218">
 <img align="right" src="https://cloud.githubusercontent.com/assets/300046/8766647/6285ae7e-2dfe-11e5-9a39-7cdf5473e14b.png" /></a>
 This is intended to be a hands-on guided introduction such that experience developers new to Salesforce 
 can get to know the offering deeply yet quickly.
