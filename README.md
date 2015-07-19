@@ -19,9 +19,10 @@ Editing the book can be done either by updating the markdown files with a text e
 
 
 ## <a name="Browsers"> Browsers</a>
-One of the distinctives about Salesforce is that it is SaaS,
-works completely over the public internet. This means users need to use internet browsers.
-Firefox
+One of the distinctives about Salesforce is that it works completely over the public internet. 
+
+This means users need to use internet browsers: 
+Internet Explorer that comes with Windows or Firefox and Chrome installed by users.
 
 DEVDOC: In [Supported Browsers](https://developer.salesforce.com/docs/atlas.en-us.salesforce_supported_browsers_cheatsheet.meta/salesforce_supported_browsers_cheatsheet/)
 some Internet Explorer support is limited. Firefox needs to be configured.
