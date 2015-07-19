@@ -281,10 +281,11 @@ BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
 
 
 ## <a name="LaborDemand"> Labor Demand</a>
-Here is why you want to spend time on this.
+Here is why you want to spend time on Salesforce.
 
-Strong and growing.
-  * Salesforce Growth rate 35% year-over-year
+The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
+![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
+
   * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
   * Salesforce is not cheap: thousands of dollars per month
   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
