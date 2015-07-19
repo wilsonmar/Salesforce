@@ -8,7 +8,8 @@ QUESTION: and ??? mark where I need input.
 
 ## <a name="HowToContribute"> How to Contribute</a>
 
-[I welcome you to contribute on GitHub](https://github.com/wilsonmar/Salesforce). When this is changed, changes will be [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wilsonmar/Salesforce/activity).
+I welcome you to contribute on this GitHub https://github.com/wilsonmar/Salesforce. When this repo is changed, 
+changes are [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wilsonmar/Salesforce/activity).
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
 
