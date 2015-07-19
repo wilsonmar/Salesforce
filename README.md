@@ -315,7 +315,8 @@ The company has seen a growth rate of 35% year-over-year unrivaled in the stock 
   * Microsoft's $50 billion offer was rejected.
   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
 
-Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle.
+Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
+which tends to impose industry-specific workflows on implementations.
 So you're not as much forced to work for large consulting firms living out of hotels. 
 
 DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
@@ -728,6 +729,8 @@ An object can have up to 3 external ID fields.
 External IDs (not case-sensitive) are used with upsert command to prevent duplication during import.
 But external IDs can only be data type number, unencrypted text, email (not phone).
 
+WEBINAR: [Encrypt Sensitive Data while Preserving Platform Functionality](https://www.youtube.com/watch?v=pXGYWYoe40E)
+with Salesforce Shield bundling "encryption as a service" features using customer-managed keys.
 
 ## <a name="ControllerExtension"> Controller Extension</a>
 
