@@ -2,7 +2,12 @@
 <img align="right" src="https://cloud.githubusercontent.com/assets/300046/8766647/6285ae7e-2dfe-11e5-9a39-7cdf5473e14b.png" /></a>
 This is intended to be a hands-on guided introduction such that experience developers new to Salesforce 
 can get to know the offering deeply yet quickly.
-A work in progress.
+A work in progress. QUESTION: and ??? mark where I need input.
+
+Pull requests are sought for this, and very appreciated.
+
+
+
 
 ## <a name="Browsers"> Browsers</a>
 One of the distinctives about Salesforce is that it is SaaS,
@@ -95,6 +100,8 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
    MORE READING: Salesforce1 Mobile Basics > Getting Started with the Salesforce1 Mobile App
    https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
   
+* https://github.com/forcedotcom/SalesforceMobileSDK-Android
+
 
 ### <a name="Redundancy"> Redundancy</a>
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 
@@ -1008,9 +1015,6 @@ Using Apache SOLR.
 Salesforce is basically implementing Track (the ability to search and monitor conversations by keyword and topic) 
 
 
-## <a name="Github"> Github</a>
-	https://github.com/forcedotcom/SalesforceMobileSDK-Android
-
 Create forms and page layouts using drag-and-drop tools in the <strong>Page Layout editor</strong>.
 
 
@@ -1038,4 +1042,37 @@ Force.com mobile SDK for iOS applications</a>
 
 https://github.com/owainlewis/salesforce
 
+
+## <a name="Testing"> Testing</a>
+Salesforce does not allow an app to deploy from a sandbox into production unless there is at least 75% coverage by tests.
+
+Any modification of Apex code requires rerun of tests to refresh code coverage results.
+Salesforce also runs all tests before each major service upgrade and release to makes sure that no behavior in custom code has been altered as a result of any service upgrades.
+
+Decorating test code with `@IsTest` instead of the testMethod keyword allows parameters to be specified.
+
+TUTORIAL: https://developer.salesforce.com/trailhead/module/apex_testing
+on the Apex testing framework providea example.
+
+```
+@isTest
+private class MyTestClass {
+    @isTest static void myTest() {
+        // code_block
+    }
+}
+```
+
+There is usually more test code lines for coverage of various state/conditions.
+
+* testWarmTemp of 70
+* testFreezingPoint of 32
+* testBoilingPoint of 212
+* testNegativeTemp of -10
+
+
+public classes are used in test data factory.
+
+# <a name="WorkWithMe"> Work with me</a>
+I am interested into automatic generation of test code. 
 
