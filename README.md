@@ -1102,6 +1102,13 @@ public classes are used in test data factory.
 
 Test methods cannot send emails or call external services, only use mock callouts in tests.
 
+Use the System.Test.loadData() with static resource (such as a CSV file).
+PROTIP: Include the System. prefix in case a local Test class is created, which would cause test failure.
+
+```
+List<Contact> contacts = PrepareTestData.
+```
+
 SOSL searches performed in a test return empty results. To ensure predictable results, you can use Test.setFixedSearchResults() to define the records to be returned by the search. 
 
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
