@@ -721,16 +721,20 @@ https://help.salesforce.com/HTViewHelpDoc?id=custom_field_types.htm&language=en_
 
 Use data type <strong>Text(encrypted)</strong> for credit card numbers and national ID such as US social security numbers.
 To keep users from editing:
-* Validation Rules
-* Field-level Security
-* Page Layout Settings
+
+   * Validation Rules
+   * Field-level Security
+   * Page Layout Settings
 
 An object can have up to 3 external ID fields.
 External IDs (not case-sensitive) are used with upsert command to prevent duplication during import.
 But external IDs can only be data type number, unencrypted text, email (not phone).
 
 WEBINAR: [Encrypt Sensitive Data while Preserving Platform Functionality](https://www.youtube.com/watch?v=pXGYWYoe40E)
-with Salesforce Shield bundling "encryption as a service" features using customer-managed keys.
+with Salesforce Summer '15 Shield "encryption as a service" feature bundle using customer-managed keys
+stored in the new TenantSecret sObject.
+This requires additional licensing.
+
 
 ## <a name="ControllerExtension"> Controller Extension</a>
 
