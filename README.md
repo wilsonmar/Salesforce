@@ -1099,6 +1099,11 @@ Tests should also cover null values.
 
 public classes are used in test data factory.
 
+Test methods cannot send emails or call external services, only use mock callouts in tests.
+
+SOSL searches performed in a test return empty results. To ensure predictable results, you can use Test.setFixedSearchResults() to define the records to be returned by the search. 
+
+
 # <a name="WorkWithMe"> Work with me</a>
 I am interested into automatic generation of test code. 
 
