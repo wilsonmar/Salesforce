@@ -541,7 +541,7 @@ Advanced Developer Workshop</a> generated from
 a github repo</a>.
 
 
-### <a name="PluralsightTutorials"> Pluralsight Tutorials</a>
+### <a name="sightTutorials"> Pluralsight Tutorials</a>
 As of this writing, video tutorials at Pluralsight are rather dated:
 
 Force.com Platform - The Big Picture
@@ -1071,10 +1071,11 @@ Salesforce does not allow an app to deploy from a sandbox into production unless
 Any modification of Apex code requires rerun of tests to refresh code coverage results.
 Salesforce also runs all tests before each major service upgrade and release to makes sure that no behavior in custom code has been altered as a result of any service upgrades.
 
-Tests are constructed in the <strong>Developer Console</strong> | File | New Apex Class.
+Test classes don’t count toward the 3 MB maximum of Apex code in each org.
+
+So construct test code in separate class file in the <strong>Developer Console</strong> | File | New Apex Class.
 
 Decorating test code with `@IsTest` instead of the testMethod keyword allows parameters to be specified.
-Test classes don’t count toward the 3 MB maximum of Apex code in each org.
 
 TUTORIAL: https://developer.salesforce.com/trailhead/module/apex_testing
 on the Apex testing framework providea example.
@@ -1102,6 +1103,9 @@ public classes are used in test data factory.
 Test methods cannot send emails or call external services, only use mock callouts in tests.
 
 SOSL searches performed in a test return empty results. To ensure predictable results, you can use Test.setFixedSearchResults() to define the records to be returned by the search. 
+
+<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
+Force.com Design Patterns, Part 2</a> 
 
 
 # <a name="WorkWithMe"> Work with me</a>
