@@ -151,7 +151,7 @@ The 6 standard profiles of permissions:
 * Marketing User
 * Contract Manager
 
-Permission sets grants additional permissions without changing user profiles.
+Up to 1000 Permission sets per org can be setup to grant additional permissions without changing user profiles.
 
 
 1) Click Setup at the upper-right corner.
