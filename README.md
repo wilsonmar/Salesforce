@@ -151,6 +151,9 @@ The 6 standard profiles of permissions:
 * Marketing User
 * Contract Manager
 
+Permission sets grants additional permissions without changing user profiles.
+
+
 1) Click Setup at the upper-right corner.
 
 	Selections in the left-menu is organized into Administer, Build, Deploy, and Monitor.
@@ -775,6 +778,8 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 </li><li> <a href="/page/Tooling_API" title="Tooling API">Tooling API</a> - Build custom development tools for Force.com applications. Coming soon!
 
 </li><li> <a href="/page/Chatter_API" title="Chatter API">Chatter REST API</a> - Access Chatter feeds and social data such as users, groups, followers, and files using REST.
+
+   Each org Salesforce provides 5,000 Chatter Free licenses.
 
 </li><li> <a href="/page/Bulk_API" title="Bulk API">Bulk API</a> - Load or delete large numbers of records.
 
