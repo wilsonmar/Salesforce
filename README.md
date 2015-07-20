@@ -1071,7 +1071,10 @@ Salesforce does not allow an app to deploy from a sandbox into production unless
 Any modification of Apex code requires rerun of tests to refresh code coverage results.
 Salesforce also runs all tests before each major service upgrade and release to makes sure that no behavior in custom code has been altered as a result of any service upgrades.
 
+Tests are constructed in the <strong>Developer Console</strong> | File | New Apex Class.
+
 Decorating test code with `@IsTest` instead of the testMethod keyword allows parameters to be specified.
+Test classes don’t count toward the 3 MB maximum of Apex code in each org.
 
 TUTORIAL: https://developer.salesforce.com/trailhead/module/apex_testing
 on the Apex testing framework providea example.
@@ -1092,6 +1095,7 @@ There is usually more test code lines for coverage of various state/conditions.
 * testBoilingPoint of 212
 * testNegativeTemp of -10
 
+Tests should also cover null values.
 
 public classes are used in test data factory.
 
