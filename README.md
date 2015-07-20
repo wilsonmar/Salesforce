@@ -530,6 +530,11 @@ a github repo</a> that contains http://goratchet.com/ CSS library
 and ForceTK (https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit)
 to integrate with Salesforce.
 
+Visualforce includes its own ExtJS JavaScript library.
+
+Apex remoting forms an async parametized bridge between JavaScript and Apex.
+
+
 ### <a name="SuggestionApp"> Build Suggestion Box App</a>
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/suggestion_box">
 Build a Suggestion Box</a> shows how to create reports and dashboards.
@@ -568,7 +573,7 @@ Business Logic:
 
 	* Workflow
 	* Validation Rules
-	* Formula
+	* <a href="#Formulas">Formula</a>
 
 Data Model:
 
@@ -759,6 +764,7 @@ public with sharing class SpeakerControllerExtension {
 }
 ```
 
+### <a name="Formulas"> Formulas</a>
 To access a graphic image, you need to create two data types:
 One is a 255-length text field namee Picture_path which is referenced by
 a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
@@ -766,7 +772,13 @@ a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
 In the Developer Console, see run output to `System.Debug('Hello');` by
 filtering execution logs for just USER_DEBUG events.
 
+* IsChanged(Field) is based on whether the specific field value has changed.
+* PrioValue(Field) allows access to previous vale of the field.
+* IsNew() checks for create v/s update action.
 
+For more about formula fields:
+
+* https://developer.salesforce.com/page/An_Introduction_to_Formulas * https://help.salesforce.com/HTViewHelpDoc?id=useful_advanced_formulas.htm&language=en_US
    
 ## <a name="APIs"> APIs</a>
 From https://developer.salesforce.com/page/Salesforce_APIs
@@ -1063,6 +1075,13 @@ Most starred (and forked) public Github library for salesforce</a> is
 Force.com mobile SDK for iOS applications</a>
 
 https://github.com/owainlewis/salesforce
+
+
+
+## <a name="TestData"> Test Data</a>
+Each object is assigned an 18 character identifier for API transaction.
+
+Each object is assigned a 15 character identifier for internal reporting and data loading.
 
 
 ## <a name="Testing"> Testing</a>
