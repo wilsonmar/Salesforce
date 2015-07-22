@@ -1130,6 +1130,7 @@ List<Contact> contacts = PrepareTestData.
 
 SOSL searches performed in a test return empty results. To ensure predictable results, you can use Test.setFixedSearchResults() to define the records to be returned by the search. 
 
+https://www.iridize.com/ provides customized on-boarding guides based on specific workflows on Salesforce and other apps.
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
 Force.com Design Patterns, Part 2</a> 
 
