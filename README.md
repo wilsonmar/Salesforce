@@ -18,7 +18,10 @@ Editing the book can be done either by updating the markdown files with a text e
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
 
 
-## <a name="Browsers"> Browsers</a>
+## <a name="Browsers"> 
+
+Browsers and compute pods</a>
+
 One of the distinctives about Salesforce is that it works completely over the public internet. 
 
 This means users need to use internet browsers: 
@@ -31,6 +34,8 @@ In 2014 Salesforce announced Superpod, offering on HP servers Salesforce will ma
 for "the largest of the world's largest enterprises" such as the US FDA.
 
 Salesforce has 15 compute pods distributed across its global datacenters to run its entire operation.
+
+In August, 2016, Salesforce announced that it is moving to use the infrastructure maintained by Amazon.
 
 ## <a name="Developer"> Developer Setup</a>
 
