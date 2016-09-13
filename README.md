@@ -230,9 +230,8 @@ Up to 10 Recent Items are displayed.
 
 ### <a name="RecycleBin"> Recycle Bin</a>
 When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
-Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>
-until it is automatically hard deleted.
-During an object's "soft deleted" time, it can be restored or permanently erased (hard deleted).
+Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>.
+During an object's "soft deleted" time, it can be restored before being permanently erased (hard deleted).
 
 Soft-deleted custom objects and their data still count against your organization’s limits; 
 hard-deleted items do not.
