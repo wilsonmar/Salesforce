@@ -274,6 +274,7 @@ Other businesses:
     when apps are created.
 
   * Data.com - B2B prospecting and data cleansing
+  * Demandware.com acquired in 2016
   * Pardot - B2B marketing automation
   * Desk.com - Customer support for small business
 
