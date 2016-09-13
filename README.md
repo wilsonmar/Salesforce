@@ -42,7 +42,7 @@ In August, 2016, Salesforce announced that it is moving to use the infrastructur
 1) Get a developer account from http://developer.salesforce.com/signup or http://sforce.co/WBtUN7
    for a Developer Edition (DE) environment.
 
-   PROTIP: During registration, the <strong>Username</strong> needs to be in thte form of an email address.
+   PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
    But email is not sent to the username, so you can use something unique 
    such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
    
