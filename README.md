@@ -17,6 +17,28 @@ Editing the book can be done either by updating the markdown files with a text e
 
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
 
+## Why Salesforce? #
+
+For end-users, get away from:
+
+   * Reliance on spreadsheets
+   * Collaboration via email
+   * Documents shared on local file directories
+   * Time-intensive, manual steps 
+
+I think Salesforce provides an easy and fast way to create apps.
+
+  * Free development environment (no 7 day trials)
+  * Integrations
+  * Free, full-featured copy of the Salesforce1 Platform
+  * Develop apps with clicks or code
+  * Fine-grained access control 
+  * highly scalable
+  * API-first to integrate anything with everything
+  * Use popular UI frameworks like Bootstrap, JQuery and more 
+
+  * <strong>Lightning</strong> components for user-developed apps.
+ 
 
 ## <a name="Browsers"> 
 
@@ -333,26 +355,7 @@ DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!
 
 Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
 
-Use case:
-
-* Reliance on spreadsheets
-* Collaboration via email
-* Documents shared on local file directories
-* Time-intensive, manual steps 
-
-I think Salesforce provides an easy and fast way to create apps.
-
-  * Free development environment (no 7 day trials)
-  * Integrations
-  * Free, full-featured copy of the Salesforce1 Platform
-  * Develop apps with clicks or code
-  * Fine-grained access control 
-  * highly scalable
-  * API-first to integrate anything with everything
-  * Use popular UI frameworks like Bootstrap, JQuery and more 
-
-
-Technologically:
+## Technologically:
 
   * The <strong>declarative</strong> aspects of the platform is why the company's main number is 800.NO-SOFTWARE.
   
@@ -368,9 +371,6 @@ Technologically:
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components
     using HTML tags like PHP, ASP.NET, and ColdFusion.
 
-  * The <strong>Lightning</strong> components to create user-developed apps.
-  
- 
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Lightning&criteria=ALLQUESTIONS">
 	API Board</a>
 
