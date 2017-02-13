@@ -57,6 +57,8 @@ for "the largest of the world's largest enterprises" such as the US FDA.
 
 Salesforce has 15 compute pods distributed across its global datacenters to run its entire operation.
 
+[Running on 1,000 machines, half of which are for redundancy. ](http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/)
+
 In August, 2016, Salesforce announced that it is moving to use the infrastructure maintained by Amazon.
 
 ## <a name="Developer"> Developer Setup</a>
@@ -422,8 +424,6 @@ So certification holders must keep taking tests to keep up.
  
 App logos that appear at the upper left should be no larger than 300 pixels wide by 55 pixels high.
 Adjust the number of colors in .gif or .jpg so they are under the 20kb size limit.
-
-[Running on 1,000 machines, half of which are for redundancy. ](http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/)
 
 
 ## <a name="DevDocs"> Developer Docs</a>
