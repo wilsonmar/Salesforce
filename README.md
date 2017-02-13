@@ -404,14 +404,24 @@ For Solution Architects:
 * Certified Technical Architect
 
 
-## <a name="VersionChangeMgmt"> Version Change Management</a>
+<a name="VersionChangeMgmt"></a>
+
+## Version Change Management
+
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
+Lightning HTML components added 2015.
 
 Three releases are planned per year, named by season (avoiding Fall):
 
 | Force Version | API Version |
 | ----:         | -----: |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer17/">Summer '17</a> | 40.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring17/">Spring '17</a> | 39.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter17/">Winter '17</a> | 38.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer16/">Summer '16</a> | 37.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring16/">Spring '16</a> | 36.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter16/">Winter '16</a> | 35.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer15/">Summer '15</a> | 34.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring15/">Spring '15</a> | 33.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter15/">Winter '15</a> | 32.0 |
@@ -464,10 +474,13 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 2) In Twitter follow each of the <a target="_blank" href="https://developer.salesforce.com/mvp">
    Force.com MVPs in the Discussion Forum</a>
 
-3) Plan to be in San Francisco September 15—18, 2015 for the
-   <a target="_blank" href="http://www.salesforce.com/dreamforce/DF15/">
+3) Plan to be in San Francisco around September for the
+   <a target="_blank" href="http://www.salesforce.com/dreamforce/">
    Dreamforce</a> user convention which includes a hackathon.
-   Vidoes sessions into YouTube.
+   
+   Recorded vidoes sessions are on the 
+   <a target="_blank" href="https://www.youtube.com/user/salesforce">
+   Salesforce YouTube channel</a>.
 
 4) Salesforce Success Community https://success.salesforce.com/
 
