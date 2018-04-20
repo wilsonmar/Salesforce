@@ -736,6 +736,16 @@ Various Architecture Diagrams</a>
 
 All these are involved in each cross-cutting service.
 
+## <a name="ExecutionOrder"> Execution Order</a>
+
+1. Validation checks - checks compliance with PageLayout and Validation rules (maximum field lengths)
+2. Execute Before Apex Triggers - in "before" the record is saved to SalesForce database
+3. Execute Duplicate Rules - checks if record has the same key as an existing record
+4. Save the record to the database (but not "committed")
+5. Execute after Apex Triggers - "after" record has been saved to the Salesforce database
+6. Execute Rules - Assignment rules, then Auto-Response rules, then Workflow rules (and re-runs if required)
+7. Execute Processes - when Flows/Process Builder runs
+
 ## <a name="ArchServices"> Force.com cross-cutting Services</a>
 
 3:19
@@ -766,15 +776,15 @@ All these are involved in each cross-cutting service.
 [Force.com Apex Code Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
 
 
-
 ## <a name="MobileApps"> Mobile Apps</a>
 
-The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
-See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
+The Salesforce1 mobile emulator is at http://<em>instance ID</em>.salesforce.com/one/one.app
+See <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm">this</a>.
 
   * Mobile apps for iOS | Android
       *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
       *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
+   <br /><br />
 
 WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK)
 by Akhilesh Gupta
@@ -839,6 +849,8 @@ There is also a 1h 45m 01 May 2013
 Force.com Design Patterns - Part 2</a>
 by Adam Purkiss.
 
+<a target="_blank" href="https://github.com/jorgevaldivia/salesforce_bulk/">
+sample bulk API interface Ruby gem</a>
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
@@ -944,9 +956,9 @@ From https://developer.salesforce.com/page/Salesforce_APIs
 
 </li></ul>
 
-SOAP format APIs are mainly for metadata (not business data).
-
 The REST API returning JSON or XML uses "hypermedia" design.
+
+Older SOAP (XML) format APIs are mainly for metadata (not business data).
 
 The "BULK" REST API for large datasets (of 50 million rows)
 of XML and CSV (rather than JSON) format.
@@ -959,8 +971,6 @@ used mainly in social networking apps.
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=APIs_and_Integration&criteria=ALLQUESTIONS">
 	API Board</a>
 
-https://github.com/jorgevaldivia/salesforce_bulk
-sample bulk API interface Ruby gem.
 
 ## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
 
@@ -984,13 +994,15 @@ install pre-built apps and components right into your Salesforce environment.
 3) Get "Demo Jam" to watch short demos of various apps. 
 4) Click Get It Now.
 
-Read https://www.salesforce.com/form/conf/platform-appguide.jsp
+In 2015 Salesforce has 30M lines of code written by others via APPExchange at
+
+Read <a target="_blank" href="https://www.salesforce.com/form/conf/platform-appguide.jsp">
+https://www.salesforce.com/form/conf/platform-appguide.jsp</a>
 
 DOCUMENT: [Application Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.appExchangeInstallGuide.meta/appExchangeInstallGuide/)
 
-In 2015 Salesforce has 30M lines of code written by others via APPExchange.
-
-Salesforce Wear https://developer.salesforce.com/wear
+Salesforce Wear <a target="_blank" href="https://developer.salesforce.com/wear">
+https://developer.salesforce.com/wear</a>
 includes a set of apps for Apple Watch, Google Glass, and more wearables that all access Salesforce data via APIs.
 
 The highest rated 3rd-party apps:
@@ -1015,16 +1027,16 @@ Revision to earlier changes may not be possible.
 
 PROTIP: Build your own instrumentation.
 
+See <a target="_blank" href="
+https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage">
+https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
 
-developer console
-
-https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage
 
 ## <a name="Database"> Database Access</a>
 
 Because parent-child and other data relationships are defined up front in the
 <strong>Data Model UI</strong>,
-the Salesforce Object Query Language (SOQL) coded to retrieve filtered data
+the Salesforce Object Query Language <strong>(SOQL)</strong> coded to retrieve filtered data
 does not allow dynamic implicit joins like those used in ANSI SQL.
 Furthermore, SOQL is like Microsoft's LINQ because it contains domain-specific names like "Opportunities".
 
@@ -1042,7 +1054,7 @@ for (Speaker__c s : [SELECT Email__c FROM Speaker__c])
 }
 ```
 
-An example from the class to retrieve Rose Gonzalez:
+An example to retrieve "Rose Gonzalez" from "%rose%":
 
 ```
 SELECT Id, Name, Phone, Account.Name  
