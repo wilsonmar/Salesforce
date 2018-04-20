@@ -1082,11 +1082,9 @@ joining two Master Detail Relationships.
 
 * https://help.salesforce.com/HTViewHelpDoc?id=overview_of_custom_object_relationships.htm
 * https://help.salesforce.com/HTViewHelpDoc?id=relationships_manytomany.htm&language=en_US
+<br /><br />
 
-Other Languages:
-
-* Salesforce Object Search Language (SOSL)
-* Salesforce Analytics Search Language (SASL)
+There is also the Salesforce Analytics Search Language (SASL)
 
 
 ## <a name="DML"> DML</a>
@@ -1239,7 +1237,6 @@ Force.com mobile SDK for iOS applications</a>
 https://github.com/owainlewis/salesforce
 
 
-
 ## <a name="TestData"> Test Data</a>
 
 Each object is assigned an 18 character identifier for API transaction.
@@ -1250,6 +1247,10 @@ Each object is assigned a 15 character identifier for internal reporting and dat
 ## <a name="Testing"> Testing</a>
 
 Salesforce does not allow an app to deploy from a sandbox into production unless there is at least 75% coverage by tests.
+
+<a target="_blank" href="https://pmd.github.io/">
+PMD</a> <a target="_blank" href="https://en.wikipedia.org/wiki/PMD_(software)">("Programming Mistake Detector")</a> source code analyzer finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, etc. <a target="_blank" href="https://pmd.github.io/pmd-6.2.0/pmd_rules_apex.html">in Apex code</a>. 
+It includes CPD, the copy-paste-detector. CPD finds duplicated code 
 
 Any modification of Apex code requires rerun of tests to refresh code coverage results.
 Salesforce also runs all tests before each major service upgrade and release to makes sure that no behavior in custom code has been altered as a result of any service upgrades.
