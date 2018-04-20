@@ -26,7 +26,7 @@ For end-users, get away from:
    * Documents shared on local file directories
    * Time-intensive, manual steps
 
-I think Salesforce provides an easy and fast way to create apps.
+Salesforce provides an easy and fast way to create apps.
 
   * Free development environment (no 7 day trials)
   * Integrations
@@ -63,14 +63,15 @@ In August, 2016, Salesforce announced that it is moving to use the infrastructur
 
 ## <a name="Developer"> Developer Setup</a>
 
-1) Get a developer account from http://developer.salesforce.com/signup or http://sforce.co/WBtUN7
+1) Get a developer account from <a target="_blank" href="http://developer.salesforce.com/signup">http://developer.salesforce.com/signup</a> (= <a target="_blank" href="http://sforce.co/WBtUN7">http://sforce.co/WBtUN7</a>)
    for a Developer Edition (DE) environment.
 
    PROTIP: During registration, the <strong>Username</strong> needs to be in the form of an email address.
    But email is not sent to the username, so you can use something unique
-   such as wilsonmar-234@jetbloom.com where -234 is unique to another developer instance.
+   such as "wilsonmar-234@jetbloom.com" where -234 is unique to another developer instance.
 
-   PROTIP: Have a "main" developer environment that you use for Chatter and Help.
+   PROTIP: Have a "main" developer environment that you tell people and use for social Chatter and Help.
+   Other accounts you use only to log in secretly.
 
  2) When the email "Your Developer Edition Login Information" arrives, click on the link to change password.
 
@@ -82,6 +83,7 @@ In August, 2016, Salesforce announced that it is moving to use the infrastructur
 
 
 ## <a name="LoginUI"> Salesforce User Home UI</a>
+
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
 The blue sausage (app selector) at the upper-right lists <strong>apps</strong>.
@@ -145,22 +147,23 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 
 ### <a name="Redundancy"> Redundancy</a>
+
 4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances:
 2 on-line and 2 off-line.
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
 
-* https://en.wikipedia.org/wiki/Oracle_Data_Guard
-* https://en.wikipedia.org/wiki/Oracle_RAC
+* <a target="_blank" href="
+https://en.wikipedia.org/wiki/Oracle_Data_Guard">https://en.wikipedia.org/wiki/Oracle_Data_Guard</a>
+* <a target="_blank" href="
+https://en.wikipedia.org/wiki/Oracle_RAC">https://en.wikipedia.org/wiki/Oracle_RAC</a>
 
 
 ## <a name="OrgDefaults"> Corporate Global Settings Defaults</a>
 To set <strong>OWD (Organization-Wide Defaults)</strong>, such as Fiscal Year start date, Record Currency.
 
 1) Click Setup at the upper-right corner.
-
-2)
 
 A Locale selection determine how dates, time, numbers, names are displayed,
 based on Language, Locale, Time Zone.
@@ -173,6 +176,7 @@ based on Language, Locale, Time Zone.
 
 
 ## <a name="UserSetup"> One-time User Setup</a>
+
 The 6 standard profiles of permissions:
 
 * Administrator
@@ -202,6 +206,7 @@ Up to 1000 Permission sets per org can be setup to grant additional permissions 
 
 
 ## <a name="UI"> Standard UI Declarative</a>
+
 Collapsable Sidebar can be enabled to reduce horizonal scrolling.
 
 1) Create a new page layout for the Contacts object.
@@ -209,6 +214,7 @@ Collapsable Sidebar can be enabled to reduce horizonal scrolling.
 
 
 ### <a name="Keyboard"> Most Common UI Actions and Keyboard Shortcuts</a>
+
 Salesforce does not provide keyboard shortcuts in the Setup "Aloha" UI.
 However, if you have downloaded Google Chrome, you can add-on Salesforce Hotkeys at
 https://chrome.google.com/webstore/detail/salesforce-hotkeys-beta/hkpmdgakkflkddmiffelfaokkgoamlil?hl=en
@@ -229,6 +235,8 @@ CTRL + SHIFT or META + SHIFT keys are used to select <strong>Create New</strong>
    * C = Contact (of individual people)
    * O = Opportunity (associated with a Contact in an Account with potential sales)
    * L = Lead (associated with campaigns)
+
+
 
 The other standard objects that are the bread-and-butter data Salesforce CRM was built to handle:
 
@@ -251,8 +259,19 @@ CTRL + key within a dialog:
 
 Up to 10 Recent Items are displayed.
 
+### Competitors in CRM
+
+* Oracle
+* SAP
+* Microsoft Dynamics 365
+
+* SOHO
+* Hubspot
+* SugarCRM
+* Highrise
 
 ### <a name="RecycleBin"> Recycle Bin</a>
+
 When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
 Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>.
 During an object's "soft deleted" time, it can be restored before being permanently erased (hard deleted).
@@ -264,6 +283,7 @@ See them in the Schema Browser.
 
 
 ## <a name="Businesses"> Businesses from the Salesforce Corporation (CRM)</a>
+
 At http://www.salesforce.com/crm/editions-pricing.jsp
    note DE has Enterprise capabilities, more powerful than the Professional Edition.
 
@@ -283,29 +303,30 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
    * Apex Mobile User
    * Salesforce CRM Content User
    * Force.com Flow User
+   <br /><br />
 
-Other businesses:
+Other businesses which have "consultant" certification exams:
 
-   * Service Cloud - Sales force automation and CRM
    * Sales Cloud - Complete CRM customer service solutions
-   * Marketing Cloud - Build and manage 1:1 customer journeys.
+   * Service Cloud - Sales force automation and CRM
+   * Marketing Cloud - Build and manage 1:1 customer journeys. It has its own query language. No free accounts here.
    * Commmunity Cloud - Connect customers, partners, and employees
    * Analytic Cloud - Business intelligence and analytics software solutions
+   * Pardot - B2B marketing automation
 
-   * Salesforce1 Platform - Turn your idea into apps today with the Salesforce1 Platform.
+Additional businesses:
 
-    "Salesforce1" is the brand name to emphasize that mobile capabilities are automatically provided
-    when apps are created.
+  * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
+  * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
+  * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
+  * Thunder
 
-  * Data.com - B2B prospecting and data cleansing
-  * Demandware.com acquired in 2016
-  * Pardot - B2B marketing automation
-  * Desk.com - Customer support for small business
-
-  * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects.
+  * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
 
   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
     is also a SaaS providing software for managing financial information.
+
+  * "Salesforce1 Platform" is the brand name to emphasize that mobile capabilities are automatically provided when apps are created.
 
   * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
     runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
@@ -314,30 +335,27 @@ Other businesses:
   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
     provides free hosting for low-volume apps written in open-source programming.
 
-    [Getting Started with Ruby on Heroku](https://developer.salesforce.com/docs/atlas.en-us.articles.meta/articles/)
-
   * <a target="_blank" href="http://www.database.com/">
     Database.com</a>
 
-  * Site.com ???
+  * <a target="_blank" href="http://www.site.com/">Site.com</a>
 
-  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors.
+  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors. See [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
 
-    [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
+The company exposes data in each of these businesses in an <a href="#APIs">API</a>
+for computers to access without a human UI.
 
 1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
    in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg
 
 2) Read the whitepaper in http://developer.Force.com
 
-The company exposes data in each of these businesses in an <a href="#APIs">API</a>
-for computers to access without a human UI.
-
 BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
 	Colors in Salesforce screens</a>
 
 
 ## <a name="LaborDemand"> Labor Demand</a>
+
 Here is why you want to spend time on Salesforce.
 
 The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
@@ -410,12 +428,15 @@ For Solution Architects:
 
 Salesforce was launched in 2000, with SOAP API (web service) added 2004.
 The Salesforce1 brand name appeared in 2014.
-Lightning HTML components added 2015.
+Lightning HTML components were added 2015.
 
 Three releases are planned per year, named by season (avoiding Fall):
 
 | Force Version | API Version |
 | ----:         | -----: |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer18/">Summer '18</a> | 41.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring18/">Spring '18</a> | 42.0 |
+| <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter18/">Winter '18</a> | 41.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/summer17/">Summer '17</a> | 40.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/spring17/">Spring '17</a> | 39.0 |
 | <a target="_blank" href="http://www.salesforce.com/customer-resources/releases/winter17/">Winter '17</a> | 38.0 |
@@ -437,6 +458,7 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
 
 
 ## <a name="DevDocs"> Developer Docs</a>
+
 1) <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.fundamentals.meta/fundamentals/">
    Force.com Platform Fundamentals</a> is the "Bible" for Salesforce certification questions.
    It has "Try it" hands-on exercises to develop a Recruitment app.
@@ -456,6 +478,7 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
 
 
 ## <a name="Social"> Social Media</a>
+
 Among [Quizzes](https://quizlet.com/subject/salesforce/?sortBy=mostRecent):
 
 * https://quizlet.com/87010545/dev-401-all-flash-cards/ has over 1,000 items.
@@ -501,6 +524,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
 
 ## <a name="Training"> Training</a>
+
 1) Obtain a Trailhead account at https://developer.salesforce.com/trailhead
    for FREE tutorials which reward points appearing in your profile.
 
@@ -527,11 +551,15 @@ Salesforce University (@SalesforceU) offers <strong>paid</strong> classes. See
 http://www.salesforce.com/services-training/training_certification/training.jsp
 ($3,750 for the 5-day course)
 
-http://www.shellblack.com/administration/how-to/
+<a target="_blank" href="
+http://www.shellblack.com/administration/how-to/">
+http://www.shellblack.com/administration/how-to</a>
 lists many admin videos
 
+Francis Pindar presents A CLoud Guru's Salesforce 101 video course.
 
 ### <a name="ConfApp"> Build Conference App</a>
+
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/salesforce_developer_workshop">
 Build a Conference Management App</a>
 used during
@@ -556,6 +584,7 @@ Apex remoting forms an async parametized bridge between JavaScript and Apex.
 
 
 ### <a name="SuggestionApp"> Build Suggestion Box App</a>
+
 <a target="_blank" href="https://developer.salesforce.com/trailhead/project/suggestion_box">
 Build a Suggestion Box</a> shows how to create reports and dashboards.
 
@@ -657,6 +686,7 @@ Introduction To Visualforce
 
 
 ## <a name="BuildingBlocks"> App Building Blocks</a>
+
 User Interface:
 
 	* Applications
@@ -678,6 +708,7 @@ Data Model:
 
 
 ## <a name="EntityTypes"> App Entity Types</a>
+
 Code managed by the Developer Console must be within one of these Entity Types:
 
 * Classes
@@ -693,6 +724,7 @@ Code managed by the Developer Console must be within one of these Entity Types:
 
 
 ## <a name="ArchStack"> Force.com Architectural Stack</a>
+
 <a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
 Various Architecture Diagrams</a>
 
@@ -703,7 +735,9 @@ Various Architecture Diagrams</a>
   * Infrastructure
 
 All these are involved in each cross-cutting service.
+
 ## <a name="ArchServices"> Force.com cross-cutting Services</a>
+
 3:19
 
  * Metadata Driven Functionality
@@ -721,17 +755,20 @@ All these are involved in each cross-cutting service.
 
 
 ## <a name="DevTools"> Dev Tools</a>
+
 * <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
 * Force CLI
 * Force.com IDE plugin on top of Eclipse
 * Mavens Mate plugin on top of SublimeText
 
 ## <a name="ApexCoding"> Apex Coding</a>
+
 [Force.com Apex Code Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
 
 
 
 ## <a name="MobileApps"> Mobile Apps</a>
+
 The Salesforce1 mobile emulator is at http://<instance ID>.salesforce.com/one/one.app
 See https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm
 
@@ -744,6 +781,7 @@ by Akhilesh Gupta
 
 
 ## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
+
 Visualforce coding is much like Ruby on Rails and Django.
 Visualforce generates HTML based on markup such as:
 
@@ -790,6 +828,7 @@ by Matt Lacey.
 
 
 ## <a name="Bulk"> Bulk Actions</a>
+
 With its focus on UI, Salesforce does not provide a <strong>Bulk Delete</strong> natively.
 A Java wrapper is described in the 3h 2m [paid] Pluralsight tutorial from 26 Nov 2012
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
@@ -803,6 +842,7 @@ by Adam Purkiss.
 
 
 ## <a name="PluralsightTutorials"> MetaData</a>
+
 Metadata literally means data about data. Read https://developer.salesforce.com/page/An_Introduction_to_Force.com_Metadata
 
 A Salesforce <strong>Org</strong> (short for organization) is a
@@ -860,6 +900,7 @@ public with sharing class SpeakerControllerExtension {
 ```
 
 ### <a name="Formulas"> Formulas</a>
+
 To access a graphic image, you need to create two data types:
 One is a 255-length text field namee Picture_path which is referenced by
 a Formula data type `IMAGE(Picture_Path__c, '', 350,300)` with Text return type.
@@ -876,6 +917,7 @@ For more about formula fields:
 * https://developer.salesforce.com/page/An_Introduction_to_Formulas * https://help.salesforce.com/HTViewHelpDoc?id=useful_advanced_formulas.htm&language=en_US
 
 ## <a name="APIs"> APIs</a>
+
 From https://developer.salesforce.com/page/Salesforce_APIs
 
 <ul><li> <a href="/page/REST_API" title="REST API">REST API</a> - Access objects in your organization using REST.
@@ -921,6 +963,7 @@ https://github.com/jorgevaldivia/salesforce_bulk
 sample bulk API interface Ruby gem.
 
 ## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
+
 There are 3rd-party Salesforce API integrations:
 
 	* https://zapier.com/zapbook/salesforce/
@@ -928,16 +971,18 @@ There are 3rd-party Salesforce API integrations:
 
 
 ## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
-https://appexchange.salesforce.com/
+
+<a target="_blank" href="
+https://appexchange.salesforce.com/">
+https://appexchange.salesforce.com</a>
 (described at http://www.salesforce.com/appexchange/overview/)
 is an online marketplace where you can browse, test drive, download, and
 install pre-built apps and components right into your Salesforce environment.
 
 1) Menu Build | Develop | AppExchange Marketplace.
-
 2) Search for apps by keyword.
-
-3) Click Get It Now.
+3) Get "Demo Jam" to watch short demos of various apps. 
+4) Click Get It Now.
 
 Read https://www.salesforce.com/form/conf/platform-appguide.jsp
 
@@ -957,6 +1002,7 @@ The highest rated 3rd-party apps:
 *    Marketo Marketing Automation: Marketo is an application designed to integrate marketing efforts with Salesforce. It automates and simplifies the creation, support, and monitoring of marketing campaigns, while providing up-to-date information to the sales department.
 
 ## <a name="Sandbox"> Sandbox</a>
+
 Sandboxes are copies of your organization in a separate environment. They are used for development and testing.
 See Sandbox Overview at https://help.salesforce.com/HTViewHelpDoc?id=create_test_instance.htm&language=en_US
 
@@ -975,6 +1021,7 @@ developer console
 https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage
 
 ## <a name="Database"> Database Access</a>
+
 Because parent-child and other data relationships are defined up front in the
 <strong>Data Model UI</strong>,
 the Salesforce Object Query Language (SOQL) coded to retrieve filtered data
@@ -1031,6 +1078,7 @@ Other Languages:
 
 
 ## <a name="DML"> DML</a>
+
 Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
 to insert, update and delete data, in the Developer Console <strong>Anonymous Window</strong>.
 
@@ -1079,6 +1127,7 @@ Sample Undelete: ???
 
 
 ## <a name="Triggers"> Triggers</a>
+
 Each trigger is coded in Apex to a particular sObject.
 
 "(before insert, before update)" are coded as part of the definition.
@@ -1119,6 +1168,7 @@ Triggers are active as soon as they are saved.
 
 
 ## <a name="DBArch"> Data Architecture</a>
+
 <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
 <img alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
 
@@ -1129,12 +1179,14 @@ Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
 
 ## <a name="Chatter"> Chatter</a>
+
 Chatter History maintains 72 hours of feeds.
 
 A Chatter group has only one owner but can have many managers.
 
 
 ## <a name="Search"> Search</a>
+
 Lists return 25 by default. But 5 - 50 can be set.
 
 There is a maximum of 10 columns (fields)
@@ -1148,6 +1200,7 @@ Create forms and page layouts using drag-and-drop tools in the <strong>Page Layo
 
 
 ## <a name="C#"> C# .NET Programming</a>
+
 .NET C# Programming
 
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=NET_Development&criteria=ALLQUESTIONS">
@@ -1155,6 +1208,7 @@ Create forms and page layouts using drag-and-drop tools in the <strong>Page Layo
 
 
 ## <a name="Java"> Java Programming</a>
+
 Java Programming
 
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Java_Development&criteria=ALLQUESTIONS">
@@ -1164,6 +1218,7 @@ http://docs.aws.amazon.com/lambda/latest/dg/java-gs.html
 Getting Started (Authoring AWS Lambda Code in Java)
 
 ## <a name="Clojure"> Clojure Programming</a>
+
 <a target="_blank" href="https://github.com/search?utf8=%E2%9C%93&q=salesforce">
 Most starred (and forked) public Github library for salesforce</a> is
 <a target="_blank" href="https://github.com/forcedotcom/SalesforceMobileSDK-iOS">
@@ -1174,12 +1229,14 @@ https://github.com/owainlewis/salesforce
 
 
 ## <a name="TestData"> Test Data</a>
+
 Each object is assigned an 18 character identifier for API transaction.
 
 Each object is assigned a 15 character identifier for internal reporting and data loading.
 
 
 ## <a name="Testing"> Testing</a>
+
 Salesforce does not allow an app to deploy from a sandbox into production unless there is at least 75% coverage by tests.
 
 Any modification of Apex code requires rerun of tests to refresh code coverage results.
@@ -1231,4 +1288,12 @@ Force.com Design Patterns, Part 2</a>
 
 
 # <a name="WorkWithMe"> Work with me</a>
+
 I am interested into automatic generation of test code.
+
+## References
+
+Mason Frank Internatonal publishes a report each year about the Salesforce ecosystem.
+<a target="_blank" href="
+https://www.radnip.com/sfsalaries">
+https://www.radnip.com/sfsalaries</a>
