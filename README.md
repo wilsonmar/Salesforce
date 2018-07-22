@@ -6,20 +6,25 @@ can get to know the offering deeply yet quickly.
 This is a living document and will continue to be updated with more helpful information and examples as they become available.
 QUESTION: and ??? mark where I need input.
 
-<a name="HowToContribute"> 
+<a name="HowToContribute"></a>
 
-## How to Contribute</a>
+## How to Contribute
 
 I welcome you to contribute on this GitHub https://github.com/wilsonmar/Salesforce. When this repo is changed,
 changes are [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wilsonmar/Salesforce/activity).
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
 
+Salesforce World Tour <a target="_blank" href=""
+
+
 <a name="License"></a>
 
 ## License
 
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
+
+<a name="WhySalesforce"></a>
 
 ## Why Salesforce? #
 
@@ -44,11 +49,11 @@ Salesforce provides an easy and fast way to create apps.
   * <a href="#Lightning">Lightning</a> HTML UI components for user-developed apps.
 
 
-## <a name="Browsers"></a>
+<a name="Browsers"></a>
 
-Browsers and compute pods
+## Browsers
 
-One of the distinctives about Salesforce is that it works completely over the public internet.
+Salesforce is one of first major companies that works completely over the public internet.
 
 This means users need to use internet browsers:
 Internet Explorer that comes with Windows or Firefox and Chrome installed by users.
@@ -56,8 +61,7 @@ Internet Explorer that comes with Windows or Firefox and Chrome installed by use
 DEVDOC: In [Supported Browsers](https://developer.salesforce.com/docs/atlas.en-us.salesforce_supported_browsers_cheatsheet.meta/salesforce_supported_browsers_cheatsheet/)
 some Internet Explorer support is limited. Firefox needs to be configured.
 
-In 2014 Salesforce announced Superpod, offering on HP servers Salesforce will maintain as a dedicated offering
-for "the largest of the world's largest enterprises" such as the US FDA.
+In 2014 Salesforce announced Superpod, offering on HP servers Salesforce will maintain as a dedicated offering for "the largest of the world's largest enterprises" such as the US FDA.
 
 Salesforce has 15 compute pods distributed across its global datacenters to run its entire operation.
 
@@ -90,7 +94,7 @@ In August, 2016, Salesforce announced that it is moving to use the infrastructur
 
 <a name="LoginUI"></a>
 
-##  Salesforce User Home UI
+## Salesforce User Home UI
 
 1) Go to webpage <a target="_blank" href="http://login.salesforce.com">login.salesforce.com</a>
 
@@ -120,9 +124,10 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 3) Click the [+] at the right end of the menu.
 
-<a name="Instances"></a>
 
-### Instances among Orgs
+   <a name="Instances"></a>
+
+   ### Instances among Orgs
 
 4) After login, note the URL, such as `https://na31.salesforce.com/...`
 
@@ -159,8 +164,7 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 ### Redundancy
 
-4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances:
-2 on-line and 2 off-line.
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 2 on-line and 2 off-line.
 
 <a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
 <img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
@@ -192,6 +196,8 @@ based on Language, Locale, Time Zone.
 <a name="UserSetup"></a>
 
 ## One-time User Setup
+
+<a name="Permissions"></a>
 
 The 6 standard profiles of permissions:
 
@@ -290,13 +296,14 @@ Up to 10 Recent Items are displayed.
 ### Recycle Bin
 
 When a customer object is deleted, Salesforce does not immediately add it to the Recycle Bin.
-Instead, deleted objects appear in the <strong>Deleted Objects list for 15 days</strong>.
+Instead, deleted objects appear in the <strong>Deleted Objects</strong> list for 15 days.
 During an object's "soft deleted" time, it can be restored before being permanently erased (hard deleted).
 
 Soft-deleted custom objects and their data still count against your organization’s limits;
 hard-deleted items do not.
 
 See them in the Schema Browser.
+
 
 
 <a name="Businesses"></a>
@@ -373,7 +380,9 @@ BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
 	Colors in Salesforce screens</a>
 
 
-## <a name="LaborDemand"> Labor Demand</a>
+<a name="LaborDemand"></a>
+
+## Labor Demand
 
 Here is why you want to spend time on Salesforce.
 
@@ -416,32 +425,6 @@ Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent o
   * SOA (Service Oriented Architecture)
 
   * Chattr instant-message
-
-
-<a name="SkillCerts"> </a>
-
-## Skill Certification
-
-Register for certification tests at
-https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE
-
-For Administrators:
-
-* ADM201
-
-* ADM211 Advanced Administrator Certification
-
-For Developers (which includes database administrators):
-
-* DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
-http://certification.salesforce.com/developers
-focuses on declarative configuration rather than programming.
-
-* DEV501 involves Apex coding
-
-For Solution Architects:
-
-* Certified Technical Architect
 
 
 <a name="VersionChangeMgmt"></a>
@@ -505,6 +488,9 @@ Adjust the number of colors in .gif or .jpg so they are under the 20kb size limi
 
 ## Social Media
 
+On your <a target="_blank" href="https://itunes.apple.com/us/app/social-studio/id840173798?mt=8">
+iOS device install Social Studio app</a>
+
 Among [Quizzes](https://quizlet.com/subject/salesforce/?sortBy=mostRecent):
 
 * https://quizlet.com/87010545/dev-401-all-flash-cards/ has over 1,000 items.
@@ -512,9 +498,14 @@ Among [Quizzes](https://quizlet.com/subject/salesforce/?sortBy=mostRecent):
 https://quizlet.com/35268499/salesforce-adm-201-up-through-spring-14-release-flash-cards/)
 has over 300 items.
 
-Salesforce for Outlook does not work on Mac Office 2011 Outlook.
+* https://medium.com/trailhead
 
-But Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
+CAUTION: Salesforce for Outlook does not work on Mac Office 2011 Outlook.
+
+Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
+    
+    * COURSE: 
+
 
 Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
 
@@ -574,8 +565,62 @@ https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
 
 ##  Training
 
-1) Obtain a Trailhead account at https://developer.salesforce.com/trailhead
-   for FREE tutorials which reward points appearing in your profile.
+1) Obtain a Trailhead account <a target="_blank" href="https://developer.salesforce.com/trailhead">
+   here</a> for FREE tutorials which reward points appearing in your profile.
+
+   PROTIP: Sign up for Trailhead with a personal social media account instead of company email so you'll sign in no matter where you work.
+
+2) COURSE: <a target="_blank" href="https://trailhead.salesforce.com/trails/learn_salesforce_with_trailhead">
+   Learn Salesforce with Trailhead</a>
+
+   Learning topics are organized into modules, which are broken up into units. 
+
+   Trails group modules to provide guided learning paths suited to specific roles or needs.
+
+   Earn points when you finish each unit by completing a quiz or a challenge in a Salesforce org.
+
+   "Challenges" gives you a set of requirements that you have to figure out how to meet on your own.
+   A project lays out step-by-step instructions for you to follow, then validates that you did everything correctly.
+
+   More points get you higher <a target="_blank" href="https://trailhead.salesforce.com/en/trailblazer-ranks">rank</a>.
+
+   Projects and superbadges allow you to learn interactively by requiring you to implement a feature or solution in an org (a Trailhead Playground).
+
+   <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges">Superbadges"</a> provide skill-based, domain-level "specialist" credential (to put on resume) by completing modules of real-life business scenario for which you have to build a solution across entire feature areas. 
+
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_security">Security</a>
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_reports">
+   Reports & Dashboards</a>
+
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_apex">
+   Apex  Specialist</a>
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_aap">
+   Advanced Apex  Specialist</a>
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lightning_platform_app_builder">
+   App Customization Specialist</a>
+
+   <a name="LightningSuperbadges"></a>
+
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lcf">
+   Lightning Component Framework Specialist</a>
+   builds a sophisticated app.
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lex">
+   Lightning Experience Specialist</a>
+   super-charges interface and process automation.
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lex_rollout">Lightning Experience Rollout Specialist</a>
+
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_process_automation">
+   Process Automation Specialist</a>
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_business_specialist">
+   Business Administration Specialist</a>
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_integration">
+   Data Integration Specialist</a>
+
+   * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_analytics_integration_specialist">
+   Einstein Analytics Data Preparation Specialist</a>
+   (Follow <a target="_blank" href="https://twitter.com/SForceAnalytics">@SForceAnalytics</a>)
+
+3) Map my own:
 
    | Trail/Project | Hours | Points |
    | ----- | :---: | -----: |
@@ -593,6 +638,8 @@ https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
    * Chris Duarte (@TheChrisDuarte) is the Managing Editor of #Trailhead
    * Sandeep Bhanot (@cloudysan) is the #Trailhead Product Owner/ Evangelist.
 
+
+
 [Workbook](https://developer.salesforce.com/docs/atlas.en-us.workbook.meta/workbook/)
 shows you how to create a cloud app in a series of tutorials.
 
@@ -604,6 +651,116 @@ http://www.salesforce.com/services-training/training_certification/training.jsp
 http://www.shellblack.com/administration/how-to/">
 http://www.shellblack.com/administration/how-to</a>
 lists many admin videos
+
+
+<a name="SkillCerts"> </a>
+
+## Skill Certification
+
+When ready, <a target="_blank" href="http://certification.force.com/pkb/articles/Public_KB/Scheduling-an-Exam">register for certification tests</a>. Pay $200 or $99 at Dreaforce conference.
+
+1. <a target="_blank" href="http://certification.force.com/pkb/articles/Public_KB/Online-Proctoring-Completing-Your-Exam-Remotely">To take exam remotely on your own computer</a>
+   with Kryterion’s Sentinel Secure software downloaded.
+
+   Alternately, pick a <a target="_blank" href="http://www.kryteriononline.com/Locate-Test-Center">
+   Kryterion test center</a> near you.
+
+2. Register at <a target="_blank" href="https://www.webassessor.com/wa.do?page=publicHome&branding=SALESFORCE">webassessor.com</a> 
+
+(SU18) 
+
+### For Administrators:
+
+For $200, answer 65% of 60 multiple-choice/multiple-select questions in 105 minutes:
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedAdministrator.pdf">PDF</a>Salesforce Administrator Certification</a>
+
+   * Org. setup 2%
+   * user setup 7%
+   * Security and access 14%
+   * Standard and custom objects 15%
+   * Sales and Marketing applications 12%
+   * Activity management and collaboration 3%
+   * Data management 8%
+   * Analytics - reports and dashboards 10%
+   * Workflow/Process Automation 12%
+   * Desktop and mobile admin 1%
+   * Appexchange 1%
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedAdvancedAdministrator.pdf">PDF</a> Advanced Administrator Certification</a>
+
+### For Salespeople (users):
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_AccreditedSalesProfessional.pdf">PDF</a> Salesforce Accredited Sales Professional</a>
+
+### For Developers 
+
+(which includes database administrators):
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedPlatformDeveloperI.pdf">PDF</a> Certified Salesforce Platform Developer I 
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedPlatformDeveloperII.pdf">PDF</a> Certified Salesforce Platform Developer II
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedCommerceCloudDigitalDeveloper.pdf">PDF</a> Salesforce Certified Commerce Cloud Digital Developer
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedPlatformAppBuilder.pdf">PDF</a> Salesforce Certified Platform App Builder 
+
+* DEV401 (Building Applications with Force.com and <a href="#Visualforce">Visualforce</a>)
+http://certification.salesforce.com/developers
+focuses on declarative configuration rather than programming.
+
+* DEV501 involves Apex coding
+
+### For Solution Consultants:
+
+These are $200 each.
+
+For each Salesforce product line (except Knowledge Cloud, Marketing Cloud, and Service Cloud)
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedSalesCloudConsultant.pdf">PDF</a> Salesforce Certified Sales Cloud Consultant</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedServiceCloudConsultant.pdf">PDF</a> Salesforce Certified Service Cloud Consultant</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedCommunityCloudConsultant.pdf">PDF</a> Salesforce Certified Community Cloud Consultant</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedFieldServiceLightningConsultant.pdf">PDF</a> Salesforce Certified Field Service Lightning Consultant</a>
+
+   o Scheduling and optimization
+   o Resource management
+   o Asset management
+   o Inventory management
+   o Work Order and Service Appointments lifecycle management
+   o Contract, entitlements, and warranty
+   o Mobility
+   o Quoting and invoicing
+
+
+
+### For Architects:
+
+These are $400 each.
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedDataArchitectureandManagementDesigner.pdf">PDF</a> Salesforce Certified Data Architecture and Management Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedCommerceCloudTechnicalSolutionDesigner.pdf">PDF</a> Salesforce Certified Commerce Cloud Technical Solution Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedIntegrationArchitectureDesigner.pdf">PDF</a> Salesforce Certified Integration Architecture Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedDevelopmentLifecycleandDeploymentDesigner.pdf">PDF</a> Salesforce Certified Data Architecture and Management Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedSharingAndVisibilityDesigner.pdf">PDF</a> Salesforce Certified Sharing and Visibility Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedMobileSolutionsArchitectureDesigner.pdf">PDF</a> Salesforce Certified Mobile Solutions Architecture Designer</a>
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedIdentityAndAccessManagementDesigner.pdf">PDF</a> Salesforce Certified Identity and Access Management Designer</a>
+
+### Technical Architect
+
+The highest level of certification costs $6,000 to pay for a review board at Salesforce offices:
+
+* <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedTechnicalArchitect.pdf">PDF</a> Salesforce Certified Technical Architect - Review Board </a>
+
+<hr />
 
 
 <a name="ConfApp"></a>
@@ -743,10 +900,41 @@ Introduction To Visualforce
 
 ## Lightning UX HTML
 
-"Lightning" is the brand name for <a target="_blank" href="https://www.lightningdesignsystem.com/">Salesforce's "design system"</a> of markup and CSS framework. 
-It's much like Google's "Material" Design which offers <a target="_blank" href="https://www.lightningdesignsystem.com/icons/">icons</a> and 3D look with <a target="_blank" href="https://www.lightningdesignsystem.com/guidelines/animation/styleguidelines/">motion and animation</a>that automatically include <a target="_blank" href="https://www.lightningdesignsystem.com/accessibility/overview/">ARIA roles and properties for accessibility</a>. One doesn't have to be in Salesforce to use Lightning code is <a target="_blank" href="https://github.com/salesforce-ux/design-system">open-sourced at https://github.com/salesforce-ux/design-system</a>.
+Salesforce has two different desktop user interfaces: Lightning Experience and Salesforce Classic. This module is designed for Lightning Experience.
 
-The <strong>Lightning Component Framework</strong> is used to completely redesign the Salesforce CRM product to enable complete flexibility for adding new HTML5 features.
+"Lightning" is the brand name for <a target="_blank" href="https://www.lightningdesignsystem.com/">Salesforce's "design system"</a> of markup and CSS framework. 
+It's much like Google's "Material" Design which offers <a target="_blank" href="https://www.lightningdesignsystem.com/icons/">icons</a> and 3D look with <a target="_blank" href="https://www.lightningdesignsystem.com/guidelines/animation/styleguidelines/">motion and animation</a> that automatically include <a target="_blank" href="https://www.lightningdesignsystem.com/accessibility/overview/">ARIA roles and properties for accessibility</a>. One doesn't have to be in Salesforce to use Lightning code is <a target="_blank" href="https://github.com/salesforce-ux/design-system">open-sourced at https://github.com/salesforce-ux/design-system</a>.
+
+To enable Lightning Experience, 
+
+To switch between interfaces, 
+
+The <strong>Lightning Component Framework</strong> is used to completely upgrade the Salesforce CRM product to enable complete flexibility for adding new HTML5 features.
+
+To begin using and understanding it, use the Rapid prototyping environment on your laptop:
+
+0. Install NodeJs.
+1. Fork the Lightning Design System Starter Kit at https://github.com/salesforce-ux/design-system-starter-kit
+2. Clone your version of it onto your machine.
+3. <tt>git remote add upstream https://github.com/salesforce-ux/design-system-starter-kit</tt>
+   so it can be sycned easier.
+4. <tt>npm install</tt> to download dependencies.
+
+   WARNING: Some library versions are deprecated.
+
+5. npm audit
+6. <tt>npm run dev</tt> opens <a target="_blank" href="http://localhost:3000">http://localhost:3000</a> which should look like the on-line <a target="_blank" href="  https://starter-kit-demo.herokuapp.com/">this</a>
+
+   * http://localhost:3000/workshop.html
+
+   * http://localhost:3000/workshop-done.html should look like 
+   https://starter-kit-demo.herokuapp.com/example.html
+   <br /><br />
+
+7. Edit files in the src directory to customize your prototype app.
+
+    https://mozilla.github.io/nunjucks/ templating language (from Mozilla)
+
 
 VIDEO: <a target="_blank" href="https://app.pluralsight.com/library/courses/salesforce-lightning-components-customizing-getting-started">
 Customizing Salesforce with Lightning Components: Getting Started</a> 10 May 2017
@@ -757,26 +945,25 @@ VIDEO: <a target="_blank" href="https://app.pluralsight.com/library/courses/play
 Play By Play: State Driven Record Actions with Salesforce Lightning Components</a>
 21 Feb 2018 by Christian Menzinger and Don Robins
 
-Superbadges (to put on resume) on use of Lightning with Apex (4 modules each):
+VIDEO COURSE: https://app.pluralsight.com/library/courses/play-by-play-debugging-troubleshooting-salesforce-lightning-components
 
-* <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lcf">
-   Lightning Component Framework Specialist</a>
-   builds a sophisticated app.
-
-* <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lex">
-   Lightning Experience Specialist</a>
-   super-charges interface and process automation.
-
-* <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lex_rollout">
-   Lightning Experience Rollout Specialist</a>
+VIDEO COURSE: https://app.pluralsight.com/library/courses/play-by-play-salesforce-reusable-lightning-components-builder
 
 
+<a href="#LightningSuperbadges">Superbadges on use of Lightning with Apex</a> (4 modules each):
 
+Atlassian Confluence
+https://tddprojects.atlassian.net/wiki/spaces/SF/overview
+https://tddprojects.atlassian.net/wiki/spaces/SF/pages/239534121/Actions+Examples
 
 Sara Morgan created
 <a target="_blank" href="https://www.pluralsight.com/courses/lightning-component-framework-spa-getting-started">
 Getting Started Building SPAs with Lightning Component Framework
 Apr 26 2016, 2h 26m</a>
+
+<a target="_blank" href="https://app.pluralsight.com/library/courses/your-first-salesforce-application/table-of-contents">
+Building Your First Salesforce Application</a> 28 Feb 2018
+by Scott Allen
 
 
 <a name="BuildingBlocks"></a>
@@ -819,7 +1006,9 @@ Code managed by the Developer Console must be within one of these Entity Types:
 <img src="https://cloud.githubusercontent.com/assets/300046/8683839/f5b4c438-2a29-11e5-929a-407fd72d2490.png" /></a>
 
 
-## <a name="ArchStack"> Force.com Architectural Stack</a>
+<a name="ArchStack"></a>
+
+## Force.com Architectural Stack
 
 <a target="_blank" href="https://www.youtube.com/watch?v=zarV59FCAok">
 Various Architecture Diagrams</a>
@@ -832,7 +1021,9 @@ Various Architecture Diagrams</a>
 
 All these are involved in each cross-cutting service.
 
-## <a name="ExecutionOrder"> Execution Order</a>
+<a name="ExecutionOrder"></a>
+
+##  Execution Order
 
 1. Validation checks - checks compliance with PageLayout and Validation rules (maximum field lengths)
 2. Execute Before Apex Triggers - in "before" the record is saved to SalesForce database
@@ -842,7 +1033,9 @@ All these are involved in each cross-cutting service.
 6. Execute Rules - Assignment rules, then Auto-Response rules, then Workflow rules (and re-runs if required)
 7. Execute Processes - when Flows/Process Builder runs
 
-## <a name="ArchServices"> Force.com cross-cutting Services</a>
+<a name="ArchServices"></a>
+
+## Force.com cross-cutting Services
 
 3:19
 
@@ -860,33 +1053,59 @@ All these are involved in each cross-cutting service.
  * Transactional Data Persistence
 
 
-## <a name="DevTools"> Dev Tools</a>
+
+<a name="Platform"></a>
+
+### Force Platform structure
+
+<a target="_blank" title="force-plartform-814x592" href="https://user-images.githubusercontent.com/300046/43039910-75978714-8cf4-11e8-8df8-cf80bc61243f.png">
+<img alt="force-plartform-648x472-126267.jpg" width="648" src="https://user-images.githubusercontent.com/300046/43039933-c8b319cc-8cf4-11e8-80f5-711738c53641.jpg"></a>
+
+From: <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-bigpicture">
+Force.com Platform - The Big Picture 29 Jan 2013</a>
+by Don Robins
+
+
+<a name="DevTools"></a>
+
+## Dev Tools
 
 * <a href="#DeveloperConsole">Developer Console</a> online (look in the pull-down under your name), which opens a new browser window.
 * Force CLI
 * Force.com IDE plugin on top of Eclipse
 * Mavens Mate plugin on top of SublimeText
 
-## <a name="ApexCoding"> Apex Coding</a>
+
+<a name="ApexCoding"></a>
+
+## Apex Coding
 
 [Force.com Apex Code Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
 
 
-## <a name="MobileApps"> Mobile Apps</a>
+<a name="MobileApps"></a>
+
+##  Mobile Apps
 
 The Salesforce1 mobile emulator is at http://<em>instance ID</em>.salesforce.com/one/one.app
 See <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.salesforce1.meta/salesforce1/dev_best_practices_development_process.htm">this</a>.
 
-  * Mobile apps for iOS | Android
-      *  SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
-      *  Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
+<a target="_blank" href="https://itunes.apple.com/us/developer/salesforce-com/id281826149?mt=8">Mobile apps for iOS</a>
+and Android:
+
+   * Salesforce Authenticator for 2FA
+   * SalesforceA, the mobile app for admins for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.admin1"> Android</a> and iOS.
+   * Salesforce1 mobile app for end-users for <a target="_blank" href="https://play.google.com/store/apps/details?id=com.salesforce.chatter"> Android</a> and iOS.
    <br /><br />
 
-WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK)
-by Akhilesh Gupta
+WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK) by Akhilesh Gupta
+
+https://itunes.apple.com/us/app/dreamoji/id1294827604?mt=8
 
 
-## <a name="VisualforceTutorials"> Visualforce Tutorials</a>
+<a name="VisualforceTutorials"></a>
+
+##  Visualforce Tutorials
 
 Visualforce coding is much like Ruby on Rails and Django.
 Visualforce generates HTML based on markup such as:
@@ -933,13 +1152,16 @@ Introduction To Visualforce</a>
 by Matt Lacey.
 
 
-## <a name="Bulk"> Bulk Actions</a>
+<a name="Bulk"></a>
+
+##  Bulk Actions
 
 With its focus on UI, Salesforce does not provide a <strong>Bulk Delete</strong> natively.
 A Java wrapper is described in the 3h 2m [paid] Pluralsight tutorial from 26 Nov 2012
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt1">
 Force.com Design Patterns - Part 1</a>
 by Adam Purkiss.
+
 There is also a 1h 45m 01 May 2013
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-pt2">
 Force.com Design Patterns - Part 2</a>
@@ -949,7 +1171,9 @@ by Adam Purkiss.
 sample bulk API interface Ruby gem</a>
 
 
-## <a name="PluralsightTutorials"> MetaData</a>
+<a name="Metadata"></a>
+
+##  MetaData
 
 Metadata literally means data about data. Read https://developer.salesforce.com/page/An_Introduction_to_Force.com_Metadata
 
@@ -987,7 +1211,9 @@ stored in the new TenantSecret sObject.
 This requires additional licensing.
 
 
-## <a name="ControllerExtension"> Controller Extension</a>
+<a name="ControllerExtension"></a>
+
+##  Controller Extension
 
 In the Create trail, an increment() method and a counter property can be added:
 
@@ -1007,7 +1233,9 @@ public with sharing class SpeakerControllerExtension {
 }
 ```
 
-### <a name="Formulas"> Formulas</a>
+<a name="Formulas"></a>
+
+###  Formulas
 
 To access a graphic image, you need to create two data types:
 One is a 255-length text field namee Picture_path which is referenced by
@@ -1024,7 +1252,9 @@ For more about formula fields:
 
 * https://developer.salesforce.com/page/An_Introduction_to_Formulas * https://help.salesforce.com/HTViewHelpDoc?id=useful_advanced_formulas.htm&language=en_US
 
-## <a name="APIs"> APIs</a>
+<a name="APIs"></a>
+
+##  APIs
 
 From https://developer.salesforce.com/page/Salesforce_APIs
 
@@ -1068,15 +1298,19 @@ DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!
 	API Board</a>
 
 
-## <a name="3rdPartyAPI"> 3rd Party API Integrations</a>
+<a name="3rdPartyAPI"></a>
+
+##  3rd Party API Integrations
 
 There are 3rd-party Salesforce API integrations:
 
 	* https://zapier.com/zapbook/salesforce/
+   is a central hub to many other APIs on the open web.
 
 
+<a name="AppExchange"></a>
 
-## <a name="AppExchange"> Apps and AppExchange Marketplace</a>
+##  Apps and AppExchange Marketplace
 
 <a target="_blank" href="
 https://appexchange.salesforce.com/">
@@ -1111,14 +1345,18 @@ The highest rated 3rd-party apps:
 
 
 
-## <a name="Permissions"> Permissions</a>
+<a name="Permissions"></a>
+
+##  Permissions
 
 * "Author Apex" permissions are necessary to use Search SOQL/SASL in the Query tab.
 * "View All Data" permissions are necessary to use the Developer Console
 * "Customize Applications" permissions are necessary to make changes to Apex, VisualForce, Lightning components.
 
 
-## <a name="Database"> Database Query</a>
+<a name="Database"></a>
+
+##  Database Query
 
 Because parent-child and other data relationships are defined up front in the
 <strong>Data Model UI</strong>,
@@ -1173,7 +1411,9 @@ joining two Master Detail Relationships.
 <br /><br />
 
 
-## <a name="DML"> DML</a>
+<a name="DML"></a>
+
+## DML
 
 Salesforce Data Manipulation Language (DML) is coded in Apex classes and triggers
 to insert, update and delete data, in the Developer Console <strong>Anonymous Window</strong>.
@@ -1222,7 +1462,9 @@ delete session;
 Sample Undelete: ???
 
 
-## <a name="Triggers"> Triggers</a>
+<a name="Triggers">
+
+##  Triggers
 
 Each trigger is coded in Apex to a particular sObject.
 
@@ -1262,8 +1504,9 @@ trigger WelcomeKit on Account (after insert) {
 Triggers are active as soon as they are saved.
 
 
+<a name="DBArch"></a>
 
-## <a name="DBArch"> Data Architecture</a>
+##  Data Architecture
 
 <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms&t=18m23s">
 <img alt="salesforce_data_schema" src="https://cloud.githubusercontent.com/assets/300046/8587497/05c1a464-25ba-11e5-85af-a85d888e9b07.png" /></a>
@@ -1274,14 +1517,18 @@ OrgID hashed to one of 32 keys used to distribute.
 Smart Primary Keys and Polymorphic Foreign Keys.
 Creative de-normalization and pivoting.
 
-## <a name="Chatter"> Chatter</a>
+<a name="Chatter"></a>
+
+##  Chatter
 
 Chatter History maintains 72 hours of feeds.
 
 A Chatter group has only one owner but can have many managers.
 
 
-## <a name="Search"> Search</a>
+<a name="Search"></a>
+
+##  Search
 
 Lists return 25 by default. But 5 - 50 can be set.
 
@@ -1352,9 +1599,9 @@ Change Log Levels in the Debug menu.
 
 
 
-<a name="Testing"> 
+<a name="Testing"></a>
 
-## Testing</a>
+## Testing
 
 Salesforce does not allow an app to deploy from a sandbox into production unless there is at least 75% coverage by tests.
 
@@ -1410,12 +1657,14 @@ https://www.iridize.com/ provides customized on-boarding guides based on specifi
 Force.com Design Patterns, Part 2</a>
 
 
-<a name="WorkWithMe">
-##  Work with me</a>
+<a name="WorkWithMe"></a>
 
+##  Work with me
 
 I am interested into automatic generation of test code.
 
+
+<a name="References"></a>
 
 ## References
 
