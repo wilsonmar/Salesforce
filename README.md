@@ -15,8 +15,6 @@ changes are [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wil
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
 
-Salesforce World Tour <a target="_blank" href=""
-
 
 <a name="License"></a>
 
@@ -193,11 +191,9 @@ based on Language, Locale, Time Zone.
 * Chatter
 
 
-<a name="UserSetup"></a>
-
-## One-time User Setup
-
 <a name="Permissions"></a>
+
+## Permissions
 
 The 6 standard profiles of permissions:
 
@@ -210,6 +206,9 @@ The 6 standard profiles of permissions:
 
 Up to 1000 Permission sets per org can be setup to grant additional permissions without changing user profiles.
 
+<a name="UserSetup"></a>
+
+## One-time User Setup
 
 1) Click Setup at the upper-right corner.
 
@@ -227,7 +226,29 @@ Up to 1000 Permission sets per org can be setup to grant additional permissions 
    https://play.google.com/store/apps/details?id=com.salesforce.authenticator
 
 
-## <a name="UI"> Standard UI Declarative</a>
+## Two-factor authentication
+
+https://trailhead.salesforce.com/modules/identity_login
+
+1. On your iOS or Android, open the store app to search for "Salesforce Authentictor".
+2. Log onto Salesforce https://login.salesforce.com/ as Administrator of your DE org.
+3. In Lightning Experience, click the setup icon, Setup Home.
+4. From Setup, enter Permission in the Quick Find box, then select Permission Sets.
+5. Label: "2fa Auth for User Logins". 
+6. API Name: "X2fa_Auth_for_User_Logins".
+7. Click Save.
+8. Under Recent Items or System, click System Permissions. Now you’re on the detail page for the 
+"2fa Auth for User Logins" permission set.
+9. Click Edit.
+10. Select "Two-Factor Authentication for User Interface Logins".
+11. Click Save.
+
+
+
+
+<a name="UI"></a>
+
+## Standard UI Declarative
 
 Collapsable Sidebar can be enabled to reduce horizonal scrolling.
 
@@ -304,18 +325,29 @@ hard-deleted items do not.
 
 See them in the Schema Browser.
 
+<a name="Editions"></a>
+
+## Editions
+
+At http://www.salesforce.com/crm/editions-pricing.jsp
+note DE has Enterprise capabilities, more powerful than the Professional Edition.
+
+* Essentials
+* Contact Manager
+* Group 
+* Professional
+* Enterprise
+* Unlimited
+* Developer
 
 
 <a name="Businesses"></a>
 
-## Businesses from the Salesforce Corporation (CRM)
-
-At http://www.salesforce.com/crm/editions-pricing.jsp
-   note DE has Enterprise capabilities, more powerful than the Professional Edition.
+## Businesses from the Salesforce Corporation
 
 Salesforce as a company has several offerings (all SaaS in the cloud):
 
-* <a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
+<a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
     CRM (Customer Relationship Management) -- the company's stock market symbol --
     is categorized as a SaaS (Software as a Service)
     offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online.
@@ -331,28 +363,36 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
    * Force.com Flow User
    <br /><br />
 
+"Salesforce1 Platform" is the brand name to emphasize that mobile capabilities are automatically provided when apps are created.
+
 Other businesses which have "consultant" certification exams:
 
    * Sales Cloud - Complete CRM customer service solutions
    * Service Cloud - Sales force automation and CRM
    * Marketing Cloud - Build and manage 1:1 customer journeys. It has its own query language. No free accounts here.
    * Commmunity Cloud - Connect customers, partners, and employees
-   * Analytic Cloud - Business intelligence and analytics software solutions
+   * Analytic Cloud - Business intelligence and analytics software solutions   
+
    * Pardot - B2B marketing automation
 
 Additional businesses:
 
-  * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
-  * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
-  * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
-  * Thunder
+   * Quip for sending texts
+   * Government Cloud
+   * Salesforce IoT
 
-  * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
+   * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
+  * <a target="_blank" href="http://www.database.com/">
+    Database.com</a>
 
-  * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
+   * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
+   * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
+   * Thunder
+
+   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
+
+   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
     is also a SaaS providing software for managing financial information.
-
-  * "Salesforce1 Platform" is the brand name to emphasize that mobile capabilities are automatically provided when apps are created.
 
   * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
     runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
@@ -361,18 +401,17 @@ Additional businesses:
   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
     provides free hosting for low-volume apps written in open-source programming.
 
-  * <a target="_blank" href="http://www.database.com/">
-    Database.com</a>
-
   * <a target="_blank" href="http://www.site.com/">Site.com</a>
 
   * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors. See [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
 
+   * Einstein Analytics
+
 The company exposes data in each of these businesses in an <a href="#APIs">API</a>
 for computers to access without a human UI.
 
-1) See https://www.youtube.com/watch?v=jrKA3cJmoms "Multi Tenant Magic" ([45] 17 Nov 2014)
-   in the Salesforce Developers YouTube channel https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg
+1) See <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms">"Multi Tenant Magic" ([45] 17 Nov 2014</a>
+   in the <a target="_blank" href="https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg">Salesforce Developers YouTube channel</a>
 
 2) Read the whitepaper in http://developer.Force.com
 
@@ -390,14 +429,17 @@ The company has seen a growth rate of 35% year-over-year unrivaled in the stock 
 ![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
 
   * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
-  * Salesforce is not cheap: thousands of dollars per month
+
+   Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
+   which tends to impose industry-specific workflows on implementations.
+   So you're not as much always forced to work for large consulting firms living out of hotels.
+
   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
   * Microsoft's $50 billion offer was rejected.
   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
 
-Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
-which tends to impose industry-specific workflows on implementations.
-So you're not as much forced to work for large consulting firms living out of hotels.
+  * Salesforce is not cheap: thousands of dollars per month
+
 
 DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
 
@@ -407,7 +449,7 @@ Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent o
 
   * The <strong>declarative</strong> aspects of the platform is why the company's main number is 800.NO-SOFTWARE.
 
-    It has CRUD style security permissions model. Learn this first.
+    API has CRUD style security permissions model. Learn this first.
 
   * The <strong>Apex</strong> (Java-like) object-oriented programming language
     managing classes and triggers defined in a database.
@@ -417,7 +459,7 @@ Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent o
 	Apex Code Development</a>
 
   * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components
-    using HTML tags like PHP, ASP.NET, and ColdFusion.
+    using HTML tags (like PHP, ASP.NET, and ColdFusion).
 
 	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Lightning&criteria=ALLQUESTIONS">
 	API Board</a>
@@ -504,8 +546,8 @@ CAUTION: Salesforce for Outlook does not work on Mac Office 2011 Outlook.
 
 Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
     
-    * COURSE: 
 
+There is a mobile app (by Debra Nacimento) for the Salesforce World Tour
 
 Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
 
@@ -538,6 +580,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
   * http://careers.force.com/jobs for jobs inside Salesforce.
 
+5) Follow <a target="_blank" href="https://twitter.com/salesforcedocs">@salesforcedocs</a>
 
 
 <a name="Sandbox"></a>
@@ -578,6 +621,7 @@ https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
    Trails group modules to provide guided learning paths suited to specific roles or needs.
 
    Earn points when you finish each unit by completing a quiz or a challenge in a Salesforce org.
+   Less points are earned for each additional attempt.
 
    "Challenges" gives you a set of requirements that you have to figure out how to meet on your own.
    A project lays out step-by-step instructions for you to follow, then validates that you did everything correctly.
@@ -638,6 +682,7 @@ https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
    * Chris Duarte (@TheChrisDuarte) is the Managing Editor of #Trailhead
    * Sandeep Bhanot (@cloudysan) is the #Trailhead Product Owner/ Evangelist.
 
+Kanban and path are only available in Lightning Experience (not Classic).
 
 
 [Workbook](https://developer.salesforce.com/docs/atlas.en-us.workbook.meta/workbook/)
@@ -685,7 +730,7 @@ For $200, answer 65% of 60 multiple-choice/multiple-select questions in 105 minu
    * Analytics - reports and dashboards 10%
    * Workflow/Process Automation 12%
    * Desktop and mobile admin 1%
-   * Appexchange 1%
+   * Appexchange 1% 
 
 * <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedAdvancedAdministrator.pdf">PDF</a> Advanced Administrator Certification</a>
 
@@ -788,6 +833,12 @@ to integrate with Salesforce.
 Visualforce includes its own ExtJS JavaScript library.
 
 Apex remoting forms an async parametized bridge between JavaScript and Apex.
+
+
+### Reports and Dashboards
+
+<a target="_blank" href="https://success.salesforce.com/featuredGroupDetail?id=a1z30000006IDYrAAO">
+Join the Reports & Dashboards group</a>
 
 
 <a name="SuggestionApp"></a>
@@ -898,9 +949,11 @@ Introduction To Visualforce
 
 <a name="Lightning"></a>
 
-## Lightning UX HTML
+## Lightning UX
 
 Salesforce has two different desktop user interfaces: Lightning Experience and Salesforce Classic. This module is designed for Lightning Experience.
+
+<a target="_blank" href="https://www.salesforce.com/form/demo/platform-lightning-demo/?d=70130000000f2JC">Schedule a demo</a>
 
 "Lightning" is the brand name for <a target="_blank" href="https://www.lightningdesignsystem.com/">Salesforce's "design system"</a> of markup and CSS framework. 
 It's much like Google's "Material" Design which offers <a target="_blank" href="https://www.lightningdesignsystem.com/icons/">icons</a> and 3D look with <a target="_blank" href="https://www.lightningdesignsystem.com/guidelines/animation/styleguidelines/">motion and animation</a> that automatically include <a target="_blank" href="https://www.lightningdesignsystem.com/accessibility/overview/">ARIA roles and properties for accessibility</a>. One doesn't have to be in Salesforce to use Lightning code is <a target="_blank" href="https://github.com/salesforce-ux/design-system">open-sourced at https://github.com/salesforce-ux/design-system</a>.
