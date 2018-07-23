@@ -8,19 +8,14 @@ QUESTION: and ??? mark where I need input.
 
 <a name="HowToContribute"></a>
 
-## How to Contribute
+## Please Contribute
+
+Content in this repo is [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
 
 I welcome you to contribute on this GitHub https://github.com/wilsonmar/Salesforce. When this repo is changed,
 changes are [pushed to Gitbook.io automatically](https://www.gitbook.io/book/wilsonmar/Salesforce/activity).
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
-
-
-<a name="License"></a>
-
-## License
-
-[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated
 
 <a name="WhySalesforce"></a>
 
@@ -47,6 +42,145 @@ Salesforce provides an easy and fast way to create apps.
   * <a href="#Lightning">Lightning</a> HTML UI components for user-developed apps.
 
 
+<a name="Businesses"></a>
+
+## Businesses from the Salesforce Corporation
+
+Salesforce as a company has several offerings (all SaaS in the cloud):
+
+<a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
+    CRM (Customer Relationship Management) -- the company's stock market symbol --
+    is categorized as a SaaS (Software as a Service)
+    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online.
+    Salesforce also includes project management.
+
+   http://www.salesforce.com/platform/overview/
+
+   There are separate <strong>feature licenses</strong>
+
+   * Marketing User
+   * Apex Mobile User
+   * Salesforce CRM Content User
+   * Force.com Flow User
+   <br /><br />
+
+"Salesforce1 Platform" is the brand name to emphasize that mobile capabilities are automatically provided when apps are created.
+
+Products which have "consultant" certification exams:
+
+   * Sales Cloud - Complete CRM customer service solutions
+   * Service Cloud - Sales force automation and CRM
+   * Marketing Cloud - Build and manage 1:1 customer journeys. It has its own query language. No free accounts here.
+   * Commmunity Cloud - Connect customers, partners, and employees
+   * Analytic Cloud - Business intelligence and analytics software solutions   
+
+   * Pardot - B2B marketing automation, which is part of the Sales Cloud as well.
+
+Sales Cloud products include:
+
+   * CPQ (Configure, Price, and Quote)
+   * Quip for sending texts
+
+Industries:
+
+   * Government Cloud
+   * Health Cloud
+   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
+    is also a SaaS providing software for managing financial information.
+   * <a target="_blank" href="https://www.salesforce.com/solutions/philanthropy/corporate-social-responsibility/">Philanthropy Cloud</a>
+
+Integration:
+
+   * <a target="_blank" href="https://www.salesforce.com/products/integration-cloud/overview/">Integration Cloud</a> Integration Builder includes Mulesoft Anypoint Platform (stock exchange May 2018)
+
+Additional businesses:  
+
+   * <a href="#IoT">Salesforce IoT</a>
+   * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
+   * <a target="_blank" href="http://www.database.com/">
+    Database.com</a>
+
+   * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
+   * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
+   * Thunder
+
+   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
+
+  * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
+    runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
+    which generalizes the coding in CRM for use in other user domains
+
+  * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
+    provides free hosting for low-volume apps written in open-source programming.
+
+  * <a target="_blank" href="http://www.site.com/">Site.com</a>
+
+  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors. See [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
+
+   * Einstein Analytics
+
+The company exposes data in each of these businesses in an <a href="#APIs">API</a>
+for computers to access without a human UI.
+
+1) See <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms">"Multi Tenant Magic" ([45] 17 Nov 2014</a>
+   in the <a target="_blank" href="https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg">Salesforce Developers YouTube channel</a>
+
+2) Read the whitepaper in http://developer.Force.com
+
+BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
+  Colors in Salesforce screens</a>
+
+<a name="Editions"></a>
+
+## Product Editions
+
+Salesforce is not cheap.
+
+At http://www.salesforce.com/crm/editions-pricing.jsp
+note DE has Enterprise capabilities, more powerful than the Professional Edition.
+
+* Essentials (for small business) 1-800-667-6389
+* Contact Manager
+* Group 
+* Professional
+* Enterprise
+* Unlimited
+* Developer Edition (DE)
+
+
+<a name="LaborDemand"></a>
+
+## Labor Demand
+
+Here is why you want to spend time on Salesforce:
+The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
+![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
+
+   * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
+
+   Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
+   which tends to impose industry-specific workflows on implementations.
+   So you're not as much always forced to work for large consulting firms living out of hotels.
+
+   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
+   * Microsoft's $50 billion offer was rejected.
+   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
+   <br /><br />
+
+DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
+
+Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of its time, equity, and product to non-profit organizations via the http://www.salesforcefoundation.org/
+
+<hr />
+
+<a name="Personalities"></a>
+
+## Personalities
+
+* Mark Benoiff, CEO
+* Bret Taylor, President & Chief Product Officer
+
+
 <a name="Browsers"></a>
 
 ## Browsers
@@ -59,13 +193,58 @@ Internet Explorer that comes with Windows or Firefox and Chrome installed by use
 DEVDOC: In [Supported Browsers](https://developer.salesforce.com/docs/atlas.en-us.salesforce_supported_browsers_cheatsheet.meta/salesforce_supported_browsers_cheatsheet/)
 some Internet Explorer support is limited. Firefox needs to be configured.
 
-In 2014 Salesforce announced Superpod, offering on HP servers Salesforce will maintain as a dedicated offering for "the largest of the world's largest enterprises" such as the US FDA.
+In 2014 Salesforce announced <strong>Superpod</strong>, offering on HP servers Salesforce will maintain as a dedicated offering for "the largest of the world's largest enterprises" such as the US FDA.
+
+
+<a name="Redundancy"></a>
+
+### Redundancy
 
 Salesforce has 15 compute pods distributed across its global datacenters to run its entire operation.
 
+In August, 2016, Salesforce announced that it is moving to use the infrastructure maintained by Amazon.
+
 [Running on 1,000 machines, half of which are for redundancy. ](http://techcrunch.com/2009/03/23/the-efficient-cloud-all-of-salesforce-runs-on-only-1000-servers/)
 
-In August, 2016, Salesforce announced that it is moving to use the infrastructure maintained by Amazon.
+4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 2 on-line and 2 off-line.
+
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
+<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
+
+* <a target="_blank" href="
+https://en.wikipedia.org/wiki/Oracle_Data_Guard">https://en.wikipedia.org/wiki/Oracle_Data_Guard</a>
+* <a target="_blank" href="
+https://en.wikipedia.org/wiki/Oracle_RAC">https://en.wikipedia.org/wiki/Oracle_RAC</a>
+
+
+
+## Technologically:
+
+Salesforce invented "Platform as a Service" (PaaS), which 
+they pitched to industry analyst firm Gartner to make sure it gets used by everyone. 
+(BTW Salesforce also owned the trademark for "App Store" before giving it to Apple.)
+
+  * The <strong>declarative</strong> aspects of the platform is why the company's main number is 800.NO-SOFTWARE.
+
+    API has CRUD style security permissions model. Learn this first.
+
+  * The <strong>Apex</strong> (Java-like) object-oriented programming language
+    managing classes and triggers defined in a database.
+    This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
+
+  DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Apex_Code_Development&criteria=ALLQUESTIONS">
+  Apex Code Development</a>
+
+  * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components
+    using HTML tags (like PHP, ASP.NET, and ColdFusion).
+
+  DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Lightning&criteria=ALLQUESTIONS">
+  API Board</a>
+
+  * SOA (Service Oriented Architecture)
+
+  * Chattr instant-message
+
 
 <a name="Developer"></a>
 
@@ -143,7 +322,7 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
 
 6) The mobile version of instance na31 is at URL:
 
-	https://na31.salesforce.com/one/one.app
+	 https://na31.salesforce.com/one/one.app
 
 7) Click the "pancake" / "hamburger" icon at the upper left.
 
@@ -156,21 +335,6 @@ An app is a group of tabs that work as a unit to provide functionality. Users ca
    https://developer.salesforce.com/trailhead/salesforce1_mobile_app/salesforce1_mobile_app_intro
 
 * https://github.com/forcedotcom/SalesforceMobileSDK-Android
-
-
-<a name="Redundancy"></a>
-
-### Redundancy
-
-4 copies of each Oracle RAC database Array is maintained via real-time async replication across 2 instances: 2 on-line and 2 off-line.
-
-<a target="_blank" href="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png">
-<img alt="salesforce_4_copies" src="https://cloud.githubusercontent.com/assets/300046/8587824/39934586-25bf-11e5-90a9-d3875c215ec7.png" /></a>
-
-* <a target="_blank" href="
-https://en.wikipedia.org/wiki/Oracle_Data_Guard">https://en.wikipedia.org/wiki/Oracle_Data_Guard</a>
-* <a target="_blank" href="
-https://en.wikipedia.org/wiki/Oracle_RAC">https://en.wikipedia.org/wiki/Oracle_RAC</a>
 
 
 <a name="OrgDefaults"></a>
@@ -325,148 +489,6 @@ hard-deleted items do not.
 
 See them in the Schema Browser.
 
-<a name="Editions"></a>
-
-## Editions
-
-At http://www.salesforce.com/crm/editions-pricing.jsp
-note DE has Enterprise capabilities, more powerful than the Professional Edition.
-
-* Essentials
-* Contact Manager
-* Group 
-* Professional
-* Enterprise
-* Unlimited
-* Developer
-
-
-<a name="Businesses"></a>
-
-## Businesses from the Salesforce Corporation
-
-Salesforce as a company has several offerings (all SaaS in the cloud):
-
-<a target="_blank" href="http://www.Salesforce.com/">Salesforce.com</a>
-    CRM (Customer Relationship Management) -- the company's stock market symbol --
-    is categorized as a SaaS (Software as a Service)
-    offering a complete package much like what Google Apps (Gmail), Zoho, and Quickbooks Online.
-    Salesforce also includes project management.
-
-   http://www.salesforce.com/platform/overview/
-
-   There are separate <strong>feature licenses</strong>
-
-   * Marketing User
-   * Apex Mobile User
-   * Salesforce CRM Content User
-   * Force.com Flow User
-   <br /><br />
-
-"Salesforce1 Platform" is the brand name to emphasize that mobile capabilities are automatically provided when apps are created.
-
-Other businesses which have "consultant" certification exams:
-
-   * Sales Cloud - Complete CRM customer service solutions
-   * Service Cloud - Sales force automation and CRM
-   * Marketing Cloud - Build and manage 1:1 customer journeys. It has its own query language. No free accounts here.
-   * Commmunity Cloud - Connect customers, partners, and employees
-   * Analytic Cloud - Business intelligence and analytics software solutions   
-
-   * Pardot - B2B marketing automation
-
-Additional businesses:
-
-   * Quip for sending texts
-   * Government Cloud
-   * Salesforce IoT
-
-   * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
-  * <a target="_blank" href="http://www.database.com/">
-    Database.com</a>
-
-   * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
-   * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
-   * Thunder
-
-   * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
-
-   * <a target="_blank" href="http://www.financialforce.com/">FinancialForce.com</a>
-    is also a SaaS providing software for managing financial information.
-
-  * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
-    runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
-    which generalizes the coding in CRM for use in other user domains
-
-  * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
-    provides free hosting for low-volume apps written in open-source programming.
-
-  * <a target="_blank" href="http://www.site.com/">Site.com</a>
-
-  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors. See [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
-
-   * Einstein Analytics
-
-The company exposes data in each of these businesses in an <a href="#APIs">API</a>
-for computers to access without a human UI.
-
-1) See <a target="_blank" href="https://www.youtube.com/watch?v=jrKA3cJmoms">"Multi Tenant Magic" ([45] 17 Nov 2014</a>
-   in the <a target="_blank" href="https://www.youtube.com/channel/UCKORm8sxh3cheBpqs0akkhg">Salesforce Developers YouTube channel</a>
-
-2) Read the whitepaper in http://developer.Force.com
-
-BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
-	Colors in Salesforce screens</a>
-
-
-<a name="LaborDemand"></a>
-
-## Labor Demand
-
-Here is why you want to spend time on Salesforce.
-
-The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
-![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
-
-  * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
-
-   Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
-   which tends to impose industry-specific workflows on implementations.
-   So you're not as much always forced to work for large consulting firms living out of hotels.
-
-  * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
-  * Microsoft's $50 billion offer was rejected.
-  * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
-
-  * Salesforce is not cheap: thousands of dollars per month
-
-
-DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
-
-Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of our time, equity, and product to non-profit organizations via http://www.salesforcefoundation.org/
-
-## Technologically:
-
-  * The <strong>declarative</strong> aspects of the platform is why the company's main number is 800.NO-SOFTWARE.
-
-    API has CRUD style security permissions model. Learn this first.
-
-  * The <strong>Apex</strong> (Java-like) object-oriented programming language
-    managing classes and triggers defined in a database.
-    This includes Apex Email services and Call-Outs and Apex (SOAP & REST API) web services
-
-	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Apex_Code_Development&criteria=ALLQUESTIONS">
-	Apex Code Development</a>
-
-  * The <strong>Visualforce</strong> web development language managing HTML+CSS+JS pages and components
-    using HTML tags (like PHP, ASP.NET, and ColdFusion).
-
-	DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Lightning&criteria=ALLQUESTIONS">
-	API Board</a>
-
-  * SOA (Service Oriented Architecture)
-
-  * Chattr instant-message
 
 
 <a name="VersionChangeMgmt"></a>
@@ -541,15 +563,19 @@ https://quizlet.com/35268499/salesforce-adm-201-up-through-spring-14-release-fla
 has over 300 items.
 
 * https://medium.com/trailhead
+* https://www.linkedin.com/groups/151420/profile is the Salesforce Certification Group on LinkedIn.
+* https://www.linkedin.com/showcase/salesforce-admins/ SalesForce Admins on LinkedIn.
 
 CAUTION: Salesforce for Outlook does not work on Mac Office 2011 Outlook.
 
 Salesforce can link to Google Apps Gmail accounts in Setup | Google Apps (on left menu).
-    
 
-There is a mobile app (by Debra Nacimento) for the Salesforce World Tour
+There is a mobile app (by Debra Nacimento) for the Salesforce World Tour.
 
-Salesforce enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
+The <a target="_blank" href="https://itunes.apple.com/us/app/dreamoji/id1294827604?mt=8">
+Dreamoji iOS</a> app provides a custom keyboard containing various Salesforce characters as emojis.
+
+Salesforce Enterprise customers can open up tunnels and share data with each other. Cool. It’s EDI for the masses.
 
 1) <a target="_blank" href="https://developer.salesforce.com/forums?communityId=09aF00000004HMGIA2#!/feedtype=RECENT&dc=Trailhead&criteria=ALLQUESTIONS"> Trailhead forum</a>
 
@@ -568,7 +594,7 @@ Salesforce enterprise customers can open up tunnels and share data with each oth
 
  * LinkedIn
 
- * List of Meetups are at http://salesforce.meetup.com/all/
+ * List of Meetups are at http://salesforce.meetup.com/
     * https://success.salesforce.com/userGroups  
     * https://seattlenpsf.wordpress.com/ is the Seattle Non-profit
 
@@ -716,6 +742,8 @@ When ready, <a target="_blank" href="http://certification.force.com/pkb/articles
 
 ### For Administrators:
 
+https://admin.salesforce.com/
+
 For $200, answer 65% of 60 multiple-choice/multiple-select questions in 105 minutes:
 
 * <a target="_blank" href="http://certification.salesforce.com/SG_CertifiedAdministrator.pdf">PDF</a>Salesforce Administrator Certification</a>
@@ -739,6 +767,8 @@ For $200, answer 65% of 60 multiple-choice/multiple-select questions in 105 minu
 * <a target="_blank" href="http://certification.salesforce.com/SG_AccreditedSalesProfessional.pdf">PDF</a> Salesforce Accredited Sales Professional</a>
 
 ### For Developers 
+
+https://developer.salesforce.com
 
 (which includes database administrators):
 
@@ -807,6 +837,10 @@ The highest level of certification costs $6,000 to pay for a review board at Sal
 
 <hr />
 
+<a name="IoT"></a>
+
+### Salesforce IoT
+
 
 <a name="ConfApp"></a>
 
@@ -859,7 +893,7 @@ a github repo</a>.
 
 <a target="_blank" href="https://www.linkedin.com/in/francisuk/">Francis Pindar</a> (Londoner, 6X MVP, <a target="_blank" href="https://twitter.com/radnip">@radnip</a>, <a target="_blank" href="http://www.radnip.com/">radnip.com</a>) at <a target="_blank" href="https://acloud.guru/">ACLoud.Guru</a> created a Salesforce 101 video course and a whole 
 <a target="_blank" href="https://acloud.guru/learn/salesforce-certified-administrator-2017">
-Salesforce Certified Administrator 2018</a>, which builds an invoice app.
+Salesforce Certified Administrator 2018</a>, which builds an invoice app over 12 hours of video, using the Aug. 2016 version of the Salesforce classic experience.
 
 
 ### Lynda
@@ -958,11 +992,16 @@ Salesforce has two different desktop user interfaces: Lightning Experience and S
 "Lightning" is the brand name for <a target="_blank" href="https://www.lightningdesignsystem.com/">Salesforce's "design system"</a> of markup and CSS framework. 
 It's much like Google's "Material" Design which offers <a target="_blank" href="https://www.lightningdesignsystem.com/icons/">icons</a> and 3D look with <a target="_blank" href="https://www.lightningdesignsystem.com/guidelines/animation/styleguidelines/">motion and animation</a> that automatically include <a target="_blank" href="https://www.lightningdesignsystem.com/accessibility/overview/">ARIA roles and properties for accessibility</a>. One doesn't have to be in Salesforce to use Lightning code is <a target="_blank" href="https://github.com/salesforce-ux/design-system">open-sourced at https://github.com/salesforce-ux/design-system</a>.
 
-To enable Lightning Experience, 
+<a target="_blank" href="https://success.salesforce.com/featuredGroupDetail?id=a1z3A000007SBrQQAW">
+Join</a> the <a target="_blank" href="https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F93A0000009SE1SAM">Lightening Now! group</a>
 
-To switch between interfaces, 
+Lightning components use the <strong>Aura framework</strong> open-source at https://github.com/forcedotcom/aura. 
+In the Aura framework, UI and components communicate with each other by responding to events. Components can talk to the server and to other components. Each component is responsible for its own security within the Lightning environment. This means everyone who creates or maintains a component must understand how to write secure code for Lightning.
 
-The <strong>Lightning Component Framework</strong> is used to completely upgrade the Salesforce CRM product to enable complete flexibility for adding new HTML5 features.
+The Aura Framework has features and components that are not currently available in the Lightning Component framework. 
+The <a target="_blank" href="https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_framework.htm">Lightning Component Framework</a> is used to completely upgrade the Salesforce CRM product to enable complete flexibility for adding new HTML5 features.
+
+To migrate from Visualforce to Lightning Experience:
 
 To begin using and understanding it, use the Rapid prototyping environment on your laptop:
 
@@ -1153,7 +1192,6 @@ and Android:
 
 WEBINAR: [Building Mobile Apps using SDK](https://developer.salesforce.com/events/webinars/mobile_SDK) by Akhilesh Gupta
 
-https://itunes.apple.com/us/app/dreamoji/id1294827604?mt=8
 
 
 <a name="VisualforceTutorials"></a>
