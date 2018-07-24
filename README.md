@@ -30,16 +30,43 @@ For end-users, get away from:
 
 Salesforce provides an easy and fast way to create apps.
 
-  * Free development environment (no 7 day trials)
-  * Integrations
-  * Free, full-featured copy of the Salesforce1 Platform
-  * Develop apps with clicks or code
-  * Fine-grained access control
-  * highly scalable
-  * API-first to integrate anything with everything
-  * Use popular UI frameworks like Bootstrap, JQuery and more
+   * Free development environment (no 7 day trials)
+   * Integrations
+   * Free, full-featured copy of the Salesforce1 mobile Platform introduced 2013
+   * Develop apps with clicks or code
+   * Fine-grained access control
+   * highly scalable
+   * API-first to integrate anything with everything
+   * Use popular UI frameworks like Bootstrap, JQuery (in VisualForce classic)
+   * <a href="#Lightning">Lightning</a> HTML UI components for user-developed apps.
 
-  * <a href="#Lightning">Lightning</a> HTML UI components for user-developed apps.
+   * Salesforce was designed with a <strong>metadata-driven</strong> architecture. Everything, including the code, configuration, and apps, is specified as metadata.
+
+
+<a name="LaborDemand"></a>
+
+## Labor Demand
+
+Here is why you want to spend time on Salesforce:
+The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
+![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
+
+   * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
+
+   Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
+   which tends to impose industry-specific workflows on implementations.
+   So you're not as much always forced to work for large consulting firms living out of hotels.
+
+   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
+   * Microsoft's $50 billion offer was rejected.
+   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
+   <br /><br />
+
+DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
+
+Salesforce, as a company, pioneered the 1:1:1 model, donating one percent of its time, equity, and product to non-profit organizations via the <a target="_blank" href="http://www.salesforcefoundation.org/">salesforcefoundation.org</a>
+
+https://medium.com/trailhead/huge-demand-for-salesforce-talent-3bb30c597b39
 
 
 <a name="Businesses"></a>
@@ -146,30 +173,6 @@ note DE has Enterprise capabilities, more powerful than the Professional Edition
 * Enterprise
 * Unlimited
 * Developer Edition (DE)
-
-
-<a name="LaborDemand"></a>
-
-## Labor Demand
-
-Here is why you want to spend time on Salesforce:
-The company has seen a growth rate of 35% year-over-year unrivaled in the stock market:
-![crm_stock_to_20150718](https://cloud.githubusercontent.com/assets/300046/8766609/e7cf7120-2dfc-11e5-981a-433ceba95b37.png)
-
-   * Gartner says "Salesforce leads market share with 16% in 2013 vs. SAP with 13%, and Oracle with 10%."
-
-   Salesforce and Force.com are more attractive to mid-market customers than SAP and Oracle,
-   which tends to impose industry-specific workflows on implementations.
-   So you're not as much always forced to work for large consulting firms living out of hotels.
-
-   * Salesforce has not been profitable, but its market value (stock price x shares) is $48 billion dollars.
-   * Microsoft's $50 billion offer was rejected.
-   * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
-   <br /><br />
-
-DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
-
-Salesforce, as a company, pioneered the 1:1:1 model, which donates one percent of its time, equity, and product to non-profit organizations via the http://www.salesforcefoundation.org/
 
 <hr />
 
@@ -663,9 +666,9 @@ https://na31.salesforce.com/_ui/common/apex/debug/ApexCSIPage</a>
    Reports & Dashboards</a>
 
    * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_apex">
-   Apex  Specialist</a>
+   Apex Specialist</a>
    * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_aap">
-   Advanced Apex  Specialist</a>
+   Advanced Apex Specialist</a>
    * <a target="_blank" href="https://trailhead.salesforce.com/en/superbadges/superbadge_lightning_platform_app_builder">
    App Customization Specialist</a>
 
@@ -950,18 +953,6 @@ Force.com Design Patterns - Part 2
  [Intermediate] May 1 2013 1h 45m</a>
 
 #### David Liu
-
-<a target="_blank" href="https://www.pluralsight.com/courses/apex-absolute-beginner-guide-coding-salesforce">
-Apex Academy: Absolute Beginner's Guide to Coding in Salesforce
-[Beginner] Jan 14 2016 2h 30m</a>
-
-<a target="_blank" href="https://www.pluralsight.com/courses/apex-fundamental-coding">
-Apex Academy: Fundamental Salesforce Coding Techniques
-[Beginner] May 26 2016 3h 27m</a>
-
-<a target="_blank" href="https://www.pluralsight.com/courses/apex-soql-salesforce">
-Apex Academy: The Power of SOQL
-[Intermediate] Aug 18 2016 2h 57m</a>
 
 
 #### Richard Seroter
@@ -1744,99 +1735,7 @@ List<Contact> contacts = PrepareTestData.
 SOSL searches performed in a test return empty results. To ensure predictable results, you can use Test.setFixedSearchResults() to define the records to be returned by the search.
 
 https://www.iridize.com/ provides customized on-boarding guides based on specific workflows on Salesforce and other apps.
-<a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
+
+VIDEO TUTORIAL: <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
 Force.com Design Patterns, Part 2</a>
 
-## Rock Stars
-
-Here are 
-
-The Salesforce Developer Relations Team of developer evagelists:
-
-   * <a target="_blank" href="https://developer.salesforce.com/blogs/">
-   https://developer.salesforce.com/blogs</a> (Salesforce Developer Releations Blog)
-   provides updates about development of Salesforce
-
-   * [@SalesforceDevs = Salesforce Developers](https://twitter.com/SalesforceDevs)
-
-The Salesforce Engineering Team:
-
-   * <a target="_blank" href="https://developer.salesforce.com/blogs/engineering/">
-   https://developer.salesforce.com/blogs/engineering</a> provides updates about core engineering and product releated 
-  
-   * [@SalesforceEng = Salesforce Engineering](https://twitter.com/SalesforceEng)
-
-Andrew Fawcett, CTO at Financialforce.com:
-
-   * <a target="_blank" href="http://andyinthecloud.com/">andyinthecloud.com</a>
-
-Andrez Perez, a Master Technical Instructor at Salesforce.com and owns 11x Salesforce certifications:
-
-   * <a target="_blank" href="https://eltoroit.herokuapp.com">eltoroit.herokuapp.com</a>
-    and <a target="_blank" href="https://ElToro.IT/">ElToro.IT</a> has articles about Lightning Components, Apex, Visualforce, Force.com and Salesforce in general. 
-
-Christophe Coenraets, Developer Evangelist for Salesforce.com:
-
-   * <a target="_blank" href="http://coenraets.org/blog/">coenraets.org/blog</a>
-   focuses on mobile application development, [Read More](http://coenraets.org/blog/bio/)
-
-Harshit Pandey, Principal Technical Architect at Intuitive Surgical, previously Technical Architect at Salesforce.com Developer Relations Team:
-
-   * <a target="_blank" href="http://www.oyecode.com/">Oyecode.com</a>
-    - Harshit Pandey is  and build  [Trailhead](https://developer.salesforce.com/trailhead) while at Salesforce, love to expriement with ever evoloving capacities of Salesforce [Read More]
-
-   * <a target="_blank" href="https://about.me/harshit.pandey">https://about.me/harshit.pandey</a>
-
-Jeff Douglas, Senior Technical Consultant at Appirio & Developer Evangelist Architect at Topcoder:
-
-   * <a target="_blank" href="http://blog.jeffdouglas.com/">blog.jeffdouglas.com</a> 
-   specializes in cloud-based, APIs & mobile apps. [Read More](http://blog.jeffdouglas.com/about/)
-
-Keir Bowden, Chief Technical Officer at BrightGen, a Salesforce Platinum Partner in the UK:
-
-   * <a target="_blank" href="http://bobbuzzard.blogspot.com/">bobbuzzard.blogspot.com</a>
-   Read More](https://www.blogger.com/profile/07815472992351343395)
-
-Enrico Murru, ForceLogic.Ultra geek tech lover mercenary software developer and Salesforce enthusiast:
-
-   * <a target="_blank" href="http://blog.enree.co/">blog.enree.co</a>
-   
-   * @Enreeco 
-
-Peter Knolle, Certified Salesforce.com professional, and Force.com MVP:
-
-   * <a target="_blank" href="http://peterknolle.com/">peterknolle.com</a>
-  
-
-Abhinav Gupta, Force.com MVP & Architect, owner of his company focusing on salesforce Consulting:
-
-   * <a target="_blank" href="http://www.tgerm.com/">tgerm.com</a>
-   * <a target="_blank" href="https://plus.google.com/+AbhinavGuptaIn/posts/">+AbhinavGuptaIn</a>
-
-Jitendra Zaa, , a 7X Salesforce Certificates, MVP and Technical Architect working on platform since 2008:
-
-   * <a target="_blank" href="http://www.jitendrazaa.com/blog/">jitendrazaa.com</a>
-
-Mohith Shrivastava, 9x Salesforce certification:
-
-   * <a target="_blank" href="http://cloudyworlds.blogspot.com/">CloudyWorlds.blogspot.com</a>
-   * CodeScience at <a target="_blank" href="http://www.Codescience.com/">Codescience.com</a>
-   * Prolific question-answerer on <a target="_blank" href="http://salesforce.stackexchange.com/users/645/mohith-shrivastava">StackExchange.com</a>
-
-
-<a name="WorkWithMe"></a>
-
-##  Work with me
-
-I am interested into automatic generation of test code.
-
-
-<a name="References"></a>
-
-## References
-
-Mason Frank Internatonal, a recruiter, publishes a report each year about the Salesforce ecosystem,
-providing detailed breakdowns of salaries by job role, location, and so much more.
-<a target="_blank" href="
-https://www.masonfrank.com/salesforce-salary-survey/">
-https://www.masonfrank.com/salesforce-salary-survey/</a>

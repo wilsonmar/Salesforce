@@ -1,7 +1,7 @@
 # .gitignore file
 
+design-system-ui-kit-master
 *.log
-secrets.sh
 .gitsecret/
 temp
 tempfile
@@ -10,9 +10,6 @@ foo
 mac-git-install.log
 rvm-installer
 rvm-installer.asc
-
-sisters
-git-sample-repo
 
 # For more see https://gitignore.com
 ############# Mac OS  ###################
