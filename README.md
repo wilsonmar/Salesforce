@@ -1747,6 +1747,82 @@ https://www.iridize.com/ provides customized on-boarding guides based on specifi
 <a target="_blank" href="http://www.pluralsight.com/courses/forcedotcom-design-patterns-part2">
 Force.com Design Patterns, Part 2</a>
 
+## Rock Stars
+
+Here are 
+
+The Salesforce Developer Relations Team of developer evagelists:
+
+   * <a target="_blank" href="https://developer.salesforce.com/blogs/">
+   https://developer.salesforce.com/blogs</a> (Salesforce Developer Releations Blog)
+   provides updates about development of Salesforce
+
+   * [@SalesforceDevs = Salesforce Developers](https://twitter.com/SalesforceDevs)
+
+The Salesforce Engineering Team:
+
+   * <a target="_blank" href="https://developer.salesforce.com/blogs/engineering/">
+   https://developer.salesforce.com/blogs/engineering</a> provides updates about core engineering and product releated 
+  
+   * [@SalesforceEng = Salesforce Engineering](https://twitter.com/SalesforceEng)
+
+Andrew Fawcett, CTO at Financialforce.com:
+
+   * <a target="_blank" href="http://andyinthecloud.com/">andyinthecloud.com</a>
+
+Andrez Perez, a Master Technical Instructor at Salesforce.com and owns 11x Salesforce certifications:
+
+   * <a target="_blank" href="https://eltoroit.herokuapp.com">eltoroit.herokuapp.com</a>
+    and <a target="_blank" href="https://ElToro.IT/">ElToro.IT</a> has articles about Lightning Components, Apex, Visualforce, Force.com and Salesforce in general. 
+
+Christophe Coenraets, Developer Evangelist for Salesforce.com:
+
+   * <a target="_blank" href="http://coenraets.org/blog/">coenraets.org/blog</a>
+   focuses on mobile application development, [Read More](http://coenraets.org/blog/bio/)
+
+Harshit Pandey, Principal Technical Architect at Intuitive Surgical, previously Technical Architect at Salesforce.com Developer Relations Team:
+
+   * <a target="_blank" href="http://www.oyecode.com/">Oyecode.com</a>
+    - Harshit Pandey is  and build  [Trailhead](https://developer.salesforce.com/trailhead) while at Salesforce, love to expriement with ever evoloving capacities of Salesforce [Read More]
+
+   * <a target="_blank" href="https://about.me/harshit.pandey">https://about.me/harshit.pandey</a>
+
+Jeff Douglas, Senior Technical Consultant at Appirio & Developer Evangelist Architect at Topcoder:
+
+   * <a target="_blank" href="http://blog.jeffdouglas.com/">blog.jeffdouglas.com</a> 
+   specializes in cloud-based, APIs & mobile apps. [Read More](http://blog.jeffdouglas.com/about/)
+
+Keir Bowden, Chief Technical Officer at BrightGen, a Salesforce Platinum Partner in the UK:
+
+   * <a target="_blank" href="http://bobbuzzard.blogspot.com/">bobbuzzard.blogspot.com</a>
+   Read More](https://www.blogger.com/profile/07815472992351343395)
+
+Enrico Murru, ForceLogic.Ultra geek tech lover mercenary software developer and Salesforce enthusiast:
+
+   * <a target="_blank" href="http://blog.enree.co/">blog.enree.co</a>
+   
+   * @Enreeco 
+
+Peter Knolle, Certified Salesforce.com professional, and Force.com MVP:
+
+   * <a target="_blank" href="http://peterknolle.com/">peterknolle.com</a>
+  
+
+Abhinav Gupta, Force.com MVP & Architect, owner of his company focusing on salesforce Consulting:
+
+   * <a target="_blank" href="http://www.tgerm.com/">tgerm.com</a>
+   * <a target="_blank" href="https://plus.google.com/+AbhinavGuptaIn/posts/">+AbhinavGuptaIn</a>
+
+Jitendra Zaa, , a 7X Salesforce Certificates, MVP and Technical Architect working on platform since 2008:
+
+   * <a target="_blank" href="http://www.jitendrazaa.com/blog/">jitendrazaa.com</a>
+
+Mohith Shrivastava, 9x Salesforce certification:
+
+   * <a target="_blank" href="http://cloudyworlds.blogspot.com/">CloudyWorlds.blogspot.com</a>
+   * CodeScience at <a target="_blank" href="http://www.Codescience.com/">Codescience.com</a>
+   * Prolific question-answerer on <a target="_blank" href="http://salesforce.stackexchange.com/users/645/mohith-shrivastava">StackExchange.com</a>
+
 
 <a name="WorkWithMe"></a>
 
