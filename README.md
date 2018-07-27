@@ -23,7 +23,7 @@ Editing the book can be done either by updating the markdown files with a text e
 
 For end-users, get away from:
 
-   * Reliance on spreadsheets
+   * Reliance on spreadsheets and Access databases
    * Collaboration via email
    * Documents shared on local file directories
    * Time-intensive, manual steps
@@ -62,6 +62,9 @@ The company has seen a growth rate of 35% year-over-year unrivaled in the stock 
    * The prediction is for a buyout from Oracle, where Salesforce CEO Benoitt had worked.
    <br /><br />
 
+<a target="_blank" href="https://www.salesforce.com/campaign/blaze-your-trail/">See videos of "Trailblazers"
+who are using the software</a>.
+
 DISCUSSIONS: <a target="_blank" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&dc=Jobs_Board&criteria=ALLQUESTIONS">Jobs Board</a>
 
 Salesforce, as a company, pioneered the 1:1:1 model, donating one percent of its time, equity, and product to non-profit organizations via the <a target="_blank" href="http://www.salesforcefoundation.org/">salesforcefoundation.org</a>
@@ -82,6 +85,9 @@ Salesforce as a company has several offerings (all SaaS in the cloud):
     Salesforce also includes project management.
 
    http://www.salesforce.com/platform/overview/
+
+BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
+  Colors in Salesforce screens</a>
 
    There are separate <strong>feature licenses</strong>
 
@@ -120,31 +126,35 @@ Integration:
 
    * <a target="_blank" href="https://www.salesforce.com/products/integration-cloud/overview/">Integration Cloud</a> Integration Builder includes Mulesoft Anypoint Platform (stock exchange May 2018)
 
+<a name="Domains"></a>
+
+### Domain Names 
+
+Salesforce, as a company owns these domain names:
+
+   * salesforce.com
+   * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
+    runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
+    which generalizes the coding in CRM for use in other user domains.
+   * https://www.salesforce1.com/ redirects to salesforce.com.
+   * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
+   * <a target="_blank" href="http://www.database.com/">Database.com</a>
+   * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
+   * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
+   * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
+    provides free hosting for low-volume apps written in open-source programming.
+   * <a target="_blank" href="http://www.quip.com/">Quip.com</a> API enables automation of processes, integration, and <strong>collabortion</strong> with any app.
+   * <a target="_blank" href="http://www.site.com/">Site.com</a>
+   * Work.com was [retired July 10, 2015](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile). It was a sales performance management solution for on-boarding new reps faster, for coaching reps to close more deals, and for rewarding successful behaviors. 
+
 Additional businesses:  
 
    * <a href="#IoT">Salesforce IoT</a>
-   * <a target="_blank" href="http://www.data.com/">Data.com</a> - B2B prospecting and data cleansing
-   * <a target="_blank" href="http://www.database.com/">
-    Database.com</a>
-
-   * <a target="_blank" href="http://www.demandware.com/">Demandware.com</a> acquired in 2016 for manufacturing processes
-   * <a target="_blank" href="http://www.desk.com/">Desk.com</a> - Customer support for small business
    * Thunder
-
    * <strong>ExactTarget</strong> Fuel Marketing Cloud emails to target specific prospects (purchased by Salesforce)
-
-  * <a target="_blank" href="http://www.Force.com/"> Force.com</a>
-    runs underneath SaaS, and is categorized as a PaaS (Platform as a Service) service
-    which generalizes the coding in CRM for use in other user domains
-
-  * <a target="_blank" href="http://www.Heroku.com/">Heroku.com</a>
-    provides free hosting for low-volume apps written in open-source programming.
-
-  * <a target="_blank" href="http://www.site.com/">Site.com</a>
-
-  * Work.com was retired July 10, 2015. It was a sales performance management solution for on-boarding new reps faster, coaching reps to close more deals, and and rewarding successful behaviors. See [Work.com chatter](https://success.salesforce.com/_ui/core/chatter/topics/TopicPage?id=0TO300000004GDW&ref=group_profile)
-
    * Einstein Analytics
+
+### API
 
 The company exposes data in each of these businesses in an <a href="#APIs">API</a>
 for computers to access without a human UI.
@@ -154,8 +164,6 @@ for computers to access without a human UI.
 
 2) Read the whitepaper in http://developer.Force.com
 
-BTW, <a target="_blank" href="http://encycolorpedia.com/1798c1">
-  Colors in Salesforce screens</a>
 
 <a name="Editions"></a>
 
@@ -843,6 +851,9 @@ The highest level of certification costs $6,000 to pay for a review board at Sal
 <a name="IoT"></a>
 
 ### Salesforce IoT
+
+https://www.meetup.com/Salesforce-IoT-Group/discussions/
+Salesforce IoT meetup.
 
 
 <a name="ConfApp"></a>
